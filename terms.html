@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - ChartScope</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #000000;
+            --bg-secondary: #0a0a0a;
+            --bg-card: rgba(255, 255, 255, 0.05);
+            --text-primary: #ffffff;
+            --text-secondary: rgba(255, 255, 255, 0.7);
+            --text-tertiary: rgba(255, 255, 255, 0.5);
+            --accent-blue: #0A84FF;
+            --accent-orange: #FF9F0A;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 20px 40px;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #64D2FF, #BF5AF2);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 140px 20px 80px;
+        }
+
+        .page-header {
+            margin-bottom: 48px;
+        }
+
+        .page-header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .page-header .updated {
+            color: var(--text-tertiary);
+            font-size: 0.95rem;
+        }
+
+        .section {
+            margin-bottom: 48px;
+        }
+
+        .section h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .section p {
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        .section ul, .section ol {
+            color: var(--text-secondary);
+            margin-left: 24px;
+            margin-bottom: 16px;
+        }
+
+        .section li {
+            margin-bottom: 8px;
+        }
+
+        .warning-box {
+            background: rgba(255, 159, 10, 0.1);
+            border: 1px solid rgba(255, 159, 10, 0.3);
+            border-radius: 16px;
+            padding: 24px;
+            margin: 24px 0;
+        }
+
+        .warning-box h3 {
+            font-size: 1.125rem;
+            margin-bottom: 12px;
+            color: var(--accent-orange);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .warning-box p {
+            margin-bottom: 0;
+        }
+
+        .highlight-box {
+            background: var(--bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 24px;
+            margin: 24px 0;
+        }
+
+        .highlight-box h3 {
+            font-size: 1.125rem;
+            margin-bottom: 12px;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+        }
+
+        footer {
+            padding: 40px 20px;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        footer p {
+            color: var(--text-tertiary);
+            font-size: 0.875rem;
+        }
+
+        footer a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            margin: 0 12px;
+        }
+
+        footer a:hover {
+            color: var(--text-primary);
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                padding: 16px 20px;
+            }
+            .nav-links {
+                display: none;
+            }
+            .page-header h1 {
+                font-size: 2rem;
+            }
+            .content {
+                padding: 100px 20px 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M12 4C7.58 4 4 7.58 4 12s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z" fill="white"/>
+                        <circle cx="12" cy="12" r="3" fill="white"/>
+                    </svg>
+                </div>
+                ChartScope
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="content">
+        <div class="page-header">
+            <h1>Terms of Service</h1>
+            <p class="updated">Last updated: January 14, 2025</p>
+        </div>
+
+        <div class="section">
+            <p>Please read these Terms of Service ("Terms") carefully before using the ChartScope mobile application ("the App") operated by ChartScope ("us", "we", or "our").</p>
+            <p>By downloading, installing, or using the App, you agree to be bound by these Terms. If you disagree with any part of these Terms, you may not use the App.</p>
+        </div>
+
+        <div class="warning-box">
+            <h3>⚠️ Important Financial Disclaimer</h3>
+            <p>ChartScope is designed for <strong>educational and informational purposes only</strong>. The App does not provide financial advice, investment recommendations, or trading signals. You should not make any financial decisions based solely on information provided by this App. Always consult with qualified financial advisors before making investment decisions.</p>
+        </div>
+
+        <div class="section">
+            <h2>1. Use of the App</h2>
+            <p>ChartScope provides market analysis tools and portfolio tracking features for cryptocurrency markets. By using the App, you acknowledge that:</p>
+            <ul>
+                <li>The App is for educational and informational purposes only</li>
+                <li>All AI analysis represents pattern recognition, not financial advice</li>
+                <li>Past performance does not guarantee future results</li>
+                <li>Cryptocurrency markets are highly volatile and speculative</li>
+                <li>You may lose some or all of your invested capital</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>2. Account and API Access</h2>
+            <p>To access certain features, you may connect your exchange accounts using API keys. You agree to:</p>
+            <ul>
+                <li>Use only read-only API keys with restricted permissions</li>
+                <li>Keep your API credentials secure and confidential</li>
+                <li>Not share your device with others while API keys are stored</li>
+                <li>Immediately revoke API access if you suspect unauthorized use</li>
+            </ul>
+            <p>We strongly recommend creating API keys with read-only permissions only. The App does not require trading or withdrawal permissions.</p>
+        </div>
+
+        <div class="section">
+            <h2>3. Subscriptions and Payments</h2>
+            <p>ChartScope offers subscription-based access to premium features:</p>
+            <ul>
+                <li><strong>Free Trial:</strong> New users receive a 3-day free trial of all features</li>
+                <li><strong>Monthly Subscription:</strong> €4.99 per month, billed monthly</li>
+                <li><strong>Annual Subscription:</strong> €47.99 per year, billed annually (20% savings)</li>
+            </ul>
+            <p>Subscriptions are processed through Apple's App Store. Payment will be charged to your Apple ID account at confirmation of purchase. Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period.</p>
+        </div>
+
+        <div class="section">
+            <h2>4. Cancellation and Refunds</h2>
+            <p>You may cancel your subscription at any time through your Apple ID account settings. Upon cancellation:</p>
+            <ul>
+                <li>You will retain access to premium features until the end of your current billing period</li>
+                <li>No refunds will be provided for partial subscription periods</li>
+                <li>Refund requests must be submitted through Apple's App Store</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>5. Intellectual Property</h2>
+            <p>The App and its original content, features, and functionality are owned by ChartScope and are protected by international copyright, trademark, and other intellectual property laws. You may not:</p>
+            <ul>
+                <li>Copy, modify, or distribute the App's source code</li>
+                <li>Reverse engineer or attempt to extract the App's algorithms</li>
+                <li>Use the App's branding or content without permission</li>
+                <li>Resell or redistribute access to the App</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>6. Limitation of Liability</h2>
+            <p>To the maximum extent permitted by law, ChartScope shall not be liable for:</p>
+            <ul>
+                <li>Any financial losses incurred from trading or investment decisions</li>
+                <li>Inaccuracies in market data or AI analysis</li>
+                <li>Service interruptions or technical failures</li>
+                <li>Unauthorized access to your exchange accounts</li>
+                <li>Any indirect, incidental, or consequential damages</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>7. Disclaimer of Warranties</h2>
+            <p>The App is provided "as is" without warranties of any kind, either express or implied. We do not warrant that:</p>
+            <ul>
+                <li>The App will be error-free or uninterrupted</li>
+                <li>Analysis results will be accurate or complete</li>
+                <li>The App will meet your specific requirements</li>
+                <li>Any defects will be corrected</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>8. User Responsibilities</h2>
+            <p>You are solely responsible for:</p>
+            <ul>
+                <li>Your investment and trading decisions</li>
+                <li>Maintaining the security of your API credentials</li>
+                <li>Complying with applicable laws in your jurisdiction</li>
+                <li>Understanding the risks of cryptocurrency trading</li>
+                <li>Conducting your own research before making financial decisions</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>9. Termination</h2>
+            <p>We reserve the right to terminate or suspend your access to the App immediately, without prior notice, for any reason, including:</p>
+            <ul>
+                <li>Breach of these Terms</li>
+                <li>Fraudulent or illegal activity</li>
+                <li>Abuse of the App's features or services</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>10. Governing Law</h2>
+            <p>These Terms shall be governed by and construed in accordance with the laws of the European Union, without regard to its conflict of law provisions.</p>
+        </div>
+
+        <div class="section">
+            <h2>11. Changes to Terms</h2>
+            <p>We reserve the right to modify these Terms at any time. We will notify users of any material changes by updating the "Last updated" date. Your continued use of the App after changes constitutes acceptance of the new Terms.</p>
+        </div>
+
+        <div class="section">
+            <h2>12. Contact Us</h2>
+            <p>If you have any questions about these Terms, please contact us at:</p>
+            <p><a href="mailto:contactchartscope@gmail.com" style="color: var(--accent-blue);">contactchartscope@gmail.com</a></p>
+        </div>
+
+        <div class="highlight-box">
+            <h3>📋 Summary</h3>
+            <p>By using ChartScope, you acknowledge that it's an educational tool, not financial advice. You're responsible for your own investment decisions. We take security seriously but provide no guarantees. Subscriptions can be cancelled anytime through the App Store.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ChartScope. All rights reserved.</p>
+        <p>
+            <a href="index.html">Home</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+            <a href="support.html">Support</a>
+        </p>
+    </footer>
+</body>
+</html>

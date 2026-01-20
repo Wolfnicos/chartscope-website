@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - ChartScope</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #000000;
+            --bg-secondary: #0a0a0a;
+            --bg-card: rgba(255, 255, 255, 0.05);
+            --text-primary: #ffffff;
+            --text-secondary: rgba(255, 255, 255, 0.7);
+            --text-tertiary: rgba(255, 255, 255, 0.5);
+            --accent-blue: #0A84FF;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 20px 40px;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #64D2FF, #BF5AF2);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 140px 20px 80px;
+        }
+
+        .page-header {
+            margin-bottom: 48px;
+        }
+
+        .page-header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .page-header .updated {
+            color: var(--text-tertiary);
+            font-size: 0.95rem;
+        }
+
+        .section {
+            margin-bottom: 48px;
+        }
+
+        .section h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .section p {
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        .section ul {
+            color: var(--text-secondary);
+            margin-left: 24px;
+            margin-bottom: 16px;
+        }
+
+        .section li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background: var(--bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 24px;
+            margin: 24px 0;
+        }
+
+        .highlight-box h3 {
+            font-size: 1.125rem;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+        }
+
+        footer {
+            padding: 40px 20px;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        footer p {
+            color: var(--text-tertiary);
+            font-size: 0.875rem;
+        }
+
+        footer a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            margin: 0 12px;
+        }
+
+        footer a:hover {
+            color: var(--text-primary);
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                padding: 16px 20px;
+            }
+            .nav-links {
+                display: none;
+            }
+            .page-header h1 {
+                font-size: 2rem;
+            }
+            .content {
+                padding: 100px 20px 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M12 4C7.58 4 4 7.58 4 12s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z" fill="white"/>
+                        <circle cx="12" cy="12" r="3" fill="white"/>
+                    </svg>
+                </div>
+                ChartScope
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="content">
+        <div class="page-header">
+            <h1>Privacy Policy</h1>
+            <p class="updated">Last updated: January 14, 2025</p>
+        </div>
+
+        <div class="highlight-box">
+            <h3>🔒 Privacy First</h3>
+            <p>ChartScope is designed with privacy at its core. We do not collect, store, or transmit your personal data to external servers. All processing happens locally on your device.</p>
+        </div>
+
+        <div class="section">
+            <h2>Information We Don't Collect</h2>
+            <p>ChartScope is committed to your privacy. We do not collect:</p>
+            <ul>
+                <li>Personal identification information</li>
+                <li>Email addresses or contact details</li>
+                <li>Location data</li>
+                <li>Usage analytics or tracking data</li>
+                <li>Your API keys or credentials</li>
+                <li>Your portfolio data or trading history</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Local Data Storage</h2>
+            <p>ChartScope stores certain data locally on your device to provide its functionality:</p>
+            <ul>
+                <li><strong>API Credentials:</strong> Your exchange API keys are stored exclusively in the iOS Keychain, which provides hardware-level encryption. These credentials never leave your device.</li>
+                <li><strong>User Preferences:</strong> Settings like your preferred currency, language, and theme are stored locally using iOS UserDefaults.</li>
+                <li><strong>Cached Market Data:</strong> Market data fetched from exchanges may be temporarily cached to improve performance.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>On-Device Processing</h2>
+            <p>All AI analysis and data processing in ChartScope occurs locally on your device using Apple's Core ML framework. This means:</p>
+            <ul>
+                <li>Your market data is never sent to external AI servers</li>
+                <li>Analysis results are generated entirely on your device</li>
+                <li>No internet connection is required for AI features after initial setup</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Third-Party Services</h2>
+            <p>ChartScope connects to the following third-party services:</p>
+            <ul>
+                <li><strong>Cryptocurrency Exchanges:</strong> We connect to exchanges (Binance, Coinbase, Kraken) using their public APIs to fetch market data and, with your permission, your portfolio information. These connections use your API keys stored locally and are made directly from your device.</li>
+                <li><strong>Apple App Store:</strong> For subscription management and in-app purchases, we use Apple's StoreKit framework.</li>
+            </ul>
+            <p>We do not use any third-party analytics, advertising, or tracking services.</p>
+        </div>
+
+        <div class="section">
+            <h2>Data Security</h2>
+            <p>We implement the following security measures:</p>
+            <ul>
+                <li>API keys are stored in iOS Keychain with hardware encryption</li>
+                <li>All network communications use HTTPS/TLS encryption</li>
+                <li>Read-only API permissions are encouraged and enforced where possible</li>
+                <li>No sensitive data is ever logged or stored in plain text</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Your Rights</h2>
+            <p>Since we don't collect personal data, traditional data rights (access, deletion, portability) are handled entirely on your device. You can:</p>
+            <ul>
+                <li>Delete all app data by uninstalling ChartScope</li>
+                <li>Remove API credentials through the app settings</li>
+                <li>Clear cached data through iOS Settings</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Children's Privacy</h2>
+            <p>ChartScope is not intended for use by children under 17. We do not knowingly collect any information from children. The app deals with financial markets and is designed for adult users only.</p>
+        </div>
+
+        <div class="section">
+            <h2>Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.</p>
+        </div>
+
+        <div class="section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+            <p><a href="mailto:contactchartscope@gmail.com" style="color: var(--accent-blue);">contactchartscope@gmail.com</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ChartScope. All rights reserved.</p>
+        <p>
+            <a href="index.html">Home</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+            <a href="support.html">Support</a>
+        </p>
+    </footer>
+</body>
+</html>

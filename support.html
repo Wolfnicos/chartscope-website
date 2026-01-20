@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - ChartScope</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #000000;
+            --bg-secondary: #0a0a0a;
+            --bg-card: rgba(255, 255, 255, 0.05);
+            --text-primary: #ffffff;
+            --text-secondary: rgba(255, 255, 255, 0.7);
+            --text-tertiary: rgba(255, 255, 255, 0.5);
+            --accent-blue: #0A84FF;
+            --accent-green: #30D158;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 20px 40px;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #64D2FF, #BF5AF2);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 140px 20px 80px;
+        }
+
+        .page-header {
+            margin-bottom: 48px;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .page-header p {
+            color: var(--text-secondary);
+            font-size: 1.25rem;
+        }
+
+        .contact-cards {
+            display: grid;
+            gap: 24px;
+            margin-bottom: 48px;
+        }
+
+        .contact-card {
+            background: var(--bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 32px;
+            text-align: center;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .contact-card .icon {
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 20px;
+            background: linear-gradient(135deg, #64D2FF, #0A84FF);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+        }
+
+        .contact-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 8px;
+        }
+
+        .contact-card p {
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        .contact-card a {
+            display: inline-block;
+            color: var(--accent-blue);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 12px 24px;
+            border: 1px solid var(--accent-blue);
+            border-radius: 12px;
+            transition: all 0.3s;
+        }
+
+        .contact-card a:hover {
+            background: var(--accent-blue);
+            color: white;
+        }
+
+        .faq-section {
+            margin-bottom: 48px;
+        }
+
+        .faq-section h2 {
+            font-size: 2rem;
+            margin-bottom: 24px;
+            text-align: center;
+        }
+
+        .faq-item {
+            background: var(--bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 20px 24px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 500;
+        }
+
+        .faq-question:hover {
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .faq-question .arrow {
+            color: var(--text-tertiary);
+            transition: transform 0.3s;
+        }
+
+        .faq-answer {
+            padding: 0 24px 20px;
+            color: var(--text-secondary);
+            display: none;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .faq-item.active .arrow {
+            transform: rotate(180deg);
+        }
+
+        .quick-tips {
+            background: var(--bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 32px;
+            margin-bottom: 48px;
+        }
+
+        .quick-tips h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .quick-tips ul {
+            list-style: none;
+        }
+
+        .quick-tips li {
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            color: var(--text-secondary);
+        }
+
+        .quick-tips li:last-child {
+            border-bottom: none;
+        }
+
+        .quick-tips li .check {
+            color: var(--accent-green);
+            font-size: 1.25rem;
+        }
+
+        footer {
+            padding: 40px 20px;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        footer p {
+            color: var(--text-tertiary);
+            font-size: 0.875rem;
+        }
+
+        footer a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            margin: 0 12px;
+        }
+
+        footer a:hover {
+            color: var(--text-primary);
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                padding: 16px 20px;
+            }
+            .nav-links {
+                display: none;
+            }
+            .page-header h1 {
+                font-size: 2rem;
+            }
+            .content {
+                padding: 100px 20px 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M12 4C7.58 4 4 7.58 4 12s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z" fill="white"/>
+                        <circle cx="12" cy="12" r="3" fill="white"/>
+                    </svg>
+                </div>
+                ChartScope
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="content">
+        <div class="page-header">
+            <h1>Support</h1>
+            <p>We're here to help you get the most out of ChartScope</p>
+        </div>
+
+        <div class="contact-cards">
+            <div class="contact-card">
+                <div class="icon">@</div>
+                <h3>Email Support</h3>
+                <p>For general inquiries, feature requests, or technical issues</p>
+                <a href="mailto:contactchartscope@gmail.com">contactchartscope@gmail.com</a>
+            </div>
+        </div>
+
+        <div class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>How do I connect my exchange account?</span>
+                    <span class="arrow">&#x25BC;</span>
+                </div>
+                <div class="faq-answer">
+                    Go to Settings > Exchanges and tap "Add Exchange". Select your exchange (Binance, Coinbase, or Kraken), then enter your API key and secret. We recommend using read-only API keys for security. Never enable trading or withdrawal permissions.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Is my portfolio data secure?</span>
+                    <span class="arrow">&#x25BC;</span>
+                </div>
+                <div class="faq-answer">
+                    Yes. All your data is stored locally on your device. API keys are encrypted using iOS Keychain. We never transmit your credentials or portfolio data to external servers. All AI analysis happens on-device.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>How do I cancel my subscription?</span>
+                    <span class="arrow">&#x25BC;</span>
+                </div>
+                <div class="faq-answer">
+                    Subscriptions are managed through Apple. Go to Settings > Apple ID > Subscriptions on your iPhone, find ChartScope, and tap "Cancel Subscription". You'll retain access until the end of your billing period.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>How does the AI analysis work?</span>
+                    <span class="arrow">&#x25BC;</span>
+                </div>
+                <div class="faq-answer">
+                    ChartScope uses on-device machine learning powered by Apple's Core ML framework. The Neural Engine analyzes chart patterns, volume, and market indicators to provide educational insights. Remember, this is for learning purposes only - not financial advice.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Why isn't my portfolio syncing?</span>
+                    <span class="arrow">&#x25BC;</span>
+                </div>
+                <div class="faq-answer">
+                    Check that your API key is valid and has read permissions enabled. Some exchanges may have rate limits - try again after a few minutes. If issues persist, try removing and re-adding your exchange connection.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Can I request a refund?</span>
+                    <span class="arrow">&#x25BC;</span>
+                </div>
+                <div class="faq-answer">
+                    Refunds are handled by Apple. Visit reportaproblem.apple.com and sign in with your Apple ID to request a refund. Apple typically responds within 48 hours.
+                </div>
+            </div>
+        </div>
+
+        <div class="quick-tips">
+            <h2>Quick Tips</h2>
+            <ul>
+                <li>
+                    <span class="check">&#10003;</span>
+                    <span>Always use read-only API keys - ChartScope never needs trading permissions</span>
+                </li>
+                <li>
+                    <span class="check">&#10003;</span>
+                    <span>Enable Face ID or Touch ID in Settings for extra security</span>
+                </li>
+                <li>
+                    <span class="check">&#10003;</span>
+                    <span>Pull down to refresh market data on any screen</span>
+                </li>
+                <li>
+                    <span class="check">&#10003;</span>
+                    <span>Tap any chart to see detailed AI analysis</span>
+                </li>
+                <li>
+                    <span class="check">&#10003;</span>
+                    <span>Long-press coins to add them to your watchlist</span>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ChartScope. All rights reserved.</p>
+        <p>
+            <a href="index.html">Home</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+            <a href="support.html">Support</a>
+        </p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                item.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>

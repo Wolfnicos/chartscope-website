@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms of Service - ChartScope</title>
+    <meta name="description" content="ChartScope terms of service. Educational crypto market learning app. Subscription plans, usage terms, and financial disclaimers.">
+    <link rel="canonical" href="https://chartscope.net/terms.html">
+    <link rel="alternate" hreflang="en" href="https://chartscope.net/terms.html">
+    <link rel="alternate" hreflang="x-default" href="https://chartscope.net/terms.html">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Terms of Service - ChartScope">
+    <meta property="og:description" content="ChartScope terms of service. Educational crypto market learning app with subscription plans.">
+    <meta property="og:url" content="https://chartscope.net/terms.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ChartScope">
     <style>
         * {
             margin: 0;
@@ -193,6 +203,74 @@
             color: var(--text-primary);
         }
 
+        .cookie-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 9999;
+            background: rgba(10, 10, 10, 0.97);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 24px;
+            display: none;
+        }
+        .cookie-banner.active { display: block; }
+        .cookie-banner-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        .cookie-banner-text {
+            flex: 1;
+            min-width: 280px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        .cookie-banner-text a { color: var(--accent-blue); text-decoration: none; }
+        .cookie-banner-buttons { display: flex; gap: 12px; flex-shrink: 0; }
+        .cookie-btn {
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            cursor: pointer;
+            border: none;
+            transition: all 0.3s;
+            font-family: inherit;
+        }
+        .cookie-btn-accept { background: var(--accent-blue); color: white; }
+        .cookie-btn-accept:hover { background: #0970e0; }
+        .cookie-btn-reject {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text-secondary);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+        .cookie-btn-reject:hover { background: rgba(255, 255, 255, 0.15); color: var(--text-primary); }
+
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--accent-blue);
+            color: #fff;
+            padding: 8px 16px;
+            z-index: 10000;
+            font-size: 0.875rem;
+            text-decoration: none;
+            border-radius: 0 0 8px 0;
+            transition: top 0.3s;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
         @media (max-width: 768px) {
             nav {
                 padding: 16px 20px;
@@ -210,7 +288,8 @@
     </style>
 </head>
 <body>
-    <nav>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+    <nav role="navigation" aria-label="Main navigation">
         <div class="container">
             <a href="index.html" class="logo">
                 <div class="logo-icon">
@@ -223,14 +302,14 @@
             </a>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="privacy.html">Privacy</a></li>
-                <li><a href="terms.html">Terms</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
                 <li><a href="support.html">Support</a></li>
             </ul>
         </div>
     </nav>
 
-    <main class="content">
+    <main id="main-content" class="content">
         <div class="page-header">
             <h1>Terms of Service</h1>
             <p class="updated">Last updated: January 14, 2025</p>
@@ -373,10 +452,28 @@
         <p>&copy; 2025 ChartScope. All rights reserved.</p>
         <p>
             <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="blog.html">Blog</a>
             <a href="privacy.html">Privacy</a>
             <a href="terms.html">Terms</a>
             <a href="support.html">Support</a>
         </p>
     </footer>
+    <div class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Cookie consent">
+        <div class="cookie-banner-inner">
+            <div class="cookie-banner-text">
+                We use only essential cookies required for this website to function. No tracking, analytics, or advertising cookies are used.
+                <a href="privacy.html">Read our Privacy Policy</a>.
+            </div>
+            <div class="cookie-banner-buttons">
+                <button class="cookie-btn cookie-btn-reject" onclick="handleCookies('reject')">Reject All</button>
+                <button class="cookie-btn cookie-btn-accept" onclick="handleCookies('accept')">Accept</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function handleCookies(c){localStorage.setItem('cookie-consent',c);document.getElementById('cookieBanner').classList.remove('active');}
+        if(!localStorage.getItem('cookie-consent')){document.getElementById('cookieBanner').classList.add('active');}
+    </script>
 </body>
 </html>

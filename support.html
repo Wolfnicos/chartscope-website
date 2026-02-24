@@ -4,6 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Support - ChartScope</title>
+    <meta name="description" content="ChartScope support and help center. FAQ, troubleshooting, and contact information for the crypto market learning app.">
+    <link rel="canonical" href="https://chartscope.net/support.html">
+    <link rel="alternate" hreflang="en" href="https://chartscope.net/support.html">
+    <link rel="alternate" hreflang="x-default" href="https://chartscope.net/support.html">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Support - ChartScope">
+    <meta property="og:description" content="ChartScope help center. FAQ, troubleshooting, and contact for the crypto market learning app.">
+    <meta property="og:url" content="https://chartscope.net/support.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ChartScope">
+    <!-- Schema.org: FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I connect my exchange account to ChartScope?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Go to Settings > Exchanges and tap Add Exchange. Select your exchange (Binance, Coinbase, or Kraken), then enter your API key and secret. We recommend using read-only API keys for security. Never enable trading or withdrawal permissions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my portfolio data secure in ChartScope?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. All your data is stored locally on your device. API keys are encrypted using iOS Keychain. We never transmit your credentials or portfolio data to external servers. All AI analysis happens on-device."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I cancel my ChartScope subscription?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Subscriptions are managed through Apple. Go to Settings > Apple ID > Subscriptions on your iPhone, find ChartScope, and tap Cancel Subscription. You will retain access until the end of your billing period."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the AI analysis work in ChartScope?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ChartScope uses on-device machine learning powered by Apple's Core ML framework. The Neural Engine analyzes chart patterns, volume, and market indicators to provide educational insights. This is for learning purposes only, not financial advice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why isn't my portfolio syncing in ChartScope?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check that your API key is valid and has read permissions enabled. Some exchanges may have rate limits - try again after a few minutes. If issues persist, try removing and re-adding your exchange connection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I request a refund for ChartScope?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Refunds are handled by Apple. Visit reportaproblem.apple.com and sign in with your Apple ID to request a refund. Apple typically responds within 48 hours."
+          }
+        }
+      ]
+    }
+    </script>
     <style>
         * {
             margin: 0;
@@ -276,6 +343,74 @@
             color: var(--text-primary);
         }
 
+        .cookie-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 9999;
+            background: rgba(10, 10, 10, 0.97);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 24px;
+            display: none;
+        }
+        .cookie-banner.active { display: block; }
+        .cookie-banner-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        .cookie-banner-text {
+            flex: 1;
+            min-width: 280px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        .cookie-banner-text a { color: var(--accent-blue); text-decoration: none; }
+        .cookie-banner-buttons { display: flex; gap: 12px; flex-shrink: 0; }
+        .cookie-btn {
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            cursor: pointer;
+            border: none;
+            transition: all 0.3s;
+            font-family: inherit;
+        }
+        .cookie-btn-accept { background: var(--accent-blue); color: white; }
+        .cookie-btn-accept:hover { background: #0970e0; }
+        .cookie-btn-reject {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text-secondary);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+        .cookie-btn-reject:hover { background: rgba(255, 255, 255, 0.15); color: var(--text-primary); }
+
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--accent-blue);
+            color: #fff;
+            padding: 8px 16px;
+            z-index: 10000;
+            font-size: 0.875rem;
+            text-decoration: none;
+            border-radius: 0 0 8px 0;
+            transition: top 0.3s;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
         @media (max-width: 768px) {
             nav {
                 padding: 16px 20px;
@@ -293,7 +428,8 @@
     </style>
 </head>
 <body>
-    <nav>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+    <nav role="navigation" aria-label="Main navigation">
         <div class="container">
             <a href="index.html" class="logo">
                 <div class="logo-icon">
@@ -306,14 +442,14 @@
             </a>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="privacy.html">Privacy</a></li>
-                <li><a href="terms.html">Terms</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
                 <li><a href="support.html">Support</a></li>
             </ul>
         </div>
     </nav>
 
-    <main class="content">
+    <main id="main-content" class="content">
         <div class="page-header">
             <h1>Support</h1>
             <p>We're here to help you get the most out of ChartScope</p>
@@ -423,12 +559,25 @@
         <p>&copy; 2025 ChartScope. All rights reserved.</p>
         <p>
             <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="blog.html">Blog</a>
             <a href="privacy.html">Privacy</a>
             <a href="terms.html">Terms</a>
             <a href="support.html">Support</a>
         </p>
     </footer>
-
+    <div class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Cookie consent">
+        <div class="cookie-banner-inner">
+            <div class="cookie-banner-text">
+                We use only essential cookies required for this website to function. No tracking, analytics, or advertising cookies are used.
+                <a href="privacy.html">Read our Privacy Policy</a>.
+            </div>
+            <div class="cookie-banner-buttons">
+                <button class="cookie-btn cookie-btn-reject" onclick="handleCookies('reject')">Reject All</button>
+                <button class="cookie-btn cookie-btn-accept" onclick="handleCookies('accept')">Accept</button>
+            </div>
+        </div>
+    </div>
     <script>
         document.querySelectorAll('.faq-question').forEach(question => {
             question.addEventListener('click', () => {
@@ -436,6 +585,8 @@
                 item.classList.toggle('active');
             });
         });
+        function handleCookies(c){localStorage.setItem('cookie-consent',c);document.getElementById('cookieBanner').classList.remove('active');}
+        if(!localStorage.getItem('cookie-consent')){document.getElementById('cookieBanner').classList.add('active');}
     </script>
 </body>
 </html>

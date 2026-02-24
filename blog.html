@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - ChartScope</title>
-    <meta name="description" content="ChartScope privacy policy. We do not collect personal data. All processing happens locally on your device with no external tracking or analytics.">
-    <link rel="canonical" href="https://chartscope.net/privacy.html">
-    <link rel="alternate" hreflang="en" href="https://chartscope.net/privacy.html">
-    <link rel="alternate" hreflang="x-default" href="https://chartscope.net/privacy.html">
+    <title>Blog - ChartScope | Crypto Market Education &amp; Analysis</title>
+    <meta name="description" content="Learn about cryptocurrency markets, technical analysis, and trading strategies. Educational articles for beginners and intermediate crypto learners.">
+    <link rel="canonical" href="https://chartscope.net/blog.html">
+    <link rel="alternate" hreflang="en" href="https://chartscope.net/blog.html">
+    <link rel="alternate" hreflang="x-default" href="https://chartscope.net/blog.html">
     <!-- Open Graph -->
-    <meta property="og:title" content="Privacy Policy - ChartScope">
-    <meta property="og:description" content="ChartScope privacy policy. We do not collect personal data. All processing happens locally on your device.">
-    <meta property="og:url" content="https://chartscope.net/privacy.html">
+    <meta property="og:title" content="Blog - ChartScope | Crypto Market Education">
+    <meta property="og:description" content="Educational articles about cryptocurrency markets, technical analysis, and trading strategies.">
+    <meta property="og:url" content="https://chartscope.net/blog.html">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="ChartScope">
     <style>
@@ -29,6 +29,9 @@
             --text-secondary: rgba(255, 255, 255, 0.7);
             --text-tertiary: rgba(255, 255, 255, 0.5);
             --accent-blue: #0A84FF;
+            --accent-purple: #BF5AF2;
+            --accent-cyan: #64D2FF;
+            --accent-green: #30D158;
         }
 
         body {
@@ -97,13 +100,14 @@
         }
 
         .content {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
             padding: 140px 20px 80px;
         }
 
         .page-header {
-            margin-bottom: 48px;
+            margin-bottom: 64px;
+            text-align: center;
         }
 
         .page-header h1 {
@@ -112,55 +116,70 @@
             margin-bottom: 16px;
         }
 
-        .page-header .updated {
-            color: var(--text-tertiary);
-            font-size: 0.95rem;
-        }
-
-        .section {
-            margin-bottom: 48px;
-        }
-
-        .section h2 {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 16px;
-            color: var(--text-primary);
-        }
-
-        .section p {
+        .page-header p {
             color: var(--text-secondary);
-            margin-bottom: 16px;
+            font-size: 1.25rem;
         }
 
-        .section ul {
-            color: var(--text-secondary);
-            margin-left: 24px;
-            margin-bottom: 16px;
+        .blog-grid {
+            display: grid;
+            gap: 32px;
         }
 
-        .section li {
-            margin-bottom: 8px;
-        }
-
-        .highlight-box {
+        .blog-card {
             background: var(--bg-card);
             border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 16px;
-            padding: 24px;
-            margin: 24px 0;
+            border-radius: 20px;
+            padding: 40px;
+            transition: transform 0.3s, border-color 0.3s;
+            text-decoration: none;
+            color: inherit;
+            display: block;
         }
 
-        .highlight-box h3 {
-            font-size: 1.125rem;
-            margin-bottom: 12px;
+        .blog-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .blog-card-meta {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 16px;
+            font-size: 0.85rem;
+        }
+
+        .blog-card-tag {
+            background: rgba(10, 132, 255, 0.15);
+            color: var(--accent-blue);
+            padding: 4px 12px;
+            border-radius: 100px;
+            font-weight: 500;
+        }
+
+        .blog-card-date {
+            color: var(--text-tertiary);
             display: flex;
             align-items: center;
-            gap: 12px;
         }
 
-        .highlight-box p {
-            margin-bottom: 0;
+        .blog-card h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+
+        .blog-card p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        .blog-card .read-more {
+            color: var(--accent-blue);
+            font-weight: 500;
+            font-size: 0.95rem;
         }
 
         footer {
@@ -265,6 +284,9 @@
             .content {
                 padding: 100px 20px 60px;
             }
+            .blog-card {
+                padding: 24px;
+            }
         }
     </style>
 </head>
@@ -292,93 +314,40 @@
 
     <main id="main-content" class="content">
         <div class="page-header">
-            <h1>Privacy Policy</h1>
-            <p class="updated">Last updated: January 14, 2025</p>
+            <h1>Blog</h1>
+            <p>Educational articles about crypto markets, technical analysis, and AI-powered learning.</p>
         </div>
 
-        <div class="highlight-box">
-            <h3>🔒 Privacy First</h3>
-            <p>ChartScope is designed with privacy at its core. We do not collect, store, or transmit your personal data to external servers. All processing happens locally on your device.</p>
-        </div>
+        <div class="blog-grid">
+            <a href="blog/technical-analysis-beginners.html" class="blog-card">
+                <div class="blog-card-meta">
+                    <span class="blog-card-tag">Technical Analysis</span>
+                    <span class="blog-card-date">February 2025</span>
+                </div>
+                <h2>Technical Analysis for Crypto Beginners: A Complete Guide</h2>
+                <p>New to crypto charts? Learn the fundamentals of technical analysis, from reading candlestick charts to understanding key indicators like RSI, MACD, and Bollinger Bands. A step-by-step introduction for absolute beginners.</p>
+                <span class="read-more">Read article &rarr;</span>
+            </a>
 
-        <div class="section">
-            <h2>Information We Don't Collect</h2>
-            <p>ChartScope is committed to your privacy. We do not collect:</p>
-            <ul>
-                <li>Personal identification information</li>
-                <li>Email addresses or contact details</li>
-                <li>Location data</li>
-                <li>Usage analytics or tracking data</li>
-                <li>Your API keys or credentials</li>
-                <li>Your portfolio data or trading history</li>
-            </ul>
-        </div>
+            <a href="blog/ai-crypto-trading-education.html" class="blog-card">
+                <div class="blog-card-meta">
+                    <span class="blog-card-tag">AI &amp; Crypto</span>
+                    <span class="blog-card-date">February 2025</span>
+                </div>
+                <h2>How AI Is Changing Crypto Market Education</h2>
+                <p>Discover how artificial intelligence and machine learning are transforming the way people learn about cryptocurrency markets. From pattern recognition to on-device analysis, explore the future of crypto education.</p>
+                <span class="read-more">Read article &rarr;</span>
+            </a>
 
-        <div class="section">
-            <h2>Local Data Storage</h2>
-            <p>ChartScope stores certain data locally on your device to provide its functionality:</p>
-            <ul>
-                <li><strong>API Credentials:</strong> Your exchange API keys are stored exclusively in the iOS Keychain, which provides hardware-level encryption. These credentials never leave your device.</li>
-                <li><strong>User Preferences:</strong> Settings like your preferred currency, language, and theme are stored locally using iOS UserDefaults.</li>
-                <li><strong>Cached Market Data:</strong> Market data fetched from exchanges may be temporarily cached to improve performance.</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>On-Device Processing</h2>
-            <p>All AI analysis and data processing in ChartScope occurs locally on your device using Apple's Core ML framework. This means:</p>
-            <ul>
-                <li>Your market data is never sent to external AI servers</li>
-                <li>Analysis results are generated entirely on your device</li>
-                <li>No internet connection is required for AI features after initial setup</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Third-Party Services</h2>
-            <p>ChartScope connects to the following third-party services:</p>
-            <ul>
-                <li><strong>Cryptocurrency Exchanges:</strong> We connect to exchanges (Binance, Coinbase, Kraken) using their public APIs to fetch market data and, with your permission, your portfolio information. These connections use your API keys stored locally and are made directly from your device.</li>
-                <li><strong>Apple App Store:</strong> For subscription management and in-app purchases, we use Apple's StoreKit framework.</li>
-            </ul>
-            <p>We do not use any third-party analytics, advertising, or tracking services.</p>
-        </div>
-
-        <div class="section">
-            <h2>Data Security</h2>
-            <p>We implement the following security measures:</p>
-            <ul>
-                <li>API keys are stored in iOS Keychain with hardware encryption</li>
-                <li>All network communications use HTTPS/TLS encryption</li>
-                <li>Read-only API permissions are encouraged and enforced where possible</li>
-                <li>No sensitive data is ever logged or stored in plain text</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Your Rights</h2>
-            <p>Since we don't collect personal data, traditional data rights (access, deletion, portability) are handled entirely on your device. You can:</p>
-            <ul>
-                <li>Delete all app data by uninstalling ChartScope</li>
-                <li>Remove API credentials through the app settings</li>
-                <li>Clear cached data through iOS Settings</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Children's Privacy</h2>
-            <p>ChartScope is not intended for use by children under 17. We do not knowingly collect any information from children. The app deals with financial markets and is designed for adult users only.</p>
-        </div>
-
-        <div class="section">
-            <h2>Changes to This Policy</h2>
-            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.</p>
-        </div>
-
-        <div class="section">
-            <h2>Contact Us</h2>
-            <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-            <p><a href="mailto:contactchartscope@gmail.com" style="color: var(--accent-blue);">contactchartscope@gmail.com</a></p>
+            <a href="blog/crypto-security-best-practices.html" class="blog-card">
+                <div class="blog-card-meta">
+                    <span class="blog-card-tag">Security</span>
+                    <span class="blog-card-date">January 2025</span>
+                </div>
+                <h2>Crypto Security Best Practices: Protecting Your Portfolio in 2025</h2>
+                <p>Learn essential security practices for cryptocurrency holders. From API key management and read-only permissions to hardware wallets and on-device processing, keep your crypto assets safe.</p>
+                <span class="read-more">Read article &rarr;</span>
+            </a>
         </div>
     </main>
 

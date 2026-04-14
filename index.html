@@ -1249,73 +1249,37 @@
             object-fit: cover;
             opacity: 0;
             border-radius: 44px;
-            animation: carousel-cycle 24s infinite;
+            animation: carousel-cycle 32s infinite;
         }
 
-        /* 6 slides × 4s each = 24s total cycle
+        /* 8 slides × 4s each = 32s total cycle
            Each slide visible 3s, transition 1s
-           Stagger by (1/6) = ~16.67% of cycle */
+           Stagger: 4/32 = 12.5% of cycle */
         .slide-1 { animation-delay: 0s; }
         .slide-2 { animation-delay: 4s; }
         .slide-3 { animation-delay: 8s; }
         .slide-4 { animation-delay: 12s; }
         .slide-5 { animation-delay: 16s; }
         .slide-6 { animation-delay: 20s; }
+        .slide-7 { animation-delay: 24s; }
+        .slide-8 { animation-delay: 28s; }
 
         @keyframes carousel-cycle {
-            0%   { opacity: 0; }
-            4%   { opacity: 1; }  /* fade in: 1s */
-            16%  { opacity: 1; }  /* hold: 3s */
-            20%  { opacity: 0; }  /* fade out: 1s */
-            100% { opacity: 0; }  /* wait */
+            0%    { opacity: 0; }
+            3%    { opacity: 1; }  /* fade in: ~1s */
+            12.5% { opacity: 1; }  /* hold: ~3s */
+            15%   { opacity: 0; }  /* fade out: ~1s */
+            100%  { opacity: 0; }  /* wait */
         }
 
         /* Pause on hover */
-        .hero-screenshot:hover .carousel-slide,
-        .hero-screenshot:hover ~ .carousel-caption .caption-item {
+        .hero-screenshot:hover .carousel-slide {
             animation-play-state: paused;
         }
 
-        /* Caption under phone — syncs with carousel */
-        .carousel-caption {
-            position: relative;
-            margin-top: 20px;
-            height: 24px;
-            text-align: center;
-            z-index: 1;
-        }
-
-        .caption-item {
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 0.85rem;
-            font-weight: 600;
-            color: var(--accent-purple);
-            letter-spacing: 0.3px;
-            opacity: 0;
-            animation: caption-cycle 24s infinite;
-            white-space: nowrap;
-        }
-
-        .item-1 { animation-delay: 0s; }
-        .item-2 { animation-delay: 4s; }
-        .item-3 { animation-delay: 8s; }
-        .item-4 { animation-delay: 12s; }
-        .item-5 { animation-delay: 16s; }
-        .item-6 { animation-delay: 20s; }
-
-        @keyframes caption-cycle {
-            0%   { opacity: 0; transform: translateX(-50%) translateY(5px); }
-            4%   { opacity: 1; transform: translateX(-50%) translateY(0); }
-            16%  { opacity: 1; transform: translateX(-50%) translateY(0); }
-            20%  { opacity: 0; transform: translateX(-50%) translateY(-5px); }
-            100% { opacity: 0; transform: translateX(-50%) translateY(5px); }
-        }
-
         @media (prefers-reduced-motion: reduce) {
-            .caption-item { animation: none; }
-            .item-1 { opacity: 1; }
+            .carousel-slide { animation: none; }
+            .slide-1 { opacity: 1; }
         }
 
         /* Respect reduced motion */
@@ -1736,25 +1700,19 @@
                 </div>
             </div>
 
-            <!-- iPhone with auto-cycling screenshot carousel -->
+            <!-- iPhone with auto-cycling screenshot carousel (8 slides) -->
             <div class="hero-mockup" aria-hidden="true">
                 <div class="hero-screenshot">
                     <div class="hero-carousel">
-                        <img src="assets/screenshots/03.png" alt="Market Mood" class="carousel-slide slide-1">
-                        <img src="assets/screenshots/05.png" alt="Insights v6" class="carousel-slide slide-2">
-                        <img src="assets/screenshots/06.png" alt="AI Vision" class="carousel-slide slide-3">
-                        <img src="assets/screenshots/04.png" alt="Indicators" class="carousel-slide slide-4">
-                        <img src="assets/screenshots/07.png" alt="Multi-Timeframe" class="carousel-slide slide-5">
-                        <img src="assets/screenshots/01.png" alt="Dashboard" class="carousel-slide slide-6">
+                        <img src="assets/screenshots/01.png" alt="Screen 1" class="carousel-slide slide-1" loading="eager">
+                        <img src="assets/screenshots/02.png" alt="Screen 2" class="carousel-slide slide-2" loading="lazy">
+                        <img src="assets/screenshots/03.png" alt="Screen 3" class="carousel-slide slide-3" loading="lazy">
+                        <img src="assets/screenshots/04.png" alt="Screen 4" class="carousel-slide slide-4" loading="lazy">
+                        <img src="assets/screenshots/05.png" alt="Screen 5" class="carousel-slide slide-5" loading="lazy">
+                        <img src="assets/screenshots/06.png" alt="Screen 6" class="carousel-slide slide-6" loading="lazy">
+                        <img src="assets/screenshots/07.png" alt="Screen 7" class="carousel-slide slide-7" loading="lazy">
+                        <img src="assets/screenshots/08.png" alt="Screen 8" class="carousel-slide slide-8" loading="lazy">
                     </div>
-                </div>
-                <div class="carousel-caption">
-                    <span class="caption-item item-1">Market Mood</span>
-                    <span class="caption-item item-2">Advanced Analysis (v6)</span>
-                    <span class="caption-item item-3">AI Vision</span>
-                    <span class="caption-item item-4">Indicators &amp; Scenarios</span>
-                    <span class="caption-item item-5">Multi-Timeframe</span>
-                    <span class="caption-item item-6">Dashboard</span>
                 </div>
                 <div class="hero-mockup-glow"></div>
             </div>

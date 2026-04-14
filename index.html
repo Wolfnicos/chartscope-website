@@ -1223,20 +1223,109 @@
         .hero-screenshot {
             position: relative;
             z-index: 1;
-            width: 280px;
-            border-radius: 40px;
+            width: 300px;
+            border-radius: 44px;
             overflow: hidden;
             box-shadow:
                 0 40px 80px rgba(0, 0, 0, 0.6),
-                0 0 60px rgba(191, 90, 242, 0.2),
+                0 0 60px rgba(191, 90, 242, 0.25),
                 0 0 0 1px rgba(255, 255, 255, 0.08);
             background: #000;
+            aspect-ratio: 540/1170;
         }
 
-        .hero-screenshot img {
+        .hero-carousel {
+            position: relative;
             width: 100%;
-            display: block;
-            border-radius: 40px;
+            height: 100%;
+        }
+
+        .carousel-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            border-radius: 44px;
+            animation: carousel-cycle 24s infinite;
+        }
+
+        /* 6 slides × 4s each = 24s total cycle
+           Each slide visible 3s, transition 1s
+           Stagger by (1/6) = ~16.67% of cycle */
+        .slide-1 { animation-delay: 0s; }
+        .slide-2 { animation-delay: 4s; }
+        .slide-3 { animation-delay: 8s; }
+        .slide-4 { animation-delay: 12s; }
+        .slide-5 { animation-delay: 16s; }
+        .slide-6 { animation-delay: 20s; }
+
+        @keyframes carousel-cycle {
+            0%   { opacity: 0; }
+            4%   { opacity: 1; }  /* fade in: 1s */
+            16%  { opacity: 1; }  /* hold: 3s */
+            20%  { opacity: 0; }  /* fade out: 1s */
+            100% { opacity: 0; }  /* wait */
+        }
+
+        /* Pause on hover */
+        .hero-screenshot:hover .carousel-slide,
+        .hero-screenshot:hover ~ .carousel-caption .caption-item {
+            animation-play-state: paused;
+        }
+
+        /* Caption under phone — syncs with carousel */
+        .carousel-caption {
+            position: relative;
+            margin-top: 20px;
+            height: 24px;
+            text-align: center;
+            z-index: 1;
+        }
+
+        .caption-item {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--accent-purple);
+            letter-spacing: 0.3px;
+            opacity: 0;
+            animation: caption-cycle 24s infinite;
+            white-space: nowrap;
+        }
+
+        .item-1 { animation-delay: 0s; }
+        .item-2 { animation-delay: 4s; }
+        .item-3 { animation-delay: 8s; }
+        .item-4 { animation-delay: 12s; }
+        .item-5 { animation-delay: 16s; }
+        .item-6 { animation-delay: 20s; }
+
+        @keyframes caption-cycle {
+            0%   { opacity: 0; transform: translateX(-50%) translateY(5px); }
+            4%   { opacity: 1; transform: translateX(-50%) translateY(0); }
+            16%  { opacity: 1; transform: translateX(-50%) translateY(0); }
+            20%  { opacity: 0; transform: translateX(-50%) translateY(-5px); }
+            100% { opacity: 0; transform: translateX(-50%) translateY(5px); }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .caption-item { animation: none; }
+            .item-1 { opacity: 1; }
+        }
+
+        /* Respect reduced motion */
+        @media (prefers-reduced-motion: reduce) {
+            .carousel-slide {
+                animation: none;
+            }
+            .slide-1 {
+                opacity: 1;
+            }
         }
 
         @media (max-width: 900px) {
@@ -1647,10 +1736,25 @@
                 </div>
             </div>
 
-            <!-- iPhone with real Insights screenshot -->
+            <!-- iPhone with auto-cycling screenshot carousel -->
             <div class="hero-mockup" aria-hidden="true">
                 <div class="hero-screenshot">
-                    <img src="assets/screenshots/03.png" alt="ChartScope Insights screen showing AI-powered market mood analysis" loading="eager">
+                    <div class="hero-carousel">
+                        <img src="assets/screenshots/03.png" alt="Market Mood" class="carousel-slide slide-1">
+                        <img src="assets/screenshots/05.png" alt="Insights v6" class="carousel-slide slide-2">
+                        <img src="assets/screenshots/06.png" alt="AI Vision" class="carousel-slide slide-3">
+                        <img src="assets/screenshots/04.png" alt="Indicators" class="carousel-slide slide-4">
+                        <img src="assets/screenshots/07.png" alt="Multi-Timeframe" class="carousel-slide slide-5">
+                        <img src="assets/screenshots/01.png" alt="Dashboard" class="carousel-slide slide-6">
+                    </div>
+                </div>
+                <div class="carousel-caption">
+                    <span class="caption-item item-1">Market Mood</span>
+                    <span class="caption-item item-2">Advanced Analysis (v6)</span>
+                    <span class="caption-item item-3">AI Vision</span>
+                    <span class="caption-item item-4">Indicators &amp; Scenarios</span>
+                    <span class="caption-item item-5">Multi-Timeframe</span>
+                    <span class="caption-item item-6">Dashboard</span>
                 </div>
                 <div class="hero-mockup-glow"></div>
             </div>
@@ -1731,77 +1835,6 @@
                 <div>
                     <strong>Learn while you look</strong>
                     <p>Every indicator comes with educational context. RSI = thermometer. Support = floor.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- See It In Action Section -->
-    <section class="showcase" id="showcase">
-        <div class="section-header">
-            <p class="section-label">See it in action</p>
-            <h2>Built for learning. Designed to make sense.</h2>
-            <p class="section-desc">Every screen has a purpose. Every card has an educational role. Here's what you'll actually use.</p>
-        </div>
-
-        <div class="showcase-grid">
-            <!-- Insights v6: The Star -->
-            <div class="showcase-card showcase-featured">
-                <div class="showcase-label">THE STAR · NEW in 1.0.3</div>
-                <h3>Enriched Insights (v6)</h3>
-                <p>Volatility context. Indicator conflicts. Risk/reward. Momentum. Four new cards that go beyond basic RSI/MACD — explaining what the market is actually doing, in plain language.</p>
-                <div class="showcase-img-wrap">
-                    <img src="assets/screenshots/05.png" alt="ChartScope Insights v6 — Advanced Analysis with Volatility, Indicator Conflict, Risk/Reward, and Momentum cards" loading="lazy">
-                </div>
-            </div>
-
-            <!-- Vision AI -->
-            <div class="showcase-card">
-                <div class="showcase-label">NEW in 1.0.3</div>
-                <h3>AI Vision — Pattern Recognition</h3>
-                <p>Your chart, analyzed visually. Detects candlestick patterns, trend structures, cup-and-handle formations. Never reads prices from the image — uses ground-truth indicators for accuracy.</p>
-                <div class="showcase-img-wrap">
-                    <img src="assets/screenshots/06.png" alt="ChartScope AI Vision detecting Cup and Handle formation with educational context" loading="lazy">
-                </div>
-            </div>
-
-            <!-- Market Mood -->
-            <div class="showcase-card">
-                <div class="showcase-label">AT-A-GLANCE</div>
-                <h3>Market Mood Thermometer</h3>
-                <p>0-100 scale. Bullish pressure? Bearish pressure? Neutral? One look tells you where the market sits — with the reasoning laid out underneath.</p>
-                <div class="showcase-img-wrap">
-                    <img src="assets/screenshots/03.png" alt="ChartScope Market Mood thermometer showing bullish pressure for BTC" loading="lazy">
-                </div>
-            </div>
-
-            <!-- Indicator Details -->
-            <div class="showcase-card">
-                <div class="showcase-label">DEEP DIVE</div>
-                <h3>Indicator Details + Scenarios</h3>
-                <p>RSI, MACD, EMA, Volume, Bollinger — each with color-coded bars and values. Tap for educational scenarios: "if price breaks above X, historically Y happened within Z hours."</p>
-                <div class="showcase-img-wrap">
-                    <img src="assets/screenshots/04.png" alt="ChartScope Insights with indicator details and educational scenarios" loading="lazy">
-                </div>
-            </div>
-
-            <!-- Multi-Timeframe -->
-            <div class="showcase-card">
-                <div class="showcase-label">CONTEXT</div>
-                <h3>Multi-Timeframe + Fear &amp; Greed</h3>
-                <p>See the same coin across 5M, 15M, 1H, 4H, 1D at a glance. Combined with the Fear &amp; Greed Index — so you know whether current mood is extreme.</p>
-                <div class="showcase-img-wrap">
-                    <img src="assets/screenshots/07.png" alt="ChartScope Multi-Timeframe Context and Fear and Greed Index" loading="lazy">
-                </div>
-            </div>
-
-            <!-- Dashboard -->
-            <div class="showcase-card">
-                <div class="showcase-label">OVERVIEW</div>
-                <h3>Dashboard — Your Coins</h3>
-                <p>Read-only portfolio view. Neural Engine classifies each coin's trend with agreement score. No trades. No custody. Just understanding.</p>
-                <div class="showcase-img-wrap">
-                    <img src="assets/screenshots/01.png" alt="ChartScope Dashboard with portfolio and Neural Engine analysis" loading="lazy">
                 </div>
             </div>
         </div>

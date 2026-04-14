@@ -17,14 +17,14 @@
     <meta property="og:url" content="https://chartscope.net/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="ChartScope">
-    <meta property="og:image" content="https://chartscope.net/assets/logo.png">
-    <meta property="og:image:width" content="1024">
-    <meta property="og:image:height" content="1024">
+    <meta property="og:image" content="https://chartscope.net/assets/screenshots/05.png">
+    <meta property="og:image:width" content="540">
+    <meta property="og:image:height" content="1170">
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ChartScope — The AI Crypto Tutor That Explains Your Charts">
     <meta name="twitter:description" content="AI Chat + Visual pattern recognition. On-device ML. 9 languages. €4.99/mo. The only crypto app that teaches beginners, not signals them.">
-    <meta name="twitter:image" content="https://chartscope.net/assets/logo.png">
+    <meta name="twitter:image" content="https://chartscope.net/assets/screenshots/05.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -1220,6 +1220,31 @@
             z-index: 0;
         }
 
+        .hero-screenshot {
+            position: relative;
+            z-index: 1;
+            width: 280px;
+            border-radius: 40px;
+            overflow: hidden;
+            box-shadow:
+                0 40px 80px rgba(0, 0, 0, 0.6),
+                0 0 60px rgba(191, 90, 242, 0.2),
+                0 0 0 1px rgba(255, 255, 255, 0.08);
+            background: #000;
+        }
+
+        .hero-screenshot img {
+            width: 100%;
+            display: block;
+            border-radius: 40px;
+        }
+
+        @media (max-width: 900px) {
+            .hero-screenshot {
+                width: 260px;
+            }
+        }
+
         .iphone-frame {
             position: relative;
             width: 280px;
@@ -1460,6 +1485,109 @@
                 width: 260px;
             }
         }
+
+        /* === Showcase (See it in action) === */
+        .showcase {
+            padding: 120px 20px;
+            background: var(--bg-primary);
+        }
+
+        .showcase-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .showcase-card {
+            background: var(--bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 24px;
+            padding: 32px;
+            display: flex;
+            flex-direction: column;
+            transition: border-color 0.3s, transform 0.3s;
+        }
+
+        .showcase-card:hover {
+            border-color: rgba(191, 90, 242, 0.35);
+            transform: translateY(-4px);
+        }
+
+        .showcase-featured {
+            grid-column: 1 / -1;
+            background: linear-gradient(135deg, rgba(191, 90, 242, 0.08) 0%, rgba(10, 132, 255, 0.04) 100%);
+            border-color: rgba(191, 90, 242, 0.25);
+        }
+
+        .showcase-featured .showcase-img-wrap {
+            max-width: 300px;
+            margin: 20px auto 0;
+        }
+
+        @media (min-width: 900px) {
+            .showcase-featured {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 40px;
+                align-items: center;
+            }
+            .showcase-featured .showcase-img-wrap {
+                margin: 0;
+                max-width: 320px;
+            }
+        }
+
+        .showcase-label {
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--accent-purple);
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+
+        .showcase-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: var(--text-primary);
+        }
+
+        .showcase-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        .showcase-img-wrap {
+            position: relative;
+            padding: 0;
+            border-radius: 28px;
+            overflow: hidden;
+            background: #000;
+            box-shadow:
+                0 20px 50px rgba(0, 0, 0, 0.5),
+                0 0 0 1px rgba(255, 255, 255, 0.06);
+            margin: 0 auto;
+            max-width: 260px;
+        }
+
+        .showcase-img-wrap img {
+            width: 100%;
+            display: block;
+            border-radius: 28px;
+        }
+
+        @media (max-width: 640px) {
+            .showcase-card {
+                padding: 24px;
+            }
+            .showcase-img-wrap {
+                max-width: 220px;
+            }
+        }
     </style>
     <!-- Privacy-friendly analytics by Plausible -->
     <script async src="https://signallensai.com:8443/js/pa-cb929Nbtap3ZaIIoWmWF_.js"></script>
@@ -1519,78 +1647,10 @@
                 </div>
             </div>
 
-            <!-- iPhone Mockup with Insights Preview -->
+            <!-- iPhone with real Insights screenshot -->
             <div class="hero-mockup" aria-hidden="true">
-                <div class="iphone-frame">
-                    <div class="iphone-notch"></div>
-                    <div class="iphone-screen">
-                        <!-- Status bar -->
-                        <div class="mock-status-bar">
-                            <span>9:41</span>
-                            <span class="mock-status-icons">●●● ● 100%</span>
-                        </div>
-
-                        <!-- Header -->
-                        <div class="mock-header">
-                            <span class="mock-coin">BTC · 4H</span>
-                            <span class="mock-price">€60,612</span>
-                        </div>
-
-                        <!-- Market Mood Card -->
-                        <div class="mock-card mock-mood-card">
-                            <div class="mock-mood-label">MARKET MOOD</div>
-                            <div class="mock-mood-row">
-                                <div class="mock-mood-circle">📉</div>
-                                <div>
-                                    <div class="mock-mood-title">Bearish pressure</div>
-                                    <div class="mock-mood-desc">RSI at 42, MACD bearish cross</div>
-                                </div>
-                            </div>
-                            <div class="mock-thermometer">
-                                <div class="mock-thermo-fill" style="width: 32%"></div>
-                                <div class="mock-thermo-dot" style="left: 32%"></div>
-                            </div>
-                            <div class="mock-thermo-labels">
-                                <span>Bearish</span>
-                                <span>Neutral</span>
-                                <span>Bullish</span>
-                            </div>
-                        </div>
-
-                        <!-- Indicators -->
-                        <div class="mock-card">
-                            <div class="mock-indicator-row">
-                                <span class="mock-ind-label">RSI</span>
-                                <div class="mock-ind-bar"><div class="mock-ind-fill" style="width: 42%; background: #FACC15;"></div></div>
-                                <span class="mock-ind-value">42</span>
-                            </div>
-                            <div class="mock-indicator-row">
-                                <span class="mock-ind-label">MACD</span>
-                                <div class="mock-ind-bar"><div class="mock-ind-fill" style="width: 28%; background: #EF4444;"></div></div>
-                                <span class="mock-ind-value">↘</span>
-                            </div>
-                            <div class="mock-indicator-row">
-                                <span class="mock-ind-label">EMA</span>
-                                <div class="mock-ind-bar"><div class="mock-ind-fill" style="width: 35%; background: #EF4444;"></div></div>
-                                <span class="mock-ind-value">↘</span>
-                            </div>
-                            <div class="mock-indicator-row">
-                                <span class="mock-ind-label">Vol</span>
-                                <div class="mock-ind-bar"><div class="mock-ind-fill" style="width: 55%; background: #FACC15;"></div></div>
-                                <span class="mock-ind-value">✗</span>
-                            </div>
-                        </div>
-
-                        <!-- Risk/Reward Card -->
-                        <div class="mock-card mock-rr-card">
-                            <div class="mock-rr-icon">⚖️</div>
-                            <div>
-                                <div class="mock-rr-title">Risk / Reward</div>
-                                <div class="mock-rr-value">1 : 1.2</div>
-                                <div class="mock-rr-desc">Support −4.0%, resistance +4.8%</div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="hero-screenshot">
+                    <img src="assets/screenshots/03.png" alt="ChartScope Insights screen showing AI-powered market mood analysis" loading="eager">
                 </div>
                 <div class="hero-mockup-glow"></div>
             </div>
@@ -1671,6 +1731,77 @@
                 <div>
                     <strong>Learn while you look</strong>
                     <p>Every indicator comes with educational context. RSI = thermometer. Support = floor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- See It In Action Section -->
+    <section class="showcase" id="showcase">
+        <div class="section-header">
+            <p class="section-label">See it in action</p>
+            <h2>Built for learning. Designed to make sense.</h2>
+            <p class="section-desc">Every screen has a purpose. Every card has an educational role. Here's what you'll actually use.</p>
+        </div>
+
+        <div class="showcase-grid">
+            <!-- Insights v6: The Star -->
+            <div class="showcase-card showcase-featured">
+                <div class="showcase-label">THE STAR · NEW in 1.0.3</div>
+                <h3>Enriched Insights (v6)</h3>
+                <p>Volatility context. Indicator conflicts. Risk/reward. Momentum. Four new cards that go beyond basic RSI/MACD — explaining what the market is actually doing, in plain language.</p>
+                <div class="showcase-img-wrap">
+                    <img src="assets/screenshots/05.png" alt="ChartScope Insights v6 — Advanced Analysis with Volatility, Indicator Conflict, Risk/Reward, and Momentum cards" loading="lazy">
+                </div>
+            </div>
+
+            <!-- Vision AI -->
+            <div class="showcase-card">
+                <div class="showcase-label">NEW in 1.0.3</div>
+                <h3>AI Vision — Pattern Recognition</h3>
+                <p>Your chart, analyzed visually. Detects candlestick patterns, trend structures, cup-and-handle formations. Never reads prices from the image — uses ground-truth indicators for accuracy.</p>
+                <div class="showcase-img-wrap">
+                    <img src="assets/screenshots/06.png" alt="ChartScope AI Vision detecting Cup and Handle formation with educational context" loading="lazy">
+                </div>
+            </div>
+
+            <!-- Market Mood -->
+            <div class="showcase-card">
+                <div class="showcase-label">AT-A-GLANCE</div>
+                <h3>Market Mood Thermometer</h3>
+                <p>0-100 scale. Bullish pressure? Bearish pressure? Neutral? One look tells you where the market sits — with the reasoning laid out underneath.</p>
+                <div class="showcase-img-wrap">
+                    <img src="assets/screenshots/03.png" alt="ChartScope Market Mood thermometer showing bullish pressure for BTC" loading="lazy">
+                </div>
+            </div>
+
+            <!-- Indicator Details -->
+            <div class="showcase-card">
+                <div class="showcase-label">DEEP DIVE</div>
+                <h3>Indicator Details + Scenarios</h3>
+                <p>RSI, MACD, EMA, Volume, Bollinger — each with color-coded bars and values. Tap for educational scenarios: "if price breaks above X, historically Y happened within Z hours."</p>
+                <div class="showcase-img-wrap">
+                    <img src="assets/screenshots/04.png" alt="ChartScope Insights with indicator details and educational scenarios" loading="lazy">
+                </div>
+            </div>
+
+            <!-- Multi-Timeframe -->
+            <div class="showcase-card">
+                <div class="showcase-label">CONTEXT</div>
+                <h3>Multi-Timeframe + Fear &amp; Greed</h3>
+                <p>See the same coin across 5M, 15M, 1H, 4H, 1D at a glance. Combined with the Fear &amp; Greed Index — so you know whether current mood is extreme.</p>
+                <div class="showcase-img-wrap">
+                    <img src="assets/screenshots/07.png" alt="ChartScope Multi-Timeframe Context and Fear and Greed Index" loading="lazy">
+                </div>
+            </div>
+
+            <!-- Dashboard -->
+            <div class="showcase-card">
+                <div class="showcase-label">OVERVIEW</div>
+                <h3>Dashboard — Your Coins</h3>
+                <p>Read-only portfolio view. Neural Engine classifies each coin's trend with agreement score. No trades. No custody. Just understanding.</p>
+                <div class="showcase-img-wrap">
+                    <img src="assets/screenshots/01.png" alt="ChartScope Dashboard with portfolio and Neural Engine analysis" loading="lazy">
                 </div>
             </div>
         </div>

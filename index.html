@@ -1249,37 +1249,11 @@
             object-fit: cover;
             opacity: 0;
             border-radius: 44px;
-            animation: carousel-cycle 32s infinite;
+            transition: opacity 1s ease-in-out;
         }
 
-        /* 8 slides × 4s each = 32s total cycle
-           Each slide visible 3s, transition 1s
-           Stagger: 4/32 = 12.5% of cycle */
-        .slide-1 { animation-delay: 0s; }
-        .slide-2 { animation-delay: 4s; }
-        .slide-3 { animation-delay: 8s; }
-        .slide-4 { animation-delay: 12s; }
-        .slide-5 { animation-delay: 16s; }
-        .slide-6 { animation-delay: 20s; }
-        .slide-7 { animation-delay: 24s; }
-        .slide-8 { animation-delay: 28s; }
-
-        @keyframes carousel-cycle {
-            0%    { opacity: 0; }
-            3%    { opacity: 1; }  /* fade in: ~1s */
-            12.5% { opacity: 1; }  /* hold: ~3s */
-            15%   { opacity: 0; }  /* fade out: ~1s */
-            100%  { opacity: 0; }  /* wait */
-        }
-
-        /* Pause on hover */
-        .hero-screenshot:hover .carousel-slide {
-            animation-play-state: paused;
-        }
-
-        @media (prefers-reduced-motion: reduce) {
-            .carousel-slide { animation: none; }
-            .slide-1 { opacity: 1; }
+        .carousel-slide.active {
+            opacity: 1;
         }
 
         /* Respect reduced motion */
@@ -1704,14 +1678,14 @@
             <div class="hero-mockup" aria-hidden="true">
                 <div class="hero-screenshot">
                     <div class="hero-carousel">
-                        <img src="assets/screenshots/01.png" alt="Screen 1" class="carousel-slide slide-1" loading="eager">
-                        <img src="assets/screenshots/02.png" alt="Screen 2" class="carousel-slide slide-2" loading="lazy">
-                        <img src="assets/screenshots/03.png" alt="Screen 3" class="carousel-slide slide-3" loading="lazy">
-                        <img src="assets/screenshots/04.png" alt="Screen 4" class="carousel-slide slide-4" loading="lazy">
-                        <img src="assets/screenshots/05.png" alt="Screen 5" class="carousel-slide slide-5" loading="lazy">
-                        <img src="assets/screenshots/06.png" alt="Screen 6" class="carousel-slide slide-6" loading="lazy">
-                        <img src="assets/screenshots/07.png" alt="Screen 7" class="carousel-slide slide-7" loading="lazy">
-                        <img src="assets/screenshots/08.png" alt="Screen 8" class="carousel-slide slide-8" loading="lazy">
+                        <img src="assets/screenshots/01.png" alt="Screen 1" class="carousel-slide active" loading="eager">
+                        <img src="assets/screenshots/02.png" alt="Screen 2" class="carousel-slide" loading="lazy">
+                        <img src="assets/screenshots/03.png" alt="Screen 3" class="carousel-slide" loading="lazy">
+                        <img src="assets/screenshots/04.png" alt="Screen 4" class="carousel-slide" loading="lazy">
+                        <img src="assets/screenshots/05.png" alt="Screen 5" class="carousel-slide" loading="lazy">
+                        <img src="assets/screenshots/06.png" alt="Screen 6" class="carousel-slide" loading="lazy">
+                        <img src="assets/screenshots/07.png" alt="Screen 7" class="carousel-slide" loading="lazy">
+                        <img src="assets/screenshots/08.png" alt="Screen 8" class="carousel-slide" loading="lazy">
                     </div>
                 </div>
                 <div class="hero-mockup-glow"></div>
@@ -2158,6 +2132,28 @@
         if (!localStorage.getItem('cookie-consent')) {
             document.getElementById('cookieBanner').classList.add('active');
         }
+
+        // Hero carousel — cycles through all screenshots
+        (function() {
+            const slides = document.querySelectorAll('.hero-carousel .carousel-slide');
+            if (slides.length < 2) return;
+
+            let currentIndex = 0;
+            let paused = false;
+
+            const wrapper = document.querySelector('.hero-screenshot');
+            if (wrapper) {
+                wrapper.addEventListener('mouseenter', () => paused = true);
+                wrapper.addEventListener('mouseleave', () => paused = false);
+            }
+
+            setInterval(() => {
+                if (paused) return;
+                slides[currentIndex].classList.remove('active');
+                currentIndex = (currentIndex + 1) % slides.length;
+                slides[currentIndex].classList.add('active');
+            }, 3500); // 3.5s per slide (1s fade + 2.5s visible)
+        })();
     </script>
 </body>
 </html>

@@ -3,30 +3,432 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog — Chartscope</title>
-    <meta name="description" content="Articles and updates from Chartscope.">
-    <link rel="canonical" href="https://chartscope.net/blog/">
+    <title>Blog - ChartScope | Crypto Market Education &amp; Analysis</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-40.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/logo-180.png">
+    <meta name="description" content="Learn about cryptocurrency markets, technical analysis, and trading strategies. Educational articles for beginners and intermediate crypto learners.">
+    <link rel="canonical" href="https://chartscope.net/blog.html">
+    <link rel="alternate" hreflang="en" href="https://chartscope.net/blog.html">
+    <link rel="alternate" hreflang="x-default" href="https://chartscope.net/blog.html">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Blog - ChartScope | Crypto Market Education">
+    <meta property="og:image" content="https://chartscope.net/assets/screenshots/05.png">
+    <meta property="og:image:width" content="540">
+    <meta property="og:image:height" content="1170">
+    <meta name="twitter:image" content="https://chartscope.net/assets/screenshots/05.png">
+    <meta property="og:description" content="Educational articles about cryptocurrency markets, technical analysis, and trading strategies.">
+    <meta property="og:url" content="https://chartscope.net/blog.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ChartScope">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "url": "https://chartscope.net/blog.html",
+      "name": "ChartScope Blog — Crypto Market Education",
+      "description": "Educational articles about cryptocurrency markets, technical analysis, and trading strategies for beginners.",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "ChartScope",
+        "url": "https://chartscope.net",
+        "logo": "https://chartscope.net/assets/logo.png"
+      }
+    }
+    </script>
     <style>
-      body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.65; color: #1f2937; }
-      h1 { font-size: 2rem; letter-spacing: -0.02em; }
-      ul { list-style: none; padding: 0; }
-      li { padding: 1rem 0; border-bottom: 1px solid #e5e7eb; }
-      a { color: #4f46e5; text-decoration: none; }
-      a:hover { text-decoration: underline; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #000000;
+            --bg-secondary: #0a0a0a;
+            --bg-card: rgba(255, 255, 255, 0.05);
+            --text-primary: #ffffff;
+            --text-secondary: rgba(255, 255, 255, 0.7);
+            --text-tertiary: rgba(255, 255, 255, 0.5);
+            --accent-blue: #0A84FF;
+            --accent-purple: #BF5AF2;
+            --accent-cyan: #64D2FF;
+            --accent-green: #30D158;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 20px 40px;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        .content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 140px 20px 80px;
+        }
+
+        .page-header {
+            margin-bottom: 64px;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .page-header p {
+            color: var(--text-secondary);
+            font-size: 1.25rem;
+        }
+
+        .blog-grid {
+            display: grid;
+            gap: 32px;
+        }
+
+        .blog-card {
+            background: var(--bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px;
+            transition: transform 0.3s, border-color 0.3s;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .blog-card-meta {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 16px;
+            font-size: 0.85rem;
+        }
+
+        .blog-card-tag {
+            background: rgba(10, 132, 255, 0.15);
+            color: var(--accent-blue);
+            padding: 4px 12px;
+            border-radius: 100px;
+            font-weight: 500;
+        }
+
+        .blog-card-date {
+            color: var(--text-tertiary);
+            display: flex;
+            align-items: center;
+        }
+
+        .blog-card h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+
+        .blog-card p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        .blog-card .read-more {
+            color: var(--accent-blue);
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+
+        footer {
+            padding: 40px 20px;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        footer p {
+            color: var(--text-tertiary);
+            font-size: 0.875rem;
+        }
+
+        footer a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            margin: 0 12px;
+        }
+
+        footer a:hover {
+            color: var(--text-primary);
+        }
+
+        .cookie-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 9999;
+            background: rgba(10, 10, 10, 0.97);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 24px;
+            display: none;
+        }
+        .cookie-banner.active { display: block; }
+        .cookie-banner-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        .cookie-banner-text {
+            flex: 1;
+            min-width: 280px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        .cookie-banner-text a { color: var(--accent-blue); text-decoration: none; }
+        .cookie-banner-buttons { display: flex; gap: 12px; flex-shrink: 0; }
+        .cookie-btn {
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            cursor: pointer;
+            border: none;
+            transition: all 0.3s;
+            font-family: inherit;
+        }
+        .cookie-btn-accept { background: var(--accent-blue); color: white; }
+        .cookie-btn-accept:hover { background: #0970e0; }
+        .cookie-btn-reject {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text-secondary);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+        .cookie-btn-reject:hover { background: rgba(255, 255, 255, 0.15); color: var(--text-primary); }
+
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--accent-blue);
+            color: #fff;
+            padding: 8px 16px;
+            z-index: 10000;
+            font-size: 0.875rem;
+            text-decoration: none;
+            border-radius: 0 0 8px 0;
+            transition: top 0.3s;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                padding: 16px 20px;
+            }
+            .nav-links {
+                display: none;
+            }
+            .page-header h1 {
+                font-size: 2rem;
+            }
+            .content {
+                padding: 100px 20px 60px;
+            }
+            .blog-card {
+                padding: 24px;
+            }
+        }
     </style>
+    <!-- Privacy-friendly analytics by Plausible -->
+    <script async src="https://signallensai.com:8443/js/pa-cb929Nbtap3ZaIIoWmWF_.js"></script>
+    <script>
+      window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+      plausible.init()
+    </script>
 </head>
 <body>
-    <main>
-        <h1>Blog</h1>
-        <ul>
-            <li><a href="blog/rsi-macd-crypto-chart-indicators-explained-simply.html"><strong>RSI &amp;amp; MACD: Crypto Chart Indicators Explained Simply</strong><br><span style="color:#64748b">2026-04-18</span></a></li>
-            <li><a href="blog/ai-crypto-trading-education.html"><strong>How AI Is Changing Crypto Market Education</strong></a></li>
-            <li><a href="blog/crypto-security-best-practices.html"><strong>Crypto Security Best Practices: Protecting Your Portfolio in 2025</strong></a></li>
-            <li><a href="blog/how-to-read-crypto-candlestick-charts.html"><strong>How to Read Crypto Candlestick Charts: A Step-by-Step Guide</strong></a></li>
-            <li><a href="blog/how-to-track-crypto-portfolio-securely.html"><strong>How to Track Your Crypto Portfolio Securely in 2025</strong></a></li>
-            <li><a href="blog/how-to-use-rsi-crypto-trading.html"><strong>How to Use RSI for Crypto Trading: Complete Beginner&#x27;s Guide</strong></a></li>
-            <li><a href="blog/technical-analysis-beginners.html"><strong>Technical Analysis for Crypto Beginners: A Complete Guide</strong></a></li>
-        </ul>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <img src="/assets/logo-80.png" alt="ChartScope" width="40" height="40" style="border-radius: 10px;">
+                </div>
+                ChartScope
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content" class="content">
+        <div class="page-header">
+            <h1>Blog</h1>
+            <p>Educational articles about crypto markets, technical analysis, and AI-powered learning.</p>
+        </div>
+
+        <div class="blog-grid">
+            <a href="blog/how-to-read-crypto-candlestick-charts.html" class="blog-card">
+                <div class="blog-card-meta">
+                    <span class="blog-card-tag">Technical Analysis</span>
+                    <span class="blog-card-date">March 2025</span>
+                </div>
+                <h2>How to Read Crypto Candlestick Charts: A Step-by-Step Guide</h2>
+                <p>Master the art of reading candlestick charts with this beginner-friendly guide. Learn OHLC data, bullish and bearish patterns, support and resistance levels, and how to combine candlesticks with indicators.</p>
+                <span class="read-more">Read article &rarr;</span>
+            </a>
+
+            <a href="blog/how-to-use-rsi-crypto-trading.html" class="blog-card">
+                <div class="blog-card-meta">
+                    <span class="blog-card-tag">Technical Analysis</span>
+                    <span class="blog-card-date">March 2025</span>
+                </div>
+                <h2>How to Use RSI for Crypto Trading: Complete Beginner's Guide</h2>
+                <p>Learn how to use the Relative Strength Index (RSI) to identify overbought and oversold conditions, spot divergences, and make better-informed crypto trading decisions across multiple timeframes.</p>
+                <span class="read-more">Read article &rarr;</span>
+            </a>
+
+            <a href="blog/how-to-track-crypto-portfolio-securely.html" class="blog-card">
+                <div class="blog-card-meta">
+                    <span class="blog-card-tag">Portfolio Management</span>
+                    <span class="blog-card-date">March 2025</span>
+                </div>
+                <h2>How to Track Your Crypto Portfolio Securely in 2025</h2>
+                <p>Set up secure crypto portfolio tracking with read-only API keys, on-device processing, and multi-exchange support. A step-by-step guide to monitoring your holdings without compromising security.</p>
+                <span class="read-more">Read article &rarr;</span>
+            </a>
+
+            <a href="blog/technical-analysis-beginners.html" class="blog-card">
+                <div class="blog-card-meta">
+                    <span class="blog-card-tag">Technical Analysis</span>
+                    <span class="blog-card-date">February 2025</span>
+                </div>
+                <h2>Technical Analysis for Crypto Beginners: A Complete Guide</h2>
+                <p>New to crypto charts? Learn the fundamentals of technical analysis, from reading candlestick charts to understanding key indicators like RSI, MACD, and Bollinger Bands. A step-by-step introduction for absolute beginners.</p>
+                <span class="read-more">Read article &rarr;</span>
+            </a>
+
+            <a href="blog/ai-crypto-trading-education.html" class="blog-card">
+                <div class="blog-card-meta">
+                    <span class="blog-card-tag">AI &amp; Crypto</span>
+                    <span class="blog-card-date">February 2025</span>
+                </div>
+                <h2>How AI Is Changing Crypto Market Education</h2>
+                <p>Discover how artificial intelligence and machine learning are transforming the way people learn about cryptocurrency markets. From pattern recognition to on-device analysis, explore the future of crypto education.</p>
+                <span class="read-more">Read article &rarr;</span>
+            </a>
+
+            <a href="blog/crypto-security-best-practices.html" class="blog-card">
+                <div class="blog-card-meta">
+                    <span class="blog-card-tag">Security</span>
+                    <span class="blog-card-date">January 2025</span>
+                </div>
+                <h2>Crypto Security Best Practices: Protecting Your Portfolio in 2025</h2>
+                <p>Learn essential security practices for cryptocurrency holders. From API key management and read-only permissions to hardware wallets and on-device processing, keep your crypto assets safe.</p>
+                <span class="read-more">Read article &rarr;</span>
+            </a>
+        </div>
     </main>
+
+    <footer>
+        <p>&copy; 2025 ChartScope. All rights reserved.</p>
+        <p>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+            <a href="support.html">Support</a>
+        </p>
+    </footer>
+    <div class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Cookie consent">
+        <div class="cookie-banner-inner">
+            <div class="cookie-banner-text">
+                We use only essential cookies required for this website to function. No tracking, analytics, or advertising cookies are used.
+                <a href="privacy.html">Read our Privacy Policy</a>.
+            </div>
+            <div class="cookie-banner-buttons">
+                <button class="cookie-btn cookie-btn-reject" onclick="handleCookies('reject')">Reject All</button>
+                <button class="cookie-btn cookie-btn-accept" onclick="handleCookies('accept')">Accept</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function handleCookies(c){localStorage.setItem('cookie-consent',c);document.getElementById('cookieBanner').classList.remove('active');}
+        if(!localStorage.getItem('cookie-consent')){document.getElementById('cookieBanner').classList.add('active');}
+    </script>
 </body>
 </html>

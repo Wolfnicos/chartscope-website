@@ -27,16 +27,9 @@ The good news? You don't need to become a quant analyst. You just need the right
 
 ## Pourquoi la Formation en Analyse Graphique Crypto est Cruciale pour les Débutants en Belgique
 
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/91b7f3de-c57f-4883-bf26-1a054201cf95.jpg" alt="Pourquoi la Formation en Analyse Graphique Crypto est Cruciale pour les Débutant" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-
-
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/1d75b263-eef2-4417-9a91-bc7fdd75b2f8.jpg" alt="Pourquoi la Formation en Analyse Graphique Crypto est Cruciale pour les Débutant" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
-
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/b0b96312-ec07-42d4-a42a-63784b13ed80.jpg" alt="Pourquoi la Formation en Analyse Graphique Crypto est Cruciale pour les Débutant" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
 
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/9945222f-1740-418c-a0e1-700dcd186bfe.jpg" alt="Pourquoi la Formation en Analyse Graphique Crypto est Cruciale pour les Débutant" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
@@ -60,16 +53,9 @@ Belgium's crypto regulation is evolving. The FSMA now requires all platforms off
 
 ## Les Bases de l'Analyse des Graphiques Crypto Expliquées Simplement
 
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/4c608332-15d9-4a10-a5d5-c1d731243352.jpg" alt="Les Bases de lAnalyse des Graphiques Crypto Expliquées Simplement" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-
-
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/ee208085-a599-466c-bd3a-7c3d18096594.jpg" alt="Les Bases de lAnalyse des Graphiques Crypto Expliquées Simplement" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
-
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/bdbfe602-7231-42af-9b5b-19dcc1a4d720.jpg" alt="Les Bases de lAnalyse des Graphiques Crypto Expliquées Simplement" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
 
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/6283ea00-ed07-40ee-8bcc-afca7df027bb.jpg" alt="Les Bases de lAnalyse des Graphiques Crypto Expliquées Simplement" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
@@ -114,16 +100,9 @@ Look for areas where price reversed multiple times in the past.
 
 ## Comment Chartscope Simplifie l'Analyse des Graphiques Crypto pour les Débutants
 
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/243075f8-d387-4b0c-a3a8-fdcdc2adf9bf.jpg" alt="Comment Chartscope Simplifie lAnalyse des Graphiques Crypto pour les Débutants" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-
-
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/a9c0a102-239d-4763-b6f2-29efc33b7861.jpg" alt="Comment Chartscope Simplifie lAnalyse des Graphiques Crypto pour les Débutants" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
-
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/4f23f5dc-26e3-45f2-b42f-51a63a0ce033.jpg" alt="Comment Chartscope Simplifie lAnalyse des Graphiques Crypto pour les Débutants" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
 
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/0a429e71-5fec-4ff5-afc0-4dd410d67feb.jpg" alt="Comment Chartscope Simplifie lAnalyse des Graphiques Crypto pour les Débutants" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
@@ -159,16 +138,9 @@ Sophie, a 28-year-old teacher from Liège, started using Chartscope in January 2
 
 ## Comprendre les Indicateurs Clés avec l'IA de Chartscope
 
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/fa1723be-b215-4fe3-9e87-f33a16d3e927.jpg" alt="Comprendre les Indicateurs Clés avec lIA de Chartscope" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-
-
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/49155a23-0db2-4d22-afc5-8ad5c91e03f8.jpg" alt="Comprendre les Indicateurs Clés avec lIA de Chartscope" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
-
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/680ea69b-994c-4dba-815a-ba3ca88595b6.jpg" alt="Comprendre les Indicateurs Clés avec lIA de Chartscope" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
 
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/b0fb6a36-0cbe-47bd-806e-f6c0a4a1904f.jpg" alt="Comprendre les Indicateurs Clés avec lIA de Chartscope" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 

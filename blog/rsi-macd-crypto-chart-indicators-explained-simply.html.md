@@ -9,6 +9,10 @@
 
 ## **What Are RSI and MACD Indicators?**
 
+
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/b297acad-97c3-419b-a772-2410eae42e33.jpg" alt="**What Are RSI and MACD Indicators?**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
+
+
 Most crypto chart analysis tutorials start with a confusing chart and a promise that “you’ll get it eventually.” That’s why most beginners give up within a week. Here’s the contrarian truth: **RSI and MACD are not complex — they’re just poorly explained.**
 
 **RSI (Relative Strength Index)** measures the speed and change of price movements on a scale of 0 to 100. When RSI crosses above 70, the asset is considered overbought; below 30, oversold. But here’s the nuance — an overbought reading doesn’t mean “sell now.” In strong uptrends, RSI can stay above 70 for weeks. Without context, you’ll exit early and miss gains.
@@ -27,6 +31,10 @@ According to a 2025 survey by CoinMarketCap, **67% of new crypto traders lose mo
 ---
 
 ## **How Chartscope Simplifies RSI and MACD for Beginners**
+
+
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/a5e38651-0dc9-47e7-a3dd-caaab65e0cc2.jpg" alt="**How Chartscope Simplifies RSI and MACD for Beginners**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
+
 
 ### ### Visual Recognition That Speaks Plain Language
 
@@ -58,6 +66,10 @@ This feature alone reduces the “analysis paralysis” that 58% of beginners re
 
 ## **Beyond the Basics: Advanced Insights with Chartscope's AI**
 
+
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/40fb8ef5-835c-498f-b9a7-a5d79dc373e5.jpg" alt="**Beyond the Basics: Advanced Insights with Chartscopes AI**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
+
+
 ### ### On-Device ML Trend Classification
 
 Most crypto education apps send your chart data to the cloud for analysis. Chartscope does something different: it runs **on-device machine learning** for trend classification. This means your chart patterns are analyzed locally on your phone — no data leaves your device unless you explicitly opt in for cloud AI features.
@@ -87,6 +99,10 @@ This narrative approach helps you connect the dots between indicators, price act
 ---
 
 ## **Why Privacy Matters When Learning Crypto Charts**
+
+
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/17d0e901-9c87-49da-b9cd-a50e257382bc.jpg" alt="**Why Privacy Matters When Learning Crypto Charts**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
+
 
 ### ### The Hidden Cost of “Free” Education
 

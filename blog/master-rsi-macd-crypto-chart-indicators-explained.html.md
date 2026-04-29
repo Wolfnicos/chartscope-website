@@ -9,12 +9,6 @@
 
 ## What Are RSI and MACD Indicators?
 
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/67c38087-45cf-4a23-bd94-b8b9eedccae8.jpg" alt="What Are RSI and MACD Indicators?" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/96a5d5e6-1497-4c94-b4de-b2e42074ae1f.jpg" alt="What Are RSI and MACD Indicators?" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/e979780a-c171-4264-8670-e8c9aa3bb041.jpg" alt="What Are RSI and MACD Indicators?" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
 If you’ve ever opened a crypto chart and felt overwhelmed by squiggly lines and colored bars, you’re not alone. **RSI (Relative Strength Index)** and **MACD (Moving Average Convergence Divergence)** are two of the most commonly used technical indicators — yet most beginners have no clear, **crypto indicator explanation** that actually makes sense.
 
 Let’s fix that.
@@ -66,12 +60,6 @@ Here’s a simple checklist to get started:
 
 ## Visual Recognition and Enriched Insights for Indicator Analysis
 
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/28efdd92-2961-4bae-b754-ee0ea7bcaced.jpg" alt="Visual Recognition and Enriched Insights for Indicator Analysis" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/af67c297-1d64-47bd-b2ef-78d38f26c3c1.jpg" alt="Visual Recognition and Enriched Insights for Indicator Analysis" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/d85972d4-dd31-42c0-b1e6-503334cbc51e.jpg" alt="Visual Recognition and Enriched Insights for Indicator Analysis" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
 One of the biggest frustrations for beginners is **not knowing what they’re looking at**. Chartscope’s **Visual Recognition** feature solves this by overlaying clear labels and explanations directly on your chart.
 
 ### How It Works
@@ -108,12 +96,6 @@ This is not a trading signal — it’s an **educational observation**. The app 
 
 ## Beyond Signals: Learning to Interpret Indicator Conflicts
 
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/71272c55-957f-45fd-9cad-94e82e125754.jpg" alt="Beyond Signals: Learning to Interpret Indicator Conflicts" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/698409d5-990c-4243-87f9-2e2bcb39b959.jpg" alt="Beyond Signals: Learning to Interpret Indicator Conflicts" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/0c5c6f01-2850-4e70-8c09-94a99f9c8f6b.jpg" alt="Beyond Signals: Learning to Interpret Indicator Conflicts" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
 Here’s a truth most “crypto guru” courses won’t tell you: **indicators conflict all the time.** And that’s a *good* thing — because learning to interpret those conflicts is how you build real chart-reading skill.
 
 ### Why Conflicts Happen
@@ -142,12 +124,6 @@ According to a 2026 survey by CryptoCompare, **73% of retail crypto traders who 
 ---
 
 ## Why Chartscope is Your Go-To for Crypto Indicator Education
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/781806af-a0db-49df-81d2-d8945fab9222.jpg" alt="Why Chartscope is Your Go-To for Crypto Indicator Education" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/52a92e80-d980-4ada-9e15-697d1ced753d.jpg" alt="Why Chartscope is Your Go-To for Crypto Indicator Education" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/b38a48e1-333e-4578-9578-30880ea3d49a.jpg" alt="Why Chartscope is Your Go-To for Crypto Indicator Education" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 There are dozens of crypto education apps out there. Here’s what makes Chartscope different — and why it’s the right choice for beginners who want to *understand*, not just copy signals.
 

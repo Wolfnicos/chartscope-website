@@ -9,12 +9,6 @@
 
 ## **What Are RSI and MACD Indicators?**
 
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/efd3288f-5823-41b9-9bc1-224262c1e0b5.jpg" alt="**What Are RSI and MACD Indicators?**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/faeb4e5d-5c56-4f26-bdf3-bc63362be446.jpg" alt="**What Are RSI and MACD Indicators?**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/1dde80ed-5ad5-43b2-a111-6219797bf197.jpg" alt="**What Are RSI and MACD Indicators?**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
 Most crypto chart analysis tutorials start with a confusing chart and a promise that “you’ll get it eventually.” That’s why most beginners give up within a week. Here’s the contrarian truth: **RSI and MACD are not complex — they’re just poorly explained.**
 
 **RSI (Relative Strength Index)** measures the speed and change of price movements on a scale of 0 to 100. When RSI crosses above 70, the asset is considered overbought; below 30, oversold. But here’s the nuance — an overbought reading doesn’t mean “sell now.” In strong uptrends, RSI can stay above 70 for weeks. Without context, you’ll exit early and miss gains.
@@ -33,12 +27,6 @@ According to a 2025 survey by CoinMarketCap, **67% of new crypto traders lose mo
 ---
 
 ## **How Chartscope Simplifies RSI and MACD for Beginners**
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/1fcd6d16-f7db-44dc-b98d-ce6c6aa3516f.jpg" alt="**How Chartscope Simplifies RSI and MACD for Beginners**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/6fa634d9-7185-40f0-8319-ccf5b9083b8c.jpg" alt="**How Chartscope Simplifies RSI and MACD for Beginners**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/f6113ab1-4593-4fb2-a96c-a12d15632075.jpg" alt="**How Chartscope Simplifies RSI and MACD for Beginners**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 ### ### Visual Recognition That Speaks Plain Language
 
@@ -70,12 +58,6 @@ This feature alone reduces the “analysis paralysis” that 58% of beginners re
 
 ## **Beyond the Basics: Advanced Insights with Chartscope's AI**
 
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/4d766224-83d3-4f65-b443-049a80419f96.jpg" alt="**Beyond the Basics: Advanced Insights with Chartscopes AI**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/2ea418f4-55fa-4bc9-bbe0-a9e0e48dcab2.jpg" alt="**Beyond the Basics: Advanced Insights with Chartscopes AI**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/20c950ea-4cc0-4b89-89d5-61b18527787d.jpg" alt="**Beyond the Basics: Advanced Insights with Chartscopes AI**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
 ### ### On-Device ML Trend Classification
 
 Most crypto education apps send your chart data to the cloud for analysis. Chartscope does something different: it runs **on-device machine learning** for trend classification. This means your chart patterns are analyzed locally on your phone — no data leaves your device unless you explicitly opt in for cloud AI features.
@@ -105,12 +87,6 @@ This narrative approach helps you connect the dots between indicators, price act
 ---
 
 ## **Why Privacy Matters When Learning Crypto Charts**
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/6c133ed9-6b01-44e6-8a47-f86fa424bb56.jpg" alt="**Why Privacy Matters When Learning Crypto Charts**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/489fc4da-19f6-44b0-b507-52f057eb1107.jpg" alt="**Why Privacy Matters When Learning Crypto Charts**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/5f3227f4-e0df-4ad8-9177-0618e87b7669.jpg" alt="**Why Privacy Matters When Learning Crypto Charts**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 ### ### The Hidden Cost of “Free” Education
 

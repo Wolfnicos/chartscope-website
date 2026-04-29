@@ -15,7 +15,7 @@
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/58c08891-5f31-4bdb-b2ac-c134e0485691.jpg" alt="Navigating Crypto Chart Analysis for Swiss Investors" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 
-![Navigating Crypto Chart Analysis for Swiss Investors](https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/1014b37e-2400-41a5-ba33-036c1e9b6b74.jpg)
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/1014b37e-2400-41a5-ba33-036c1e9b6b74.jpg" alt="Navigating Crypto Chart Analysis for Swiss Investors" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 ### Why Swiss Investors Need Chart Literacy for Tax Compliance
 
@@ -53,7 +53,7 @@ The key insight? **You need chart data to determine your cost basis, holding per
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/44efa2fc-9875-465a-9535-194ea8fd6cf1.jpg" alt="The Intersection of Crypto Charts and Swiss Tax Regulations" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 
-![The Intersection of Crypto Charts and Swiss Tax Regulations](https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/4c8bdda6-450f-4ac2-b4a4-faaa00b9742c.jpg)
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/4c8bdda6-450f-4ac2-b4a4-faaa00b9742c.jpg" alt="The Intersection of Crypto Charts and Swiss Tax Regulations" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 ### How Chart Patterns Relate to Taxable Events
 
@@ -82,7 +82,7 @@ Most Swiss investors don't realize that **chart patterns directly impact tax lia
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/ee722d65-1d70-43ac-b55b-f68ae602496d.jpg" alt="How Chartscope Simplifies Crypto Chart Understanding for Swiss Users" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 
-![How Chartscope Simplifies Crypto Chart Understanding for Swiss Users](https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/e9c472c3-1c70-4a5e-8a78-84e94d8f93c9.jpg)
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/e9c472c3-1c70-4a5e-8a78-84e94d8f93c9.jpg" alt="How Chartscope Simplifies Crypto Chart Understanding for Swiss Users" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 ### AI-Powered Visual Recognition for Tax-Relevant Patterns
 
@@ -112,7 +112,7 @@ This is critical because **conflicting indicators often precede volatile moves**
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/24f09015-0360-452f-ac8d-450700f4cfac.jpg" alt="AI-Powered Insights for Informed Decisions, Not Trading Signals" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 
-![AI-Powered Insights for Informed Decisions, Not Trading Signals](https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/0020037d-fda6-4aaa-abea-cfb1024677d7.jpg)
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/0020037d-fda6-4aaa-abea-cfb1024677d7.jpg" alt="AI-Powered Insights for Informed Decisions, Not Trading Signals" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 ### What Chartscope Does — and Doesn't — Do
 

@@ -9,6 +9,10 @@
 
 ## What Makes Chartscope Unique Among Crypto Education Apps?
 
+
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/52a55a0c-c213-427e-9b68-fd65ff2c8ca4.jpg" alt="What Makes Chartscope Unique Among Crypto Education Apps?" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
+
+
 The crypto education space is crowded with apps that promise quick profits. Most fail beginners because they conflate *education* with *execution*. They show you a chart, then tell you to buy or sell. Chartscope takes a fundamentally different approach: it teaches you to read the chart yourself.
 
 ### A Learning-First, Not Signal-First, Philosophy
@@ -34,6 +38,10 @@ This distinction matters. According to a 2025 study by the Crypto Literacy Proje
 
 ## Chartscope's AI-Powered Approach to Chart Understanding
 
+
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/13d7a46c-97bd-4ef5-9ee8-654db6145f88.jpg" alt="Chartscopes AI-Powered Approach to Chart Understanding" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
+
+
 The heart of Chartscope is its AI — but it's a specific kind of AI. Not a chatbot that guesses, but an **on-device machine learning model** trained to recognize chart patterns and indicators.
 
 ### How the AI Works (Step-by-Step)
@@ -56,6 +64,10 @@ In 2026, the average crypto beginner spends 14 hours watching YouTube tutorials 
 
 ## Privacy and Security: A Core Chartscope Advantage
 
+
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/55460d46-0f90-40f1-9392-3ac6394bec52.jpg" alt="Privacy and Security: A Core Chartscope Advantage" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
+
+
 In an industry plagued by exchange hacks and data breaches, privacy isn't a nice-to-have — it's a fundamental requirement. Chartscope was built with a **privacy-first architecture** from day one.
 
 ### The Architecture: On-Device + Consent-Gated Cloud
@@ -76,6 +88,10 @@ A 2025 survey by the Blockchain Privacy Institute found that 73% of crypto users
 ---
 
 ## Beyond Basic Indicators: Advanced Insights with Chartscope
+
+
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/170cbe35-04c5-4a7f-b3b5-0ff187e0f912.jpg" alt="Beyond Basic Indicators: Advanced Insights with Chartscope" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
+
 
 Most beginner apps stop at RSI and MACD. Chartscope goes deeper, but still in plain language.
 

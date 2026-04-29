@@ -9,12 +9,6 @@
 
 ## Navigating Crypto Education in Switzerland's Regulatory Landscape
 
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/bcdb5594-0009-4d9c-96a2-ef78d4c3b03d.jpg" alt="Navigating Crypto Education in Switzerlands Regulatory Landscape" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/1a99c78c-d66f-4b15-857e-00b9f31bc821.jpg" alt="Navigating Crypto Education in Switzerlands Regulatory Landscape" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/218b5fd7-bd65-40ba-af55-96f745bce70c.jpg" alt="Navigating Crypto Education in Switzerlands Regulatory Landscape" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
 **Are you a Swiss beginner staring at a Bitcoin chart, feeling overwhelmed and worried that you might accidentally break a financial law?**
 
 You are not alone. Many people in Switzerland want to understand cryptocurrency but are rightly cautious. The country’s regulatory framework, overseen by the Swiss Financial Market Supervisory Authority (FINMA), is clear: providing unsolicited trading signals or financial advice without a license is a serious offense. This creates a real problem for beginners. How do you learn the ropes without stepping into a legal grey area?
@@ -32,12 +26,6 @@ This focus on **beginner crypto learning** within a regulated framework is why S
 ---
 
 ## Why Chartscope is the Ideal Crypto Education App for Beginners
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/9753c625-3dab-4b0e-933f-c32d622ca44d.jpg" alt="Why Chartscope is the Ideal Crypto Education App for Beginners" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/4d106f57-652b-48c8-9a00-d139a3475891.jpg" alt="Why Chartscope is the Ideal Crypto Education App for Beginners" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/917f862e-a703-4bb3-a8b8-a43fbb88b20d.jpg" alt="Why Chartscope is the Ideal Crypto Education App for Beginners" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 **The frustration: You open a chart, see a jumble of red and green lines, and immediately close the app.**
 
@@ -60,12 +48,6 @@ Over 70% of Chartscope users report feeling "significantly more confident" readi
 ---
 
 ## Understanding Crypto Charts with AI: Chartscope's Unique Approach
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/28a12db9-459d-4dab-8fe2-799a777f642d.jpg" alt="Understanding Crypto Charts with AI: Chartscopes Unique Approach" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/8c071106-9301-4b8b-9995-0117877330fc.jpg" alt="Understanding Crypto Charts with AI: Chartscopes Unique Approach" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/c6687089-0c3f-4452-8c68-75dbd3dead22.jpg" alt="Understanding Crypto Charts with AI: Chartscopes Unique Approach" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 **The problem: Traditional charting books are boring, and YouTube videos are too long.**
 
@@ -97,12 +79,6 @@ The AI chat can provide a full breakdown of any indicator. For a deeper dive int
 ---
 
 ## Privacy and Security: Chartscope's Commitment to Swiss Users
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/079cd538-633a-4ccd-bc53-777f6e7b8afb.jpg" alt="Privacy and Security: Chartscopes Commitment to Swiss Users" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/c394696d-289e-4f6c-a1e2-18d94a061a81.jpg" alt="Privacy and Security: Chartscopes Commitment to Swiss Users" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/40ba57a6-016a-48d9-ba7b-4d7c9da6b758.jpg" alt="Privacy and Security: Chartscopes Commitment to Swiss Users" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 **The fear: "I don't want a third-party app scanning my portfolio and selling my data."**
 

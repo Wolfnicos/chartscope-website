@@ -11,6 +11,10 @@
 
 ## Navigating Crypto Chart Analysis for Swiss Investors
 
+
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/a2dbe950-cc1a-4e8e-a8b7-23108339d5a8.jpg" alt="Navigating Crypto Chart Analysis for Swiss Investors" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
+
+
 ### Why Swiss Investors Need Chart Literacy for Tax Compliance
 
 Switzerland's **Swiss crypto tax law** is clear: cryptocurrencies are classified as assets under the Swiss Federal Act on Direct Federal Tax (Art. 16). This means:
@@ -43,6 +47,10 @@ The key insight? **You need chart data to determine your cost basis, holding per
 
 ## The Intersection of Crypto Charts and Swiss Tax Regulations
 
+
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/64d55abe-7676-4b53-8ee7-5785a2a9ae77.jpg" alt="The Intersection of Crypto Charts and Swiss Tax Regulations" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
+
+
 ### How Chart Patterns Relate to Taxable Events
 
 Most Swiss investors don't realize that **chart patterns directly impact tax liability**. Here's how:
@@ -65,6 +73,10 @@ Most Swiss investors don't realize that **chart patterns directly impact tax lia
 **Myth 4: "I need a professional to understand my charts."** Not anymore. [Chartscope](https://chartscope.net/) was built specifically for beginners who want to learn without the jargon.
 
 ## How Chartscope Simplifies Crypto Chart Understanding for Swiss Users
+
+
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/1f50bb4e-b4ce-43ca-9840-7b385957ea77.jpg" alt="How Chartscope Simplifies Crypto Chart Understanding for Swiss Users" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
+
 
 ### AI-Powered Visual Recognition for Tax-Relevant Patterns
 
@@ -89,6 +101,10 @@ For example, if your RSI shows "overbought" (above 70) while MACD shows "bullish
 This is critical because **conflicting indicators often precede volatile moves** that create taxable events. Understanding the conflict helps you prepare for potential tax implications.
 
 ## AI-Powered Insights for Informed Decisions, Not Trading Signals
+
+
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/737ab7bf-4f51-4021-b18e-135913b28205.jpg" alt="AI-Powered Insights for Informed Decisions, Not Trading Signals" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
+
 
 ### What Chartscope Does — and Doesn't — Do
 

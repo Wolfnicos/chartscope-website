@@ -9,6 +9,9 @@
 
 ## **What Are RSI and MACD Indicators?**
 
+
+![**What Are RSI and MACD Indicators?**](https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/1dde80ed-5ad5-43b2-a111-6219797bf197.jpg)
+
 Most crypto chart analysis tutorials start with a confusing chart and a promise that “you’ll get it eventually.” That’s why most beginners give up within a week. Here’s the contrarian truth: **RSI and MACD are not complex — they’re just poorly explained.**
 
 **RSI (Relative Strength Index)** measures the speed and change of price movements on a scale of 0 to 100. When RSI crosses above 70, the asset is considered overbought; below 30, oversold. But here’s the nuance — an overbought reading doesn’t mean “sell now.” In strong uptrends, RSI can stay above 70 for weeks. Without context, you’ll exit early and miss gains.
@@ -27,6 +30,9 @@ According to a 2025 survey by CoinMarketCap, **67% of new crypto traders lose mo
 ---
 
 ## **How Chartscope Simplifies RSI and MACD for Beginners**
+
+
+![**How Chartscope Simplifies RSI and MACD for Beginners**](https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/f6113ab1-4593-4fb2-a96c-a12d15632075.jpg)
 
 ### ### Visual Recognition That Speaks Plain Language
 
@@ -58,6 +64,9 @@ This feature alone reduces the “analysis paralysis” that 58% of beginners re
 
 ## **Beyond the Basics: Advanced Insights with Chartscope's AI**
 
+
+![**Beyond the Basics: Advanced Insights with Chartscope's AI**](https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/20c950ea-4cc0-4b89-89d5-61b18527787d.jpg)
+
 ### ### On-Device ML Trend Classification
 
 Most crypto education apps send your chart data to the cloud for analysis. Chartscope does something different: it runs **on-device machine learning** for trend classification. This means your chart patterns are analyzed locally on your phone — no data leaves your device unless you explicitly opt in for cloud AI features.
@@ -87,6 +96,9 @@ This narrative approach helps you connect the dots between indicators, price act
 ---
 
 ## **Why Privacy Matters When Learning Crypto Charts**
+
+
+![**Why Privacy Matters When Learning Crypto Charts**](https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/5f3227f4-e0df-4ad8-9177-0618e87b7669.jpg)
 
 ### ### The Hidden Cost of “Free” Education
 

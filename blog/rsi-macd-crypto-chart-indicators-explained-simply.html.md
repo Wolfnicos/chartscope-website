@@ -10,8 +10,7 @@
 ## **What Are RSI and MACD Indicators?**
 
 
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/b297acad-97c3-419b-a772-2410eae42e33.jpg" alt="**What Are RSI and MACD Indicators?**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/e6eb10f6-9537-4668-94de-b5ae693a70c1.jpg" alt="**What Are RSI and MACD Indicators?**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 Most crypto chart analysis tutorials start with a confusing chart and a promise that “you’ll get it eventually.” That’s why most beginners give up within a week. Here’s the contrarian truth: **RSI and MACD are not complex — they’re just poorly explained.**
 
@@ -33,8 +32,7 @@ According to a 2025 survey by CoinMarketCap, **67% of new crypto traders lose mo
 ## **How Chartscope Simplifies RSI and MACD for Beginners**
 
 
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/a5e38651-0dc9-47e7-a3dd-caaab65e0cc2.jpg" alt="**How Chartscope Simplifies RSI and MACD for Beginners**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/7e19ad54-55d5-4614-9c80-55303e67451b.jpg" alt="**How Chartscope Simplifies RSI and MACD for Beginners**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 ### ### Visual Recognition That Speaks Plain Language
 
@@ -67,8 +65,7 @@ This feature alone reduces the “analysis paralysis” that 58% of beginners re
 ## **Beyond the Basics: Advanced Insights with Chartscope's AI**
 
 
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/40fb8ef5-835c-498f-b9a7-a5d79dc373e5.jpg" alt="**Beyond the Basics: Advanced Insights with Chartscopes AI**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/cf3d461f-2b7d-4979-bb3f-f1a6f08989d5.jpg" alt="**Beyond the Basics: Advanced Insights with Chartscopes AI**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 ### ### On-Device ML Trend Classification
 
@@ -101,8 +98,7 @@ This narrative approach helps you connect the dots between indicators, price act
 ## **Why Privacy Matters When Learning Crypto Charts**
 
 
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/17d0e901-9c87-49da-b9cd-a50e257382bc.jpg" alt="**Why Privacy Matters When Learning Crypto Charts**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/aacb3eff-622a-497c-a5a4-7e5285708f71.jpg" alt="**Why Privacy Matters When Learning Crypto Charts**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 ### ### The Hidden Cost of “Free” Education
 

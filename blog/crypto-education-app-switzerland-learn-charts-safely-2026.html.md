@@ -9,16 +9,9 @@
 
 ## Navigating Crypto Education in Switzerland's Regulatory Landscape
 
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/d423afb9-e61e-44c6-b353-efcdc124f294.jpg" alt="Navigating Crypto Education in Switzerlands Regulatory Landscape" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-
-
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/bcdb5594-0009-4d9c-96a2-ef78d4c3b03d.jpg" alt="Navigating Crypto Education in Switzerlands Regulatory Landscape" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
-
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/1a99c78c-d66f-4b15-857e-00b9f31bc821.jpg" alt="Navigating Crypto Education in Switzerlands Regulatory Landscape" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
 
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/218b5fd7-bd65-40ba-af55-96f745bce70c.jpg" alt="Navigating Crypto Education in Switzerlands Regulatory Landscape" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
@@ -40,16 +33,9 @@ This focus on **beginner crypto learning** within a regulated framework is why S
 
 ## Why Chartscope is the Ideal Crypto Education App for Beginners
 
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/e08bfcf7-4370-4103-9d3c-8777b237f106.jpg" alt="Why Chartscope is the Ideal Crypto Education App for Beginners" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-
-
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/9753c625-3dab-4b0e-933f-c32d622ca44d.jpg" alt="Why Chartscope is the Ideal Crypto Education App for Beginners" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
-
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/4d106f57-652b-48c8-9a00-d139a3475891.jpg" alt="Why Chartscope is the Ideal Crypto Education App for Beginners" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
 
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/917f862e-a703-4bb3-a8b8-a43fbb88b20d.jpg" alt="Why Chartscope is the Ideal Crypto Education App for Beginners" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
@@ -75,16 +61,9 @@ Over 70% of Chartscope users report feeling "significantly more confident" readi
 
 ## Understanding Crypto Charts with AI: Chartscope's Unique Approach
 
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/bb0c4f5b-154c-4793-93f1-f868ae7a5322.jpg" alt="Understanding Crypto Charts with AI: Chartscopes Unique Approach" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-
-
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/28a12db9-459d-4dab-8fe2-799a777f642d.jpg" alt="Understanding Crypto Charts with AI: Chartscopes Unique Approach" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
-
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/8c071106-9301-4b8b-9995-0117877330fc.jpg" alt="Understanding Crypto Charts with AI: Chartscopes Unique Approach" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
 
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/c6687089-0c3f-4452-8c68-75dbd3dead22.jpg" alt="Understanding Crypto Charts with AI: Chartscopes Unique Approach" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
@@ -119,16 +98,9 @@ The AI chat can provide a full breakdown of any indicator. For a deeper dive int
 
 ## Privacy and Security: Chartscope's Commitment to Swiss Users
 
-
-<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/f1d0227b-fb9e-4a72-a82a-aa68598f519b.jpg" alt="Privacy and Security: Chartscopes Commitment to Swiss Users" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
-
-
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/079cd538-633a-4ccd-bc53-777f6e7b8afb.jpg" alt="Privacy and Security: Chartscopes Commitment to Swiss Users" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
-
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/c394696d-289e-4f6c-a1e2-18d94a061a81.jpg" alt="Privacy and Security: Chartscopes Commitment to Swiss Users" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
-
 
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/40ba57a6-016a-48d9-ba7b-4d7c9da6b758.jpg" alt="Privacy and Security: Chartscopes Commitment to Swiss Users" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 

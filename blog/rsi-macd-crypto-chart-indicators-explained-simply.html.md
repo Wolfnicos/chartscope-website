@@ -10,6 +10,10 @@
 ## **What Are RSI and MACD Indicators?**
 
 
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/c995383d-4117-4e0b-9d8d-b6e5868cd699.jpg" alt="**What Are RSI and MACD Indicators?**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
+
+
+
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/efd3288f-5823-41b9-9bc1-224262c1e0b5.jpg" alt="**What Are RSI and MACD Indicators?**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 
@@ -36,6 +40,10 @@ According to a 2025 survey by CoinMarketCap, **67% of new crypto traders lose mo
 ---
 
 ## **How Chartscope Simplifies RSI and MACD for Beginners**
+
+
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/474064bb-53e2-4eac-8e83-c2e48e66e8f9.jpg" alt="**How Chartscope Simplifies RSI and MACD for Beginners**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
+
 
 
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/1fcd6d16-f7db-44dc-b98d-ce6c6aa3516f.jpg" alt="**How Chartscope Simplifies RSI and MACD for Beginners**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
@@ -77,6 +85,10 @@ This feature alone reduces the “analysis paralysis” that 58% of beginners re
 ## **Beyond the Basics: Advanced Insights with Chartscope's AI**
 
 
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/da8ae3e4-2dc1-4678-b8d0-ae266775a804.jpg" alt="**Beyond the Basics: Advanced Insights with Chartscopes AI**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
+
+
+
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/4d766224-83d3-4f65-b443-049a80419f96.jpg" alt="**Beyond the Basics: Advanced Insights with Chartscopes AI**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 
@@ -114,6 +126,10 @@ This narrative approach helps you connect the dots between indicators, price act
 ---
 
 ## **Why Privacy Matters When Learning Crypto Charts**
+
+
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/aa21a5be-fcdd-48ab-8272-7c550b5dcd1c.jpg" alt="**Why Privacy Matters When Learning Crypto Charts**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
+
 
 
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/6c133ed9-6b01-44e6-8a47-f86fa424bb56.jpg" alt="**Why Privacy Matters When Learning Crypto Charts**" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>

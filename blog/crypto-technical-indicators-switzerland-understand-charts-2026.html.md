@@ -13,7 +13,7 @@
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/50d73db8-4bb8-4546-8b9b-47b4095c8c15.jpg" alt="Why Understanding Crypto Technical Indicators Matters in Switzerland" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 
-![Why Understanding Crypto Technical Indicators Matters in Switzerland](https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/d56349c3-38d0-469d-aaa6-adc0a692f73b.jpg)
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/d56349c3-38d0-469d-aaa6-adc0a692f73b.jpg" alt="Why Understanding Crypto Technical Indicators Matters in Switzerland" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 **“I bought Bitcoin at $68,000 because the line went up — now I’m down 40% and I don’t know why.”**
 
@@ -47,7 +47,7 @@ The difference? **Trader B spent 30 minutes learning three indicators on Chartsc
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/7b306a90-12fb-46e1-842c-fe89d2be98a7.jpg" alt="How Chartscope Simplifies Technical Analysis for Swiss Beginners" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 
-![How Chartscope Simplifies Technical Analysis for Swiss Beginners](https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/6489e70a-d0b3-4f15-938c-8ed5b322cbe2.jpg)
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/6489e70a-d0b3-4f15-938c-8ed5b322cbe2.jpg" alt="How Chartscope Simplifies Technical Analysis for Swiss Beginners" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 [Chartscope](https://chartscope.net/) is not another “signal bot” or “AI predictor.” It’s an **AI-powered crypto education app** that explains cryptocurrency charts in plain language. Think of it as a patient tutor that sits next to you while you look at a chart — no jargon, no pressure, no hidden fees.
 
@@ -76,7 +76,7 @@ The difference? **Trader B spent 30 minutes learning three indicators on Chartsc
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/324f536e-111e-48ee-abbe-46284f29531a.jpg" alt="Key Technical Indicators Explained for the Swiss Crypto Market" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 
-![Key Technical Indicators Explained for the Swiss Crypto Market](https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/5ebf0601-4b56-47cb-b251-af767e10d773.jpg)
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/5ebf0601-4b56-47cb-b251-af767e10d773.jpg" alt="Key Technical Indicators Explained for the Swiss Crypto Market" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 Every Swiss crypto investor should know these **three indicators** before making their first trade. Chartscope explains each one with live examples from your own portfolio.
 
@@ -133,7 +133,7 @@ Every Swiss crypto investor should know these **three indicators** before making
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/5bf30fb0-8121-4553-be01-a213f0fb2309.jpg" alt="Privacy and Security: Chartscope’s Commitment to Swiss Users" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 
-![Privacy and Security: Chartscope’s Commitment to Swiss Users](https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/531eaf54-b0e7-4a10-a5cc-80d4d36c35d5.jpg)
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/531eaf54-b0e7-4a10-a5cc-80d4d36c35d5.jpg" alt="Privacy and Security: Chartscope’s Commitment to Swiss Users" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 Switzerland has the **strictest data privacy laws in Europe** — the revised Federal Act on Data Protection (nFADP) came into full effect in 2026. Any app handling Swiss user data must comply or face fines up to CHF 250,000.
 

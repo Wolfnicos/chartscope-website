@@ -10,6 +10,10 @@
 ## Why Crypto Chart Training is Essential in Luxembourg
 
 
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/665face8-7c8f-429e-8bb5-b861c5c03789.jpg" alt="Why Crypto Chart Training is Essential in Luxembourg" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
+
+
+
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/0659c840-70d6-41d1-bb5e-67a5357c841f.jpg" alt="Why Crypto Chart Training is Essential in Luxembourg" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 
@@ -42,6 +46,10 @@ Without this foundation, you’re just guessing.
 ## Chartscope: Your AI-Powered Guide to Crypto Charts
 
 
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/b4e314f6-a7ed-4c73-ad7b-823bbdfc7871.jpg" alt="Chartscope: Your AI-Powered Guide to Crypto Charts" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
+
+
+
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/b9d4563c-d1b5-4e29-8725-f30c1d40b62b.jpg" alt="Chartscope: Your AI-Powered Guide to Crypto Charts" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
 
 
@@ -70,6 +78,10 @@ This turns a passive screenshot into an active learning session.
 ---
 
 ## Key Features for Effective Chart Analysis Education
+
+
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/95ea41fd-94a6-4b0f-9bdd-2a8253cf3bc4.jpg" alt="Key Features for Effective Chart Analysis Education" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
+
 
 
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/stock/2933cd83-a194-4f6a-b56f-a599789c00c2.jpg" alt="Key Features for Effective Chart Analysis Education" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
@@ -108,6 +120,10 @@ One of the hardest skills for beginners is knowing what to do when indicators di
 ---
 
 ## Learning Crypto Charts Safely and Privately
+
+
+<figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/hive/body/7958bbd3-a99d-486d-9910-f7b1a6c45eb1.jpg" alt="Learning Crypto Charts Safely and Privately" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>
+
 
 
 <figure style="margin:1.5rem 0 2rem 0;"><img src="https://pub-2df00e47a1bc4a99abcb17ec68f147ce.r2.dev/social/blog/b5f458ad-1d01-4ad8-a41e-20011b3cd228.jpg" alt="Learning Crypto Charts Safely and Privately" style="width:100%;max-height:420px;object-fit:cover;border-radius:8px;display:block;"></figure>

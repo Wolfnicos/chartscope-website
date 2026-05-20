@@ -10,7 +10,7 @@
 - [Privacy](https://chartscope.net/privacy.html): Privacy page
 
 ## Articles
-- [RSI &amp; MACD Explained Simply for Crypto Charts 2026](https://chartscope.net/blog/rsi-macd-explained-simply-for-crypto-charts-2026.html) — [markdown](https://chartscope.net/blog/rsi-macd-explained-simply-for-crypto-charts-2026.md)
+- [Understand RSI &amp; MACD for Crypto Charts in Switzerland 2026](https://chartscope.net/blog/understand-rsi-macd-for-crypto-charts-in-switzerland-2026.html) — [markdown](https://chartscope.net/blog/understand-rsi-macd-for-crypto-charts-in-switzerland-2026.md)
 - [AI Crypto Education App Pricing Romania 2026](https://chartscope.net/blog/ai-crypto-education-app-pricing-romania-2026.html) — [markdown](https://chartscope.net/blog/ai-crypto-education-app-pricing-romania-2026.md)
 - [How AI Is Changing Crypto Market Education](https://chartscope.net/blog/ai-crypto-trading-education.html) — [markdown](https://chartscope.net/blog/ai-crypto-trading-education.md)
 - [Best Crypto Chart Analysis App Belgium 2026](https://chartscope.net/blog/best-crypto-chart-analysis-app-belgium-2026.html) — [markdown](https://chartscope.net/blog/best-crypto-chart-analysis-app-belgium-2026.md)
@@ -45,6 +45,7 @@
 - [RSI Indicator Explained for Crypto Charts 2026](https://chartscope.net/blog/rsi-indicator-explained-for-crypto-charts-2026.html) — [markdown](https://chartscope.net/blog/rsi-indicator-explained-for-crypto-charts-2026.md)
 - [RSI &amp; MACD: Crypto Chart Indicators Explained Simply](https://chartscope.net/blog/rsi-macd-crypto-chart-indicators-explained-simply.html) — [markdown](https://chartscope.net/blog/rsi-macd-crypto-chart-indicators-explained-simply.md)
 - [RSI &amp; MACD Crypto Interpretation Luxembourg 2026](https://chartscope.net/blog/rsi-macd-crypto-interpretation-luxembourg-2026.html) — [markdown](https://chartscope.net/blog/rsi-macd-crypto-interpretation-luxembourg-2026.md)
+- [RSI &amp; MACD Explained Simply for Crypto Charts 2026](https://chartscope.net/blog/rsi-macd-explained-simply-for-crypto-charts-2026.html) — [markdown](https://chartscope.net/blog/rsi-macd-explained-simply-for-crypto-charts-2026.md)
 - [Technical Analysis for Crypto Beginners](https://chartscope.net/blog/technical-analysis-beginners.html) — [markdown](https://chartscope.net/blog/technical-analysis-beginners.md)
 - [Top Crypto Technical Indicators for Analysis in Romania 2026](https://chartscope.net/blog/top-crypto-technical-indicators-for-analysis-in-romania-2026.html) — [markdown](https://chartscope.net/blog/top-crypto-technical-indicators-for-analysis-in-romania-2026.md)
 - [Understand RSI &amp; MACD Crypto Indicators in France 2026](https://chartscope.net/blog/understand-rsi-macd-crypto-indicators-in-france-2026.html) — [markdown](https://chartscope.net/blog/understand-rsi-macd-crypto-indicators-in-france-2026.md)
@@ -53,4 +54,4 @@
 
 ## Contact
 - Website: https://chartscope.net
-- Generated: 2026-05-18
+- Generated: 2026-05-20

@@ -10,7 +10,7 @@
 - [Privacy](https://chartscope.net/privacy.html): Privacy page
 
 ## Articles
-- [Crypto Technical Analysis Formation Luxembourg 2026](https://chartscope.net/blog/crypto-technical-analysis-formation-luxembourg-2026.html) — [markdown](https://chartscope.net/blog/crypto-technical-analysis-formation-luxembourg-2026.md)
+- [Understand RSI &amp; MACD for Crypto in Luxembourg 2026](https://chartscope.net/blog/understand-rsi-macd-for-crypto-in-luxembourg-2026.html) — [markdown](https://chartscope.net/blog/understand-rsi-macd-for-crypto-in-luxembourg-2026.md)
 - [AI Crypto Education App Pricing Romania 2026](https://chartscope.net/blog/ai-crypto-education-app-pricing-romania-2026.html) — [markdown](https://chartscope.net/blog/ai-crypto-education-app-pricing-romania-2026.md)
 - [How AI Is Changing Crypto Market Education](https://chartscope.net/blog/ai-crypto-trading-education.html) — [markdown](https://chartscope.net/blog/ai-crypto-trading-education.md)
 - [Beginner Crypto Chart Training Switzerland 2026](https://chartscope.net/blog/beginner-crypto-chart-training-switzerland-2026.html) — [markdown](https://chartscope.net/blog/beginner-crypto-chart-training-switzerland-2026.md)
@@ -32,6 +32,7 @@
 - [Crypto Education App Switzerland: Learn Charts Safely 2026](https://chartscope.net/blog/crypto-education-app-switzerland-learn-charts-safely-2026.html) — [markdown](https://chartscope.net/blog/crypto-education-app-switzerland-learn-charts-safely-2026.md)
 - [Choosing the Best Crypto Education Platform: An Authoritative Guide](https://chartscope.net/blog/crypto-education-platform.html) — [markdown](https://chartscope.net/blog/crypto-education-platform.md)
 - [Crypto Security Best Practices 2026](https://chartscope.net/blog/crypto-security-best-practices.html) — [markdown](https://chartscope.net/blog/crypto-security-best-practices.md)
+- [Crypto Technical Analysis Formation Luxembourg 2026](https://chartscope.net/blog/crypto-technical-analysis-formation-luxembourg-2026.html) — [markdown](https://chartscope.net/blog/crypto-technical-analysis-formation-luxembourg-2026.md)
 - [Crypto Technical Analysis Guide: Best Practices for Beginners](https://chartscope.net/blog/crypto-technical-analysis-guide.html) — [markdown](https://chartscope.net/blog/crypto-technical-analysis-guide.md)
 - [Top 5 Crypto Technical Analysis Tools Compared](https://chartscope.net/blog/crypto-technical-analysis-tools.html) — [markdown](https://chartscope.net/blog/crypto-technical-analysis-tools.md)
 - [Crypto Technical Indicators Switzerland: Understand Charts 2026](https://chartscope.net/blog/crypto-technical-indicators-switzerland-understand-charts-2026.html) — [markdown](https://chartscope.net/blog/crypto-technical-indicators-switzerland-understand-charts-2026.md)

@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MACD Crossover Explained for Crypto Charts | ChartScope</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-40.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/logo-180.png">
+    <meta name="description" content="A MACD crossover happens when the MACD line crosses the signal line. Bullish crossover = momentum shifting up. Bearish crossover = momentum shifting down. Learn what it means and what it doesn't.">
+    <link rel="canonical" href="https://chartscope.net/blog/macd-crossover-crypto-explained.html">
+    <link rel="alternate" hreflang="en" href="https://chartscope.net/blog/macd-crossover-crypto-explained.html">
+    <link rel="alternate" hreflang="x-default" href="https://chartscope.net/blog/macd-crossover-crypto-explained.html">
+    <!-- Open Graph -->
+    <meta property="og:title" content="MACD Crossover Explained for Crypto Charts">
+    <meta property="og:description" content="A MACD crossover means two lines switched positions — bullish when MACD crosses above the signal line, bearish when it crosses below. Learn what it tells you and what it doesn't.">
+    <meta property="og:image" content="https://chartscope.net/assets/screenshots/02.png">
+    <meta property="og:image:width" content="540">
+    <meta property="og:image:height" content="1170">
+    <meta property="og:url" content="https://chartscope.net/blog/macd-crossover-crypto-explained.html">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="ChartScope">
+    <meta property="article:published_time" content="2026-05-23T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-05-23T00:00:00+00:00">
+    <meta property="article:section" content="Technical Analysis">
+    <meta property="article:tag" content="MACD">
+    <meta property="article:tag" content="MACD crossover">
+    <meta property="article:tag" content="crypto indicators">
+    <meta property="article:tag" content="technical analysis">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@StudioWolf11">
+    <meta name="twitter:creator" content="@StudioWolf11">
+    <meta name="twitter:title" content="MACD Crossover Explained for Crypto Charts">
+    <meta name="twitter:description" content="MACD crossover = the MACD line crosses the signal line. Bullish or bearish depending on direction. Plain language explanation with no hype.">
+    <meta name="twitter:image" content="https://chartscope.net/assets/screenshots/02.png">
+    <!-- Schema.org Article JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "MACD Crossover Explained for Crypto Charts",
+      "description": "A MACD crossover happens when the MACD line crosses the signal line. Bullish crossover means momentum is shifting upward. Bearish crossover means momentum is shifting downward.",
+      "datePublished": "2026-05-23T00:00:00+00:00",
+      "dateModified": "2026-05-23T00:00:00+00:00",
+      "author": {
+        "@type": "Person",
+        "name": "Nicolas Wolf",
+        "url": "https://chartscope.net/about.html",
+        "sameAs": [
+          "https://www.linkedin.com/in/nicolaslupu/",
+          "https://github.com/Wolfnicos"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "ChartScope",
+        "url": "https://chartscope.net"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://chartscope.net/blog/macd-crossover-crypto-explained.html"
+      },
+      "keywords": ["MACD crossover crypto", "MACD signal line", "bullish MACD crossover", "bearish MACD crossover", "MACD indicator explained", "crypto technical analysis", "what is MACD", "MACD histogram"],
+      "articleSection": "Technical Analysis",
+      "wordCount": 2500,
+      "inLanguage": "en"
+    }
+    </script>
+    <!-- Schema.org BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://chartscope.net/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://chartscope.net/blog.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "MACD Crossover Explained",
+          "item": "https://chartscope.net/blog/macd-crossover-crypto-explained.html"
+        }
+      ]
+    }
+    </script>
+    <!-- Schema.org FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a MACD crossover in crypto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A MACD crossover happens when the MACD line crosses the signal line on a price chart. When the MACD line crosses above the signal line it is called a bullish crossover — momentum is shifting upward. When it crosses below it is called a bearish crossover — momentum is shifting downward."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a bullish MACD crossover mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A bullish MACD crossover means the MACD line has crossed above the signal line, indicating that short-term momentum is strengthening relative to medium-term momentum. It suggests buying pressure is increasing but does not guarantee a price rise."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a bearish MACD crossover mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A bearish MACD crossover means the MACD line has crossed below the signal line, indicating that short-term momentum is weakening. It suggests selling pressure may be increasing but does not automatically predict a price drop."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is MACD crossover reliable for crypto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "MACD crossovers are a useful context clue but not a reliable standalone signal in crypto. Crypto markets are more volatile than traditional markets, which means MACD generates more false crossovers — especially on short timeframes. It works best when confirmed by other indicators like RSI or volume."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the MACD histogram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The MACD histogram is the bar chart displayed between the MACD line and the signal line. It shows the distance between the two lines. When bars grow taller, momentum in that direction is strengthening. When bars shrink toward zero, a crossover may be approaching."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What MACD settings are best for crypto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The default MACD settings (12, 26, 9) work for most timeframes. Some crypto traders use faster settings like (8, 21, 5) on shorter timeframes to capture momentum shifts earlier. For beginners, the default settings are the right starting point."
+          }
+        }
+      ]
+    }
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #000000;
+            --bg-secondary: #0a0a0a;
+            --bg-card: rgba(255, 255, 255, 0.05);
+            --text-primary: #ffffff;
+            --text-secondary: rgba(255, 255, 255, 0.7);
+            --text-tertiary: rgba(255, 255, 255, 0.5);
+            --accent-blue: #0A84FF;
+            --accent-purple: #BF5AF2;
+            --accent-cyan: #64D2FF;
+            --accent-green: #30D158;
+            --accent-red: #FF453A;
+            --accent-orange: #FF9F0A;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 20px 40px;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 32px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover { color: var(--text-primary); }
+
+        .nav-cta-btn {
+            background: var(--accent-blue);
+            color: white !important;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-weight: 600;
+            transition: opacity 0.2s !important;
+        }
+
+        .nav-cta-btn:hover { opacity: 0.85; }
+
+        .article-container {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 120px 24px 80px;
+        }
+
+        .breadcrumb {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-tertiary);
+            margin-bottom: 32px;
+        }
+
+        .breadcrumb a {
+            color: var(--text-tertiary);
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover { color: var(--accent-blue); }
+
+        .article-header {
+            margin-bottom: 40px;
+        }
+
+        .article-tag {
+            display: inline-block;
+            background: rgba(10, 132, 255, 0.15);
+            color: var(--accent-blue);
+            border: 1px solid rgba(10, 132, 255, 0.3);
+            border-radius: 20px;
+            padding: 4px 14px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 16px;
+        }
+
+        h1 {
+            font-size: clamp(1.8rem, 4vw, 2.6rem);
+            font-weight: 800;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+            margin-bottom: 16px;
+        }
+
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            color: var(--text-tertiary);
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+        }
+
+        .article-meta img {
+            border-radius: 50%;
+        }
+
+        .article-intro {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            margin-top: 40px;
+            letter-spacing: -0.01em;
+        }
+
+        h3 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            margin-top: 28px;
+            color: var(--text-primary);
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        strong { color: var(--text-primary); }
+
+        ul, ol {
+            color: var(--text-secondary);
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+
+        li { margin-bottom: 8px; }
+
+        /* MACD crossover cards */
+        .crossover-cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin: 28px 0;
+        }
+
+        .crossover-card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .crossover-card.bullish {
+            border-color: rgba(48, 209, 88, 0.3);
+            background: rgba(48, 209, 88, 0.05);
+        }
+
+        .crossover-card.bearish {
+            border-color: rgba(255, 69, 58, 0.3);
+            background: rgba(255, 69, 58, 0.05);
+        }
+
+        .crossover-card .icon {
+            font-size: 1.8rem;
+            margin-bottom: 12px;
+        }
+
+        .crossover-card h3 {
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+
+        .crossover-card.bullish h3 { color: var(--accent-green); }
+        .crossover-card.bearish h3 { color: var(--accent-red); }
+
+        .crossover-card p {
+            font-size: 0.9rem;
+            margin-bottom: 0;
+        }
+
+        /* MACD components table */
+        .macd-components {
+            background: var(--bg-card);
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            overflow: hidden;
+            margin: 28px 0;
+        }
+
+        .macd-components table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .macd-components th {
+            padding: 14px 20px;
+            text-align: left;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-tertiary);
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .macd-components td {
+            padding: 14px 20px;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .macd-components tr:last-child td { border-bottom: none; }
+
+        .macd-components td:first-child {
+            font-weight: 600;
+            color: var(--text-primary);
+            white-space: nowrap;
+        }
+
+        .dot {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        /* Indicator pills */
+        .indicator-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .indicator-pill {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--bg-card);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 6px 14px;
+            font-size: 0.85rem;
+        }
+
+        /* Highlight box */
+        .highlight-box {
+            background: rgba(10, 132, 255, 0.08);
+            border: 1px solid rgba(10, 132, 255, 0.2);
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin: 24px 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+            color: var(--text-primary);
+        }
+
+        .highlight-box p:not(:last-child) { margin-bottom: 10px; }
+
+        /* Warning box */
+        .warning-box {
+            background: rgba(255, 159, 10, 0.08);
+            border: 1px solid rgba(255, 159, 10, 0.25);
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin: 24px 0;
+        }
+
+        .warning-box p {
+            margin-bottom: 0;
+            color: var(--text-secondary);
+        }
+
+        /* Disclaimer */
+        .disclaimer {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 10px;
+            padding: 16px 20px;
+            font-size: 0.82rem;
+            color: var(--text-tertiary);
+            margin: 32px 0;
+        }
+
+        /* CTA */
+        .cta-box {
+            background: linear-gradient(135deg, rgba(10,132,255,0.15) 0%, rgba(191,90,242,0.15) 100%);
+            border: 1px solid rgba(10,132,255,0.25);
+            border-radius: 20px;
+            padding: 36px;
+            text-align: center;
+            margin: 48px 0;
+        }
+
+        .cta-box h3 {
+            font-size: 1.4rem;
+            margin-top: 0;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+
+        .cta-box p {
+            color: var(--text-secondary);
+            margin-bottom: 24px;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background: var(--accent-blue);
+            color: white;
+            text-decoration: none;
+            padding: 14px 32px;
+            border-radius: 28px;
+            font-weight: 700;
+            font-size: 1rem;
+            transition: opacity 0.2s;
+        }
+
+        .cta-btn:hover { opacity: 0.85; }
+
+        .cta-sub {
+            font-size: 0.82rem;
+            color: var(--text-tertiary);
+            margin-top: 12px;
+            margin-bottom: 0;
+        }
+
+        /* FAQ */
+        .faq-item {
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+            padding: 20px 0;
+        }
+
+        .faq-item:last-child { border-bottom: none; }
+
+        .faq-item h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 1rem;
+            color: var(--text-primary);
+        }
+
+        .faq-item p {
+            font-size: 0.93rem;
+            margin-bottom: 0;
+        }
+
+        /* Related articles */
+        .related-links {
+            display: grid;
+            gap: 12px;
+            margin-top: 16px;
+        }
+
+        .related-link {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: var(--bg-card);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 16px 20px;
+            text-decoration: none;
+            color: var(--text-primary);
+            font-size: 0.93rem;
+            font-weight: 500;
+            transition: border-color 0.2s, background 0.2s;
+        }
+
+        .related-link:hover {
+            border-color: rgba(10,132,255,0.3);
+            background: rgba(10,132,255,0.05);
+        }
+
+        footer {
+            background: var(--bg-secondary);
+            border-top: 1px solid rgba(255,255,255,0.08);
+            padding: 40px 24px;
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
+        }
+
+        .footer-links a {
+            color: var(--text-tertiary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover { color: var(--text-primary); }
+
+        footer p {
+            color: var(--text-tertiary);
+            font-size: 0.85rem;
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 640px) {
+            nav { padding: 16px 20px; }
+            .nav-links { display: none; }
+            .article-container { padding: 90px 16px 60px; }
+            .crossover-cards { grid-template-columns: 1fr; }
+        }
+    </style>
+    <script async src="https://signallensai.com:8443/js/pa-cb929Nbtap3ZaIIoWmWF_.js"></script>
+    <script>
+      window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+      plausible.init()
+    </script>
+</head>
+<body>
+    <a href="#main-content" class="skip-link" style="position:absolute;left:-9999px">Skip to content</a>
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <a href="../index.html" class="logo">
+                <img src="../assets/logo-80.png" alt="ChartScope" width="40" height="40" style="border-radius: 10px;">
+                ChartScope
+            </a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../blog.html">Blog</a></li>
+                <li><a href="../support.html">Support</a></li>
+                <li><a href="https://apps.apple.com/app/chartscope/id6757865711" class="nav-cta-btn">Get the App</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content" class="article-container">
+
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="../index.html">Home</a>
+            <span>›</span>
+            <a href="../blog.html">Blog</a>
+            <span>›</span>
+            <span>MACD Crossover Explained</span>
+        </nav>
+
+        <header class="article-header">
+            <div class="article-tag">Technical Analysis</div>
+            <h1>MACD Crossover Explained for Crypto Charts</h1>
+            <div class="article-meta">
+                <img src="../assets/logo-80.png" alt="ChartScope" width="28" height="28" style="border-radius: 10px;">
+                <span>Nicolas Wolf</span>
+                <span>·</span>
+                <time datetime="2026-05-23">May 23, 2026</time>
+                <span>·</span>
+                <span>9 min read</span>
+            </div>
+            <p class="article-intro">A MACD crossover happens when the MACD line crosses the signal line. When the MACD line crosses <strong>above</strong> the signal line, it's called a <strong>bullish crossover</strong> — momentum is shifting upward. When it crosses <strong>below</strong>, it's a <strong>bearish crossover</strong> — momentum is weakening. But a crossover alone is not a buy or sell signal, and understanding why is what separates beginners from informed chart readers.</p>
+        </header>
+
+        <!-- IMAGE/VIDEO PLACEHOLDER — will be added once assets are ready -->
+
+        <div class="section">
+            <h2>What Is MACD?</h2>
+            <p>MACD stands for <strong>Moving Average Convergence Divergence</strong>. It was developed by Gerald Appel in the late 1970s and remains one of the most widely used momentum indicators in both traditional and crypto markets.</p>
+            <p>MACD is built from three components that work together to show the relationship between two moving averages of price:</p>
+
+            <div class="macd-components">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Component</th>
+                            <th>What it is</th>
+                            <th>Default setting</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="dot" style="background:#0A84FF;"></span>MACD line</td>
+                            <td>12-period EMA minus 26-period EMA</td>
+                            <td>12, 26</td>
+                        </tr>
+                        <tr>
+                            <td><span class="dot" style="background:#FF9F0A;"></span>Signal line</td>
+                            <td>9-period EMA of the MACD line</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td><span class="dot" style="background:#BF5AF2;"></span>Histogram</td>
+                            <td>MACD line minus signal line</td>
+                            <td>—</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>The MACD line moves faster because it is based on a shorter EMA (12 periods). The signal line moves slower because it averages the MACD line over 9 more periods. The <strong>crossover happens at the moment these two lines switch positions</strong> — and that's what traders watch for.</p>
+        </div>
+
+        <div class="section">
+            <h2>Bullish vs Bearish MACD Crossover</h2>
+            <p>There are only two types of MACD crossover. The direction of the cross determines whether it is bullish or bearish:</p>
+
+            <div class="crossover-cards">
+                <div class="crossover-card bullish">
+                    <div class="icon">↑</div>
+                    <h3>Bullish Crossover</h3>
+                    <p>MACD line crosses <strong>above</strong> the signal line. Short-term momentum is accelerating faster than medium-term momentum. Suggests buying pressure is increasing.</p>
+                </div>
+                <div class="crossover-card bearish">
+                    <div class="icon">↓</div>
+                    <h3>Bearish Crossover</h3>
+                    <p>MACD line crosses <strong>below</strong> the signal line. Short-term momentum is slowing relative to medium-term momentum. Suggests selling pressure may be increasing.</p>
+                </div>
+            </div>
+
+            <p>A bullish crossover does not mean the price will go up. A bearish crossover does not mean the price will go down. What both crossovers tell you is that <strong>momentum is shifting</strong> — which is useful context, not a prediction.</p>
+
+            <div class="highlight-box">
+                <p><strong>Key distinction:</strong> MACD measures the <em>rate of change</em> of price movement, not price direction itself. An asset can be falling while showing a bullish MACD crossover if the selling pressure is slowing down faster than the average.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>How to Read the MACD Histogram</h2>
+            <p>Most chart platforms display the MACD histogram as a series of bars between the MACD line and the signal line. The histogram is the clearest visual signal of what a crossover is about to happen:</p>
+            <ul>
+                <li><strong>Histogram bars growing taller above zero</strong> — bullish momentum is strengthening, the two lines are moving further apart with MACD above signal</li>
+                <li><strong>Histogram bars shrinking toward zero from above</strong> — bullish momentum is weakening, a bearish crossover may be approaching</li>
+                <li><strong>Histogram bars growing below zero</strong> — bearish momentum is strengthening</li>
+                <li><strong>Histogram bars shrinking toward zero from below</strong> — bearish momentum is weakening, a bullish crossover may be approaching</li>
+            </ul>
+            <p>Many experienced traders watch the histogram shrink toward zero as an <strong>early warning</strong> of an upcoming crossover — before the lines actually touch. This gives slightly more lead time than waiting for the crossover itself.</p>
+        </div>
+
+        <div class="section">
+            <h2>Where MACD Crossovers Matter Most</h2>
+            <p>Not all MACD crossovers carry equal weight. The context in which a crossover happens changes its significance considerably:</p>
+
+            <h3>Above or below the zero line</h3>
+            <p>The zero line on the MACD panel represents the point where the 12-period EMA and 26-period EMA are equal. A crossover that happens <strong>above the zero line</strong> carries more weight as a bullish signal than one happening below it. A crossover <strong>below the zero line</strong> carries more weight as a bearish signal.</p>
+            <ul>
+                <li><strong>Bullish crossover above zero</strong> — strongest bullish signal, both momentum and trend alignment</li>
+                <li><strong>Bullish crossover below zero</strong> — potential recovery signal, but still in bearish territory</li>
+                <li><strong>Bearish crossover below zero</strong> — strongest bearish signal, confirms continued downward pressure</li>
+                <li><strong>Bearish crossover above zero</strong> — momentum slowing in an uptrend, watch for confirmation</li>
+            </ul>
+
+            <h3>Timeframe matters</h3>
+            <p>MACD crossovers on longer timeframes (daily, weekly) are considered more significant than those on shorter timeframes (1-hour, 15-minute). On very short timeframes, MACD can generate dozens of crossovers in a single day, most of which are noise. For beginners, the <strong>daily timeframe</strong> is the clearest place to start reading MACD crossovers.</p>
+        </div>
+
+        <div class="cta-box">
+            <h3>See MACD Crossovers Explained in Real Time</h3>
+            <p>ChartScope reads live BTC, ETH and altcoin charts and explains what the MACD, RSI, and other indicators are showing — in plain language. Free 3-day trial, no financial advice.</p>
+            <a href="https://apps.apple.com/app/chartscope/id6757865711" class="cta-btn">Try ChartScope Free →</a>
+            <p class="cta-sub">iOS · Free 3-day trial · Educational use only</p>
+        </div>
+
+        <div class="section">
+            <h2>Common Mistakes When Reading MACD Crossovers</h2>
+
+            <h3>1. Treating every crossover as a signal</h3>
+            <p>In a choppy, sideways market, MACD generates frequent crossovers in both directions. Acting on every one would result in many false moves. MACD works better in trending markets where crossovers align with the broader direction.</p>
+
+            <div class="warning-box">
+                <p><strong>Crypto-specific note:</strong> Crypto markets are more volatile than equities. MACD generates more false crossovers on short timeframes in crypto than in traditional markets. This is not a flaw in the indicator — it reflects the higher noise level in crypto price action.</p>
+            </div>
+
+            <h3>2. Ignoring the broader trend</h3>
+            <p>A bullish MACD crossover during a strong downtrend is a weak signal. A bearish crossover during a strong uptrend is also a weak signal. Always ask: what is the price doing on a higher timeframe? MACD crossovers aligned with the higher timeframe trend are stronger than those going against it.</p>
+
+            <h3>3. Confusing the MACD line with price</h3>
+            <p>The MACD line lives in a separate panel below your price chart and oscillates around zero. It does not show price — it shows the difference between two moving averages of price. A MACD reading of +500 does not mean the price is high; it means the 12-period EMA is 500 units above the 26-period EMA.</p>
+
+            <h3>4. Using MACD alone</h3>
+            <p>MACD is a lagging indicator — it is based on past prices. Combining it with RSI (which measures momentum magnitude) or with volume data gives a more complete picture. For example, a bullish MACD crossover confirmed by RSI rising from below 40 and increasing volume is a much stronger signal than a crossover in isolation.</p>
+        </div>
+
+        <div class="section">
+            <h2>MACD Crossover vs MACD Divergence</h2>
+            <p>These are two different ways of reading MACD and they are often confused:</p>
+            <ul>
+                <li><strong>MACD crossover</strong> — the MACD line and signal line cross each other. A timing signal about momentum direction.</li>
+                <li><strong>MACD divergence</strong> — price makes a new high or low but MACD does not confirm it. A signal that momentum and price are moving in opposite directions, suggesting a potential trend reversal.</li>
+            </ul>
+            <p>Divergence is generally considered a stronger signal than a crossover because it requires price and momentum to disagree over multiple candles, not just a single intersection point.</p>
+        </div>
+
+        <div class="section">
+            <h2>MACD Settings for Crypto</h2>
+            <p>The default MACD settings are <strong>(12, 26, 9)</strong> — these have been standard since the indicator was created and work well across most timeframes. Some crypto traders adjust these:</p>
+            <ul>
+                <li><strong>Faster settings (e.g. 8, 21, 5)</strong> — more responsive, generates crossovers earlier, but also generates more false signals in choppy conditions</li>
+                <li><strong>Slower settings (e.g. 19, 39, 9)</strong> — fewer crossovers, each one carries more weight, better for longer-term trend confirmation</li>
+            </ul>
+            <p>For beginners, <strong>leave MACD at the default (12, 26, 9)</strong>. Adjusting settings without understanding why typically leads to over-fitting to recent price history, which does not persist.</p>
+
+            <div class="indicator-row">
+                <div class="indicator-pill"><span style="color:var(--accent-blue)">●</span> Default: (12, 26, 9)</div>
+                <div class="indicator-pill"><span style="color:var(--accent-green)">●</span> Faster: (8, 21, 5)</div>
+                <div class="indicator-pill"><span style="color:var(--accent-orange)">●</span> Slower: (19, 39, 9)</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>How ChartScope Uses MACD</h2>
+            <p>ChartScope reads the MACD line, signal line, and histogram for each coin you're analyzing and includes it as one of several indicators in the AI explanation. Rather than treating a crossover as a standalone signal, ChartScope looks at whether the crossover is:</p>
+            <ul>
+                <li>Happening above or below the zero line</li>
+                <li>Confirmed or contradicted by RSI</li>
+                <li>Aligned with the broader price structure (support/resistance, trend direction)</li>
+                <li>Supported by volume patterns</li>
+            </ul>
+            <p>The goal is to give you the full context behind what the chart is showing — not a prediction, but an explanation. Educational use only.</p>
+        </div>
+
+        <div class="disclaimer">
+            <strong>Educational content only.</strong> This article explains how the MACD crossover indicator works for learning purposes. Nothing here is financial advice, trading advice, or a recommendation to buy or sell any asset. Crypto markets are volatile and past indicator behavior does not guarantee future results.
+        </div>
+
+        <div class="section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>What is a MACD crossover in crypto?</h3>
+                <p>A MACD crossover happens when the MACD line crosses the signal line. When the MACD line crosses above the signal line it is a bullish crossover — short-term momentum is strengthening. When it crosses below it is a bearish crossover — momentum is weakening.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What does a bullish MACD crossover mean?</h3>
+                <p>A bullish MACD crossover means the MACD line has moved above the signal line, indicating that short-term buying pressure is increasing relative to medium-term momentum. It does not guarantee a price increase — it signals a shift in momentum direction.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is MACD crossover reliable for crypto?</h3>
+                <p>MACD crossovers are useful context but not reliable in isolation for crypto. Crypto's higher volatility generates more false crossovers than traditional markets, especially on short timeframes. Combine with RSI and volume for better context.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What is the MACD histogram?</h3>
+                <p>The MACD histogram shows the distance between the MACD line and the signal line as a bar chart. Growing bars mean momentum is accelerating. Shrinking bars mean momentum is slowing and a crossover may be approaching.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What MACD settings are best for crypto?</h3>
+                <p>Default settings (12, 26, 9) are the right starting point for most timeframes. Faster settings like (8, 21, 5) work on shorter timeframes but generate more false signals. For beginners, always start with the defaults.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What is the difference between MACD crossover and divergence?</h3>
+                <p>A crossover is when the MACD and signal lines cross each other — a momentum timing signal. Divergence is when price and MACD move in opposite directions over multiple candles — a signal that the current trend may be losing strength. Divergence is generally a stronger signal than a crossover.</p>
+            </div>
+        </div>
+
+        <div class="cta-box">
+            <h3>Learn to Read MACD on Real Charts</h3>
+            <p>ChartScope analyzes live crypto charts and explains RSI, MACD, Bollinger Bands and more in plain language. No jargon, no buy/sell signals — just clear explanations of what the chart is showing.</p>
+            <a href="https://apps.apple.com/app/chartscope/id6757865711" class="cta-btn">Download ChartScope →</a>
+            <p class="cta-sub">iOS · Free 3-day trial · Educational use only</p>
+        </div>
+
+        <div class="section">
+            <h2>Related Articles</h2>
+            <div class="related-links">
+                <a href="what-does-rsi-70-mean-crypto.html" class="related-link">
+                    <span>→</span> What Does RSI 70 Mean in Crypto? (And RSI 30)
+                </a>
+                <a href="master-rsi-macd-crypto-chart-indicators-explained.html" class="related-link">
+                    <span>→</span> Master RSI &amp; MACD: Crypto Chart Indicators Explained
+                </a>
+                <a href="technical-analysis-beginners.html" class="related-link">
+                    <span>→</span> Technical Analysis for Crypto Beginners
+                </a>
+                <a href="rsi-indicator-explained-for-crypto-charts-2026.html" class="related-link">
+                    <span>→</span> RSI Indicator Explained for Crypto Charts
+                </a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About</a>
+            <a href="../blog.html">Blog</a>
+            <a href="../privacy.html">Privacy</a>
+            <a href="../terms.html">Terms</a>
+            <a href="../support.html">Support</a>
+        </div>
+        <p>&copy; 2026 ChartScope. Educational crypto chart analysis. Not financial advice.</p>
+    </footer>
+</body>
+</html>

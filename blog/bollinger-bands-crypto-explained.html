@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Are Bollinger Bands in Crypto? Explained Simply | ChartScope</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-40.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/logo-180.png">
+    <meta name="description" content="Bollinger Bands are three lines around a price chart that expand when volatility is high and contract when it's low. Learn what the squeeze means, how to read the bands, and what they don't tell you.">
+    <link rel="canonical" href="https://chartscope.net/blog/bollinger-bands-crypto-explained.html">
+    <link rel="alternate" hreflang="en" href="https://chartscope.net/blog/bollinger-bands-crypto-explained.html">
+    <link rel="alternate" hreflang="x-default" href="https://chartscope.net/blog/bollinger-bands-crypto-explained.html">
+    <!-- Open Graph -->
+    <meta property="og:title" content="What Are Bollinger Bands in Crypto? Explained Simply">
+    <meta property="og:description" content="Bollinger Bands show volatility. When the bands squeeze together, a big move is coming. When price touches the upper band, it doesn't automatically mean sell. Learn how they actually work.">
+    <meta property="og:image" content="https://chartscope.net/assets/screenshots/02.png">
+    <meta property="og:image:width" content="540">
+    <meta property="og:image:height" content="1170">
+    <meta property="og:url" content="https://chartscope.net/blog/bollinger-bands-crypto-explained.html">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="ChartScope">
+    <meta property="article:published_time" content="2026-05-23T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-05-23T00:00:00+00:00">
+    <meta property="article:section" content="Technical Analysis">
+    <meta property="article:tag" content="Bollinger Bands">
+    <meta property="article:tag" content="crypto volatility">
+    <meta property="article:tag" content="crypto indicators">
+    <meta property="article:tag" content="technical analysis">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@StudioWolf11">
+    <meta name="twitter:creator" content="@StudioWolf11">
+    <meta name="twitter:title" content="What Are Bollinger Bands in Crypto? Explained Simply">
+    <meta name="twitter:description" content="Bollinger Bands = 3 lines showing volatility. Squeeze = big move incoming. Upper band touch ≠ automatic sell. Learn how they actually work on crypto charts.">
+    <meta name="twitter:image" content="https://chartscope.net/assets/screenshots/02.png">
+    <!-- Schema.org Article JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "What Are Bollinger Bands in Crypto? Explained Simply",
+      "description": "Bollinger Bands are three lines plotted around a price chart that expand when volatility increases and contract when it decreases. Learn what the Bollinger squeeze means, how to read upper and lower band touches, and what the bands don't tell you.",
+      "datePublished": "2026-05-23T00:00:00+00:00",
+      "dateModified": "2026-05-23T00:00:00+00:00",
+      "author": {
+        "@type": "Person",
+        "name": "Nicolas Wolf",
+        "url": "https://chartscope.net/about.html",
+        "sameAs": [
+          "https://www.linkedin.com/in/nicolaslupu/",
+          "https://github.com/Wolfnicos"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "ChartScope",
+        "url": "https://chartscope.net"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://chartscope.net/blog/bollinger-bands-crypto-explained.html"
+      },
+      "keywords": ["Bollinger Bands crypto", "what are Bollinger Bands", "Bollinger squeeze", "Bollinger Bands explained", "crypto volatility indicator", "BB crypto", "upper band lower band crypto", "Bollinger Bands settings"],
+      "articleSection": "Technical Analysis",
+      "wordCount": 2500,
+      "inLanguage": "en"
+    }
+    </script>
+    <!-- Schema.org BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://chartscope.net/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://chartscope.net/blog.html" },
+        { "@type": "ListItem", "position": 3, "name": "Bollinger Bands Explained", "item": "https://chartscope.net/blog/bollinger-bands-crypto-explained.html" }
+      ]
+    }
+    </script>
+    <!-- Schema.org FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are Bollinger Bands in crypto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bollinger Bands are three lines plotted on a price chart: a middle band (20-period moving average), an upper band (middle band + 2 standard deviations), and a lower band (middle band - 2 standard deviations). They expand when volatility increases and contract when volatility decreases."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a Bollinger Band squeeze mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Bollinger Band squeeze happens when the upper and lower bands move very close together, indicating that volatility has dropped to unusually low levels. Historically, periods of low volatility are followed by periods of high volatility. A squeeze signals that a significant price move may be approaching, but it does not indicate the direction."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does it mean when price touches the upper Bollinger Band?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When price touches or exceeds the upper Bollinger Band, it means price is trading at an unusually high level relative to recent volatility — statistically above 2 standard deviations from the mean. It does not automatically mean the price will fall. During strong trends, price can walk along the upper band for extended periods."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does it mean when price touches the lower Bollinger Band?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When price touches or falls below the lower Bollinger Band, it means price is trading at an unusually low level relative to recent volatility. It does not automatically signal a bounce. In strong downtrends, price can ride the lower band downward for many candles. Context and confirmation from other indicators matter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the best Bollinger Bands settings for crypto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The default Bollinger Bands settings are 20 periods and 2 standard deviations. These work well across most timeframes in crypto. Some traders use 10 periods for shorter-term analysis or 50 periods for longer-term trend context. For beginners, the default (20, 2) settings are the right starting point."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are Bollinger Bands reliable for crypto trading?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bollinger Bands are a useful volatility tool but not a reliable standalone signal in crypto. They tell you about the state of volatility and where price sits relative to recent history — not where price will go next. They work best in combination with momentum indicators like RSI or MACD, and at key support/resistance levels."
+          }
+        }
+      ]
+    }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg-primary: #000000;
+            --bg-secondary: #0a0a0a;
+            --bg-card: rgba(255, 255, 255, 0.05);
+            --text-primary: #ffffff;
+            --text-secondary: rgba(255, 255, 255, 0.7);
+            --text-tertiary: rgba(255, 255, 255, 0.5);
+            --accent-blue: #0A84FF;
+            --accent-purple: #BF5AF2;
+            --accent-green: #30D158;
+            --accent-red: #FF453A;
+            --accent-orange: #FF9F0A;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+            padding: 20px 40px;
+            background: rgba(0,0,0,0.8);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        nav .container {
+            max-width: 1200px; margin: 0 auto;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+
+        .logo {
+            font-size: 1.3rem; font-weight: 700;
+            color: var(--text-primary); text-decoration: none;
+            display: flex; align-items: center; gap: 10px;
+        }
+
+        .nav-links { display: flex; list-style: none; gap: 32px; align-items: center; }
+        .nav-links a { color: var(--text-secondary); text-decoration: none; font-size: 0.95rem; transition: color 0.2s; }
+        .nav-links a:hover { color: var(--text-primary); }
+        .nav-cta-btn { background: var(--accent-blue); color: white !important; padding: 8px 20px; border-radius: 20px; font-weight: 600; }
+
+        .article-container { max-width: 780px; margin: 0 auto; padding: 120px 24px 80px; }
+
+        .breadcrumb { display: flex; gap: 8px; align-items: center; font-size: 0.85rem; color: var(--text-tertiary); margin-bottom: 32px; }
+        .breadcrumb a { color: var(--text-tertiary); text-decoration: none; }
+        .breadcrumb a:hover { color: var(--accent-blue); }
+
+        .article-tag {
+            display: inline-block;
+            background: rgba(10,132,255,0.15); color: var(--accent-blue);
+            border: 1px solid rgba(10,132,255,0.3);
+            border-radius: 20px; padding: 4px 14px;
+            font-size: 0.8rem; font-weight: 600;
+            text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 16px;
+        }
+
+        h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 800; line-height: 1.2; letter-spacing: -0.02em; margin-bottom: 16px; }
+        .article-meta { display: flex; align-items: center; gap: 16px; color: var(--text-tertiary); font-size: 0.9rem; margin-bottom: 24px; flex-wrap: wrap; }
+        .article-intro { font-size: 1.15rem; color: var(--text-secondary); line-height: 1.8; }
+        .section { margin-bottom: 40px; }
+        h2 { font-size: 1.5rem; font-weight: 700; margin-bottom: 16px; margin-top: 40px; letter-spacing: -0.01em; }
+        h3 { font-size: 1.15rem; font-weight: 600; margin-bottom: 12px; margin-top: 28px; }
+        p { color: var(--text-secondary); margin-bottom: 16px; }
+        strong { color: var(--text-primary); }
+        ul, ol { color: var(--text-secondary); padding-left: 24px; margin-bottom: 16px; }
+        li { margin-bottom: 8px; }
+
+        /* BB diagram */
+        .bb-diagram {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            padding: 28px;
+            margin: 28px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .bb-diagram svg { width: 100%; height: auto; display: block; }
+
+        /* BB components */
+        .bb-components {
+            background: var(--bg-card);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            overflow: hidden;
+            margin: 28px 0;
+        }
+
+        .bb-components table { width: 100%; border-collapse: collapse; }
+        .bb-components th { padding: 12px 18px; text-align: left; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-tertiary); border-bottom: 1px solid rgba(255,255,255,0.08); }
+        .bb-components td { padding: 12px 18px; font-size: 0.9rem; color: var(--text-secondary); border-bottom: 1px solid rgba(255,255,255,0.05); }
+        .bb-components tr:last-child td { border-bottom: none; }
+        .bb-components td:first-child { font-weight: 600; color: var(--text-primary); }
+
+        /* State cards */
+        .state-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 28px 0; }
+
+        .state-card {
+            background: var(--bg-card);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            padding: 22px;
+        }
+
+        .state-card.expand { border-color: rgba(255,69,58,0.3); background: rgba(255,69,58,0.05); }
+        .state-card.squeeze { border-color: rgba(10,132,255,0.3); background: rgba(10,132,255,0.05); }
+
+        .state-card .label {
+            font-size: 0.75rem; font-weight: 700;
+            text-transform: uppercase; letter-spacing: 0.06em;
+            margin-bottom: 8px;
+        }
+        .state-card.expand .label { color: var(--accent-red); }
+        .state-card.squeeze .label { color: var(--accent-blue); }
+        .state-card h3 { margin-top: 0; margin-bottom: 8px; font-size: 1rem; }
+        .state-card p { font-size: 0.88rem; margin-bottom: 0; }
+
+        .highlight-box { background: rgba(10,132,255,0.08); border: 1px solid rgba(10,132,255,0.2); border-radius: 12px; padding: 20px 24px; margin: 24px 0; }
+        .highlight-box p { margin-bottom: 0; color: var(--text-primary); }
+
+        .warning-box { background: rgba(255,159,10,0.08); border: 1px solid rgba(255,159,10,0.25); border-radius: 12px; padding: 20px 24px; margin: 24px 0; }
+        .warning-box p { margin-bottom: 0; color: var(--text-secondary); }
+
+        .disclaimer { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 16px 20px; font-size: 0.82rem; color: var(--text-tertiary); margin: 32px 0; }
+
+        .cta-box { background: linear-gradient(135deg, rgba(10,132,255,0.15) 0%, rgba(191,90,242,0.15) 100%); border: 1px solid rgba(10,132,255,0.25); border-radius: 20px; padding: 36px; text-align: center; margin: 48px 0; }
+        .cta-box h3 { font-size: 1.4rem; margin-top: 0; margin-bottom: 12px; }
+        .cta-box p { color: var(--text-secondary); margin-bottom: 24px; }
+        .cta-btn { display: inline-block; background: var(--accent-blue); color: white; text-decoration: none; padding: 14px 32px; border-radius: 28px; font-weight: 700; font-size: 1rem; transition: opacity 0.2s; }
+        .cta-btn:hover { opacity: 0.85; }
+        .cta-sub { font-size: 0.82rem; color: var(--text-tertiary); margin-top: 12px; margin-bottom: 0; }
+
+        .faq-item { border-bottom: 1px solid rgba(255,255,255,0.08); padding: 20px 0; }
+        .faq-item:last-child { border-bottom: none; }
+        .faq-item h3 { margin-top: 0; margin-bottom: 10px; font-size: 1rem; }
+        .faq-item p { font-size: 0.93rem; margin-bottom: 0; }
+
+        .related-links { display: grid; gap: 12px; margin-top: 16px; }
+        .related-link { display: flex; align-items: center; gap: 12px; background: var(--bg-card); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 16px 20px; text-decoration: none; color: var(--text-primary); font-size: 0.93rem; font-weight: 500; transition: border-color 0.2s, background 0.2s; }
+        .related-link:hover { border-color: rgba(10,132,255,0.3); background: rgba(10,132,255,0.05); }
+
+        footer { background: var(--bg-secondary); border-top: 1px solid rgba(255,255,255,0.08); padding: 40px 24px; text-align: center; }
+        .footer-links { display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; margin-bottom: 16px; }
+        .footer-links a { color: var(--text-tertiary); text-decoration: none; font-size: 0.9rem; transition: color 0.2s; }
+        .footer-links a:hover { color: var(--text-primary); }
+        footer p { color: var(--text-tertiary); font-size: 0.85rem; margin-bottom: 0; }
+
+        @media (max-width: 640px) {
+            nav { padding: 16px 20px; }
+            .nav-links { display: none; }
+            .article-container { padding: 90px 16px 60px; }
+            .state-cards { grid-template-columns: 1fr; }
+        }
+    </style>
+    <script async src="https://signallensai.com:8443/js/pa-cb929Nbtap3ZaIIoWmWF_.js"></script>
+    <script>
+      window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+      plausible.init()
+    </script>
+</head>
+<body>
+    <a href="#main-content" class="skip-link" style="position:absolute;left:-9999px">Skip to content</a>
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <a href="../index.html" class="logo">
+                <img src="../assets/logo-80.png" alt="ChartScope" width="40" height="40" style="border-radius: 10px;">
+                ChartScope
+            </a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../blog.html">Blog</a></li>
+                <li><a href="../support.html">Support</a></li>
+                <li><a href="https://apps.apple.com/app/chartscope/id6757865711" class="nav-cta-btn">Get the App</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content" class="article-container">
+
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="../index.html">Home</a>
+            <span>›</span>
+            <a href="../blog.html">Blog</a>
+            <span>›</span>
+            <span>Bollinger Bands Explained</span>
+        </nav>
+
+        <header style="margin-bottom:40px;">
+            <div class="article-tag">Technical Analysis</div>
+            <h1>What Are Bollinger Bands in Crypto? Explained Simply</h1>
+            <div class="article-meta">
+                <img src="../assets/logo-80.png" alt="ChartScope" width="28" height="28" style="border-radius: 10px;">
+                <span>Nicolas Wolf</span>
+                <span>·</span>
+                <time datetime="2026-05-23">May 23, 2026</time>
+                <span>·</span>
+                <span>9 min read</span>
+            </div>
+            <p class="article-intro">Bollinger Bands are three lines drawn around a price chart that <strong>expand when volatility is high</strong> and <strong>contract when volatility is low</strong>. They don't tell you where price will go — they tell you how unusual the current price level is relative to recent history, and whether the market is in a high-energy or low-energy state. Understanding the difference changes how you read every chart you look at.</p>
+        </header>
+
+        <!-- IMAGE/VIDEO PLACEHOLDER -->
+
+        <div class="section">
+            <h2>What Bollinger Bands Are Made Of</h2>
+            <p>Bollinger Bands were created by John Bollinger in the 1980s. Despite looking complex on a chart, they are built from just two simple concepts: a <strong>moving average</strong> and <strong>standard deviation</strong>.</p>
+
+            <div class="bb-components">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Band</th>
+                            <th>Formula</th>
+                            <th>Default</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="color: rgba(255,255,255,0.5);">⬜ Upper Band</td>
+                            <td>Middle Band + (2 × standard deviation)</td>
+                            <td>SMA20 + 2σ</td>
+                        </tr>
+                        <tr>
+                            <td style="color:var(--accent-blue);">— Middle Band</td>
+                            <td>Simple moving average of closing prices</td>
+                            <td>SMA 20</td>
+                        </tr>
+                        <tr>
+                            <td style="color: rgba(255,255,255,0.5);">⬜ Lower Band</td>
+                            <td>Middle Band − (2 × standard deviation)</td>
+                            <td>SMA20 − 2σ</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>The standard deviation measures how spread out recent closing prices are from the average. When prices have been moving wildly, the standard deviation is large and the bands are far apart. When prices have been calm and range-bound, the standard deviation is small and the bands are close together.</p>
+
+            <div class="highlight-box">
+                <p><strong>The statistical meaning:</strong> With default settings, approximately 95% of all closing prices fall <em>inside</em> the bands. When price breaks outside a band, it is in genuinely unusual territory by historical standards — not necessarily bearish or bullish, but statistically extreme.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>The Two States: Expansion and Squeeze</h2>
+            <p>The most important thing to watch on Bollinger Bands is not where price is relative to the bands — it's <strong>how wide the bands are</strong>. The width of the bands changes over time and tells you the current volatility regime:</p>
+
+            <div class="state-cards">
+                <div class="state-card expand">
+                    <div class="label">High volatility</div>
+                    <h3>Band Expansion</h3>
+                    <p>Bands moving apart. Price is making large moves. Momentum exists. Trends tend to be more reliable during expansion because there is real energy behind the move.</p>
+                </div>
+                <div class="state-card squeeze">
+                    <div class="label">Low volatility</div>
+                    <h3>Bollinger Squeeze</h3>
+                    <p>Bands moving together. Price is consolidating in a tight range. Energy is building. A squeeze historically precedes a significant breakout — but not always immediately.</p>
+                </div>
+            </div>
+
+            <p>The <strong>Bollinger Squeeze</strong> is one of the most watched setups in crypto. When the bands narrow to unusually tight levels, it means the market has been quiet for long enough that a breakout is becoming statistically overdue. Traders watch for the first strong candle in either direction after a squeeze as a potential entry signal.</p>
+
+            <div class="warning-box">
+                <p><strong>Important:</strong> A squeeze tells you <em>that</em> a move is coming — not <em>which direction</em>. This is the most common misuse of Bollinger Bands. Always wait for a directional break before forming a bias after a squeeze. Many traders have been caught expecting a breakout upward only to see a sharp move downward.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>What Upper and Lower Band Touches Mean</h2>
+            <p>A very common beginner mistake is treating Bollinger Band touches as automatic buy or sell signals:</p>
+
+            <h3>Price touching the upper band</h3>
+            <p>This means price is trading more than 2 standard deviations above the 20-period average. In a ranging market, this often leads to a pullback toward the middle band. But in a <strong>strong uptrend</strong>, price can "walk" along the upper band for extended periods — candle after candle touching or exceeding it. Selling every upper band touch during a bull run would mean selling the entire trend.</p>
+
+            <h3>Price touching the lower band</h3>
+            <p>This means price is trading more than 2 standard deviations below the 20-period average. In a ranging market, this can signal a bounce toward the middle band. But in a <strong>strong downtrend</strong>, price rides the lower band downward. Buying every lower band touch in a bear market would mean buying every step of a falling staircase.</p>
+
+            <h3>The middle band as dynamic support/resistance</h3>
+            <p>The middle band (20 SMA) often acts as a dynamic support or resistance level. During an uptrend, price tends to bounce off the middle band and return to the upper band. During a downtrend, price tends to rally to the middle band and then fall away. Watching how price reacts to the middle band tells you which regime the market is in.</p>
+        </div>
+
+        <div class="section">
+            <h2>Bollinger Band Width: The Hidden Signal</h2>
+            <p>Most chart platforms display the three bands but don't show you the band width as a separate number. Some experienced traders add a <strong>Bandwidth indicator</strong> — a separate line that simply shows how far apart the upper and lower bands are.</p>
+            <p>When bandwidth is at a multi-month low, it confirms a genuine squeeze. When bandwidth is at a multi-month high, it confirms an unusually volatile period that will likely calm down. Neither state tells you price direction — both tell you what kind of market environment you're operating in.</p>
+        </div>
+
+        <div class="cta-box">
+            <h3>See Bollinger Bands Explained on Your Charts</h3>
+            <p>ChartScope reads Bollinger Bands, RSI, MACD, and more on live crypto charts and explains what each is showing in plain language. No jargon, no signals — just clear explanations.</p>
+            <a href="https://apps.apple.com/app/chartscope/id6757865711" class="cta-btn">Try ChartScope Free →</a>
+            <p class="cta-sub">iOS · Free 3-day trial · Educational use only</p>
+        </div>
+
+        <div class="section">
+            <h2>Bollinger Bands in Crypto vs Traditional Markets</h2>
+            <p>Bollinger Bands work the same mathematically in crypto as in any other market. But crypto has characteristics that change how you interpret them:</p>
+
+            <h3>Crypto has more extreme volatility regimes</h3>
+            <p>In traditional stock markets, a period of very low volatility might mean the bands narrow by 20-30%. In crypto, the bands can narrow by 60-70% before a major breakout. This means squeezes in crypto tend to be more dramatic and the resulting moves larger.</p>
+
+            <h3>24/7 trading changes band shapes</h3>
+            <p>Because crypto never closes, there are no overnight or weekend gaps that can distort the bands. This makes Bollinger Bands in crypto somewhat cleaner to read than in stock markets where gaps can create sudden band jumps.</p>
+
+            <h3>Default settings still work</h3>
+            <p>Despite crypto's volatility, the default settings of <strong>20 periods and 2 standard deviations</strong> remain the most useful starting point. Some traders widen to 2.5 standard deviations on very volatile assets to reduce false band breaks, but for most purposes the defaults are fine.</p>
+        </div>
+
+        <div class="section">
+            <h2>Combining Bollinger Bands With Other Indicators</h2>
+            <p>Bollinger Bands are most useful when read alongside indicators that tell you about momentum and trend direction:</p>
+
+            <h3>Bollinger Bands + RSI</h3>
+            <p>Price touching the lower band while RSI is below 30 (oversold) gives two independent signals pointing in the same direction. Both say that price is at an extreme — the bands from a volatility perspective, RSI from a momentum perspective. This confluence is stronger than either signal alone.</p>
+
+            <h3>Bollinger Bands + MACD</h3>
+            <p>A Bollinger squeeze followed by a bullish MACD crossover (MACD line crossing above the signal line) can confirm the direction of the expected breakout. The squeeze told you energy was building; the MACD crossover tells you which direction momentum is breaking.</p>
+
+            <h3>Bollinger Bands + volume</h3>
+            <p>A breakout from a Bollinger squeeze on <strong>above-average volume</strong> is much more significant than a low-volume breakout. High volume confirms real participation in the move — traders are committing capital in that direction, not just a brief spike.</p>
+        </div>
+
+        <div class="section">
+            <h2>Common Bollinger Band Mistakes</h2>
+
+            <h3>Treating band touches as signals</h3>
+            <p>Upper band = overbought, lower band = oversold is an oversimplification that doesn't hold up during trends. The bands describe volatility, not overbought/oversold conditions — that's RSI's job.</p>
+
+            <h3>Expecting the squeeze to resolve immediately</h3>
+            <p>A squeeze can persist for days or weeks before resolving. Waiting for confirmation of the breakout direction is more valuable than trying to predict when the squeeze will break.</p>
+
+            <h3>Using Bollinger Bands alone</h3>
+            <p>Bollinger Bands answer the question "how unusual is this price?" They don't answer "which direction is price going?" Always combine with a directional or momentum indicator.</p>
+
+            <div class="highlight-box">
+                <p><strong>The right question to ask:</strong> Instead of "is price near the upper/lower band?" ask "are the bands expanding or contracting, and is there a squeeze building?" That's where Bollinger Bands add the most value.</p>
+            </div>
+        </div>
+
+        <div class="disclaimer">
+            <strong>Educational content only.</strong> This article explains Bollinger Bands for learning purposes. Nothing here is financial advice, trading advice, or a recommendation to buy or sell any asset. Indicators are educational tools, not predictive signals. Crypto markets are volatile and past indicator behavior does not guarantee future results.
+        </div>
+
+        <div class="section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>What are Bollinger Bands in crypto?</h3>
+                <p>Bollinger Bands are three lines on a price chart — upper band, middle band (20 SMA), and lower band — that expand when volatility is high and contract when volatility is low. About 95% of price action falls inside the bands under default settings.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What does a Bollinger Band squeeze mean?</h3>
+                <p>A squeeze happens when the upper and lower bands move very close together, signaling unusually low volatility. It historically precedes a significant price move in either direction. The squeeze tells you a move is coming — not which direction it will be.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What does it mean when price touches the upper Bollinger Band?</h3>
+                <p>Price at the upper band means it is more than 2 standard deviations above the 20-period average — statistically unusual. In a ranging market it often pulls back. In a strong uptrend it can stay near the upper band for extended periods. Context determines interpretation.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What does it mean when price touches the lower Bollinger Band?</h3>
+                <p>Price at the lower band means it is more than 2 standard deviations below the average. In a ranging market it can bounce. In a downtrend it can ride the lower band downward. Like the upper band, context matters more than the touch itself.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What are the best Bollinger Bands settings for crypto?</h3>
+                <p>Default settings — 20 periods and 2 standard deviations — work well for most timeframes. For beginners, always start with the defaults before experimenting. Changing settings without a clear reason typically leads to over-fitting past data.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Are Bollinger Bands reliable for crypto?</h3>
+                <p>Bollinger Bands reliably describe volatility — that's what they were designed to do. They are not reliable standalone entry/exit signals. They are most useful when combined with RSI, MACD, or volume at key support and resistance levels.</p>
+            </div>
+        </div>
+
+        <div class="cta-box">
+            <h3>Learn Technical Analysis on Real Crypto Charts</h3>
+            <p>ChartScope explains Bollinger Bands, RSI, MACD, candlestick patterns and more on the coins you're studying — AI explanations in plain language, updated in real time.</p>
+            <a href="https://apps.apple.com/app/chartscope/id6757865711" class="cta-btn">Download ChartScope →</a>
+            <p class="cta-sub">iOS · Free 3-day trial · Educational use only</p>
+        </div>
+
+        <div class="section">
+            <h2>Related Articles</h2>
+            <div class="related-links">
+                <a href="what-does-rsi-70-mean-crypto.html" class="related-link">
+                    <span>→</span> What Does RSI 70 Mean in Crypto? (And RSI 30)
+                </a>
+                <a href="macd-crossover-crypto-explained.html" class="related-link">
+                    <span>→</span> MACD Crossover Explained for Crypto Charts
+                </a>
+                <a href="doji-candle-crypto-explained.html" class="related-link">
+                    <span>→</span> What Is a Doji Candle in Crypto? All Types Explained
+                </a>
+                <a href="technical-analysis-beginners.html" class="related-link">
+                    <span>→</span> Technical Analysis for Crypto Beginners
+                </a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About</a>
+            <a href="../blog.html">Blog</a>
+            <a href="../privacy.html">Privacy</a>
+            <a href="../terms.html">Terms</a>
+            <a href="../support.html">Support</a>
+        </div>
+        <p>&copy; 2026 ChartScope. Educational crypto chart analysis. Not financial advice.</p>
+    </footer>
+</body>
+</html>

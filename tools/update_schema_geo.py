@@ -212,24 +212,27 @@ def inject_faqpage(html: str) -> str:
 # ── ItemList Schema for Listicles ───────────────────────────────────────────
 
 def is_listicle(html: str) -> bool:
-    """Detect if this is a 'Best X', 'Top X' listicle post."""
+    """Detect listicle / comparison / 'Best X' type posts."""
     title = extract_title(html).lower()
     h1 = re.search(r'<h1[^>]*>([^<]+)</h1>', html)
     heading = h1.group(1).lower() if h1 else title
-    return bool(re.search(r'\b(top|best)\s+\d+|^\d+\s+(best|essential|crypto)', heading))
+    return bool(re.search(
+        r'\b(top|best)\s+\d+|^\d+\s+(best|essential|crypto|ways|tips|reasons)'
+        r'|\bvs\.?\s+\w+\b|compar(ed|ison)|alternative|review\b',
+        heading
+    ))
 
 
 def extract_numbered_items(html: str) -> list:
-    """Extract numbered H2 sections for ItemList."""
-    # Find H2 headings with numbers like "1.", "1 —", "#1", "Step 1"
+    """Extract numbered H2 sections for ItemList.
+    Falls back to all non-utility H2s for listicle posts without numbered headings."""
     main_match = re.search(r'<main[^>]*>(.*?)</main>', html, re.DOTALL)
     if not main_match:
         return []
 
     content = main_match.group(1)
-    items = []
 
-    # Match H2 headings with numbered patterns
+    # First attempt: numbered H2s ("1.", "1 —", etc.)
     h2_matches = re.finditer(
         r'<h2[^>]*>\s*(?:<span[^>]*>[^<]*</span>\s*)?'
         r'(\d+)[\.\s)—–]+\s*'
@@ -238,20 +241,47 @@ def extract_numbered_items(html: str) -> list:
         content
     )
 
+    items = []
     for m in h2_matches:
         num = int(m.group(1))
         name = strip_html(m.group(2))
-        # Get anchor ID
         id_match = re.search(r'id="([^"]+)"', m.group(0))
         anchor = id_match.group(1) if id_match else f'item-{num}'
-
         items.append({
             "position": num,
             "name": name,
             "url": f"{extract_canonical(html)}#{anchor}" if extract_canonical(html) else ""
         })
 
-    # Only meaningful listicles: 3-15 items
+    if 3 <= len(items) <= 15:
+        return items
+
+    # Fallback for listicle posts without numbered H2s:
+    # Extract all H2s, filter out utility headings, number by position
+    SKIP_H2S = {'faq', 'frequently asked questions', 'key takeaways', 'conclusion',
+                'summary', 'final thoughts', 'resources', 'references', 'disclaimer',
+                'about the author', 'related posts', 'what is chartscope',
+                'how chartscope helps', 'get started with chartscope',
+                'comparison table', 'side-by-side comparison',
+                '7 chart patterns at a glance'}
+
+    all_h2s = re.finditer(r'<h2[^>]*>\s*(?:<span[^>]*>[^<]*</span>\s*)?([^<]+)</h2>', content)
+
+    items = []
+    pos = 0
+    for m in all_h2s:
+        name = strip_html(m.group(1))
+        if name.lower() in SKIP_H2S:
+            continue
+        pos += 1
+        id_match = re.search(r'id="([^"]+)"', m.group(0))
+        anchor = id_match.group(1) if id_match else ''
+        items.append({
+            "position": pos,
+            "name": name[:120],
+            "url": f"{extract_canonical(html)}#{anchor}" if extract_canonical(html) and anchor else ""
+        })
+
     if 3 <= len(items) <= 15:
         return items
     return []

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Size Calculator for Crypto | ChartScope</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-40.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/logo-180.png">
+    <meta name="description" content="Free crypto position size calculator. Calculate how much to invest per trade based on account balance, risk percentage, entry price, and stop-loss. Educational tool — no financial advice.">
+    <link rel="canonical" href="https://chartscope.net/tools/position-size-calculator.html">
+    <link rel="alternate" hreflang="en" href="https://chartscope.net/tools/position-size-calculator.html">
+    <link rel="alternate" hreflang="x-default" href="https://chartscope.net/tools/position-size-calculator.html">
+    <script>
+    (function(){var u=window.location.origin+window.location.pathname;
+    var c=document.querySelector('link[rel="canonical"]');if(c)c.href=u;
+    var o=document.querySelector('meta[property="og:url"]');if(o)o.content=u;
+    var h=document.querySelectorAll('link[rel="alternate"][hreflang]');
+    for(var i=0;i<h.length;i++){var p=h[i].href.split('?')[0];h[i].href=p;}})();
+    </script>
+    <!-- Open Graph -->
+    <meta property="og:title" content="Free Crypto Position Size Calculator">
+    <meta property="og:description" content="Calculate your position size based on account balance, risk percentage, entry price, and stop-loss. Learn proper risk management for crypto.">
+    <meta property="og:image" content="https://chartscope.net/assets/screenshots/05.png">
+    <meta property="og:image:width" content="540">
+    <meta property="og:image:height" content="1170">
+    <meta property="og:url" content="https://chartscope.net/tools/position-size-calculator.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ChartScope">
+    <!-- Schema: WebApplication + HowTo -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Crypto Position Size Calculator",
+      "url": "https://chartscope.net/tools/position-size-calculator.html",
+      "description": "Calculate the optimal position size for a crypto trade based on account balance, risk percentage, entry price, and stop-loss level. Educational risk management tool.",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Web",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "author": {
+        "@type": "Person",
+        "name": "Nicolas Wolf",
+        "url": "https://chartscope.net/author.html",
+        "sameAs": ["https://www.linkedin.com/in/nicolaslupu/", "https://github.com/Wolfnicos"]
+      },
+      "publisher": { "@type": "Organization", "name": "ChartScope", "url": "https://chartscope.net" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How to Calculate Position Size for Crypto Trading",
+      "description": "A 4-step process to calculate how much to invest per trade based on your risk tolerance.",
+      "step": [
+        {
+          "@type": "HowToStep", "position": 1,
+          "name": "Enter your account balance",
+          "text": "Input the total balance of your trading account. This is the total capital you are willing to trade with."
+        },
+        {
+          "@type": "HowToStep", "position": 2,
+          "name": "Set your risk percentage",
+          "text": "Decide what percentage of your account you are willing to risk on this trade. Beginners should use 1-2% maximum. Risking more than 2% per trade is considered aggressive."
+        },
+        {
+          "@type": "HowToStep", "position": 3,
+          "name": "Enter entry price and stop-loss",
+          "text": "Input the price at which you plan to enter the trade and the price at which you will exit if the trade goes against you (stop-loss). The difference between these two prices determines your risk per unit."
+        },
+        {
+          "@type": "HowToStep", "position": 4,
+          "name": "Read your position size",
+          "text": "The calculator divides your risk amount by the per-unit risk to give you the optimal position size — the amount you should invest to stay within your risk parameters."
+        }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://chartscope.net/" },
+        { "@type": "ListItem", "position": 2, "name": "Tools", "item": "https://chartscope.net/tools/" },
+        { "@type": "ListItem", "position": 3, "name": "Position Size Calculator", "item": "https://chartscope.net/tools/position-size-calculator.html" }
+      ]
+    }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg-primary: #000000; --bg-secondary: #0a0a0a; --bg-card: rgba(255, 255, 255, 0.05);
+            --text-primary: #ffffff; --text-secondary: rgba(255, 255, 255, 0.7); --text-tertiary: rgba(255, 255, 255, 0.5);
+            --accent-blue: #0A84FF; --accent-purple: #BF5AF2; --accent-cyan: #64D2FF; --accent-green: #30D158;
+        }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif; background: var(--bg-primary); color: var(--text-primary); line-height: 1.7; }
+        nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; padding: 20px 40px; background: rgba(0,0,0,0.8); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255,255,255,0.1); }
+        nav .container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { display: flex; align-items: center; gap: 12px; font-size: 1.5rem; font-weight: 600; text-decoration: none; color: var(--text-primary); }
+        .logo-icon { width: 40px; height: 40px; border-radius: 10px; overflow: hidden; }
+        .nav-links { display: flex; gap: 32px; list-style: none; }
+        .nav-links a { color: var(--text-secondary); text-decoration: none; font-size: 0.95rem; transition: color 0.3s; }
+        .nav-links a:hover { color: var(--text-primary); }
+        .nav-cta-btn { background: var(--accent-blue); color: #fff !important; padding: 8px 18px; border-radius: 20px; font-weight: 600; font-size: 0.9rem; text-decoration: none; transition: opacity 0.2s, transform 0.2s; white-space: nowrap; }
+        .nav-cta-btn:hover { opacity: 0.85; transform: scale(1.02); color: #fff !important; }
+        .content { max-width: 780px; margin: 0 auto; padding: 140px 20px 80px; }
+        .breadcrumb { font-size: 0.85rem; color: var(--text-tertiary); margin-bottom: 24px; }
+        .breadcrumb a { color: var(--accent-blue); text-decoration: none; }
+        h1 { font-size: 2.4rem; font-weight: 700; line-height: 1.2; margin-bottom: 12px; }
+        h2 { font-size: 1.5rem; font-weight: 600; margin: 36px 0 16px; }
+        p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1.05rem; }
+        .calculator-box {
+            background: var(--bg-card);
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 20px;
+            padding: 32px;
+            margin: 28px 0;
+        }
+        .input-group { margin-bottom: 20px; }
+        .input-group label { display: block; font-size: 0.9rem; font-weight: 600; margin-bottom: 6px; color: var(--text-secondary); }
+        .input-group input {
+            width: 100%; padding: 12px 16px;
+            background: var(--bg-secondary);
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 10px;
+            color: var(--text-primary);
+            font-size: 1.1rem; font-family: inherit;
+            transition: border-color 0.2s;
+        }
+        .input-group input:focus { outline: none; border-color: var(--accent-blue); }
+        .input-group .unit { font-size: 0.8rem; color: var(--text-tertiary); margin-top: 4px; }
+        .result-box {
+            background: rgba(10,132,255,0.08);
+            border: 1px solid var(--accent-blue);
+            border-radius: 14px;
+            padding: 24px;
+            margin-top: 24px;
+            text-align: center;
+        }
+        .result-box .result-label { font-size: 0.85rem; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px; }
+        .result-box .result-value { font-size: 2rem; font-weight: 700; color: var(--accent-blue); }
+        .result-box .result-detail { font-size: 0.9rem; color: var(--text-secondary); margin-top: 8px; }
+        .formula-box {
+            background: var(--bg-card);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 14px;
+            padding: 20px 24px;
+            margin: 24px 0;
+            font-family: monospace;
+            font-size: 0.95rem;
+            color: var(--accent-cyan);
+        }
+        .disclaimer-box { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); border-radius: 12px; padding: 20px 24px; margin-top: 32px; font-size: 0.85rem; color: var(--text-tertiary); }
+        footer { padding: 40px 20px; text-align: center; border-top: 1px solid rgba(255,255,255,0.1); color: var(--text-tertiary); font-size: 0.85rem; }
+        footer a { color: var(--text-secondary); text-decoration: none; margin: 0 12px; }
+        @media (max-width: 768px) { h1 { font-size: 1.8rem; } .content { padding: 120px 16px 60px; } .calculator-box { padding: 20px; } .nav-links { gap: 16px; } nav { padding: 16px 20px; } }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="../index.html" class="logo"><img src="../assets/logo.png" alt="ChartScope" class="logo-icon" width="40" height="40">ChartScope</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../blog.html">Blog</a></li>
+                <li><a href="../support.html">Support</a></li>
+                <li><a href="https://apps.apple.com/app/chartscope/id6757865711" class="nav-cta-btn">Get the App</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="content">
+        <div class="breadcrumb">
+            <a href="../index.html">Home</a> › Tools › Position Size Calculator
+        </div>
+
+        <article>
+            <header>
+                <h1>Crypto Position Size Calculator</h1>
+                <p>A free educational tool to calculate how much to invest per trade. Position sizing is the single most important risk management skill in crypto — risking too much per trade is the #1 reason beginners blow up their accounts.</p>
+            </header>
+
+            <div class="calculator-box">
+                <div class="input-group">
+                    <label for="accountBalance">Account Balance ($)</label>
+                    <input type="number" id="accountBalance" placeholder="e.g., 5000" min="1" step="any">
+                    <div class="unit">Total capital in your trading account</div>
+                </div>
+                <div class="input-group">
+                    <label for="riskPercent">Risk per Trade (%)</label>
+                    <input type="number" id="riskPercent" placeholder="e.g., 1" min="0.1" max="100" step="0.1" value="1">
+                    <div class="unit">Beginners should risk 1-2% maximum per trade. Professionals rarely risk more than 2%.</div>
+                </div>
+                <div class="input-group">
+                    <label for="entryPrice">Entry Price ($)</label>
+                    <input type="number" id="entryPrice" placeholder="e.g., 45000" min="0.01" step="any">
+                    <div class="unit">The price at which you plan to enter the trade</div>
+                </div>
+                <div class="input-group">
+                    <label for="stopLoss">Stop-Loss Price ($)</label>
+                    <input type="number" id="stopLoss" placeholder="e.g., 44000" min="0.01" step="any">
+                    <div class="unit">The price at which you will exit if the trade goes against you</div>
+                </div>
+                <div class="result-box" id="resultBox">
+                    <div class="result-label">Position Size</div>
+                    <div class="result-value" id="positionSize">—</div>
+                    <div class="result-detail" id="resultDetail">Enter your values above to calculate</div>
+                </div>
+            </div>
+
+            <h2>How Position Sizing Works</h2>
+            <p>Position sizing determines how much capital to allocate to a single trade so that if your stop-loss is hit, you lose only the percentage of your account you are willing to risk — no more.</p>
+            <div class="formula-box">
+                <strong>Formula:</strong><br>
+                Risk Amount = Account Balance × (Risk % ÷ 100)<br>
+                Risk per Unit = |Entry Price − Stop-Loss Price|<br>
+                Position Size = Risk Amount ÷ Risk per Unit<br><br>
+                <strong>Example:</strong><br>
+                $5,000 account × 1% risk = $50 risk amount<br>
+                Entry at $45,000, stop at $44,000 = $1,000 risk per BTC<br>
+                $50 ÷ $1,000 = 0.05 BTC position size
+            </div>
+            <p>The position size tells you how many units (coins, contracts) to buy so that a move from your entry to your stop-loss equals exactly your risk amount. This is the foundation of professional risk management — every trade risks the same percentage regardless of the asset or setup.</p>
+
+            <h2>Why 1-2% Risk per Trade?</h2>
+            <p>The 1-2% rule is not arbitrary. If you risk 5% per trade and lose 10 trades in a row (a normal statistical drawdown for any strategy), you are down 40% — and need a 67% gain just to break even. At 1% risk, 10 losses cost you 10% — recoverable with an 11% gain. The math of compounding losses is brutal, and position sizing is your only defense against it.</p>
+
+            <div class="disclaimer-box">
+                <strong>⚠️ Educational Disclaimer:</strong> This calculator is for educational purposes only. It does not constitute financial advice, trading recommendations, or investment guidance. Crypto trading involves substantial risk of loss. Never trade with money you cannot afford to lose. Past performance does not guarantee future results. ChartScope is an educational app — we do not provide trading signals or investment advice.
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p><a href="../index.html">Home</a> <a href="../about.html">About</a> <a href="../blog.html">Blog</a> <a href="../privacy.html">Privacy</a> <a href="../terms.html">Terms</a> <a href="../support.html">Support</a></p>
+        <p style="margin-top:12px;">© 2026 ChartScope. All rights reserved.</p>
+    </footer>
+
+    <script>
+    (function() {
+        var accountBalance = document.getElementById('accountBalance');
+        var riskPercent = document.getElementById('riskPercent');
+        var entryPrice = document.getElementById('entryPrice');
+        var stopLoss = document.getElementById('stopLoss');
+        var positionSize = document.getElementById('positionSize');
+        var resultDetail = document.getElementById('resultDetail');
+
+        function calculate() {
+            var balance = parseFloat(accountBalance.value);
+            var risk = parseFloat(riskPercent.value);
+            var entry = parseFloat(entryPrice.value);
+            var stop = parseFloat(stopLoss.value);
+
+            if (isNaN(balance) || isNaN(risk) || isNaN(entry) || isNaN(stop) || balance <= 0 || risk <= 0 || entry <= 0 || stop <= 0) {
+                positionSize.textContent = '—';
+                resultDetail.textContent = 'Enter all values to calculate';
+                return;
+            }
+
+            if (stop === entry) {
+                positionSize.textContent = '—';
+                resultDetail.textContent = 'Stop-loss cannot equal entry price';
+                return;
+            }
+
+            var riskAmount = balance * (risk / 100);
+            var riskPerUnit = Math.abs(entry - stop);
+            var size = riskAmount / riskPerUnit;
+            var totalValue = size * entry;
+
+            positionSize.textContent = size.toFixed(6) + ' units';
+            resultDetail.textContent = 'Risking $' + riskAmount.toFixed(2) + ' (' + risk.toFixed(1) + '% of account). ' +
+                'Position value: $' + totalValue.toFixed(2) + '. ' +
+                'If stop is hit, loss = $' + riskAmount.toFixed(2) + '.';
+        }
+
+        accountBalance.addEventListener('input', calculate);
+        riskPercent.addEventListener('input', calculate);
+        entryPrice.addEventListener('input', calculate);
+        stopLoss.addEventListener('input', calculate);
+    })();
+    </script>
+</body>
+</html>

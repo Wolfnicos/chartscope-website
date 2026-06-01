@@ -12,11 +12,11 @@
     <link rel="alternate" hreflang="en" href="https://chartscope.net/">
     <link rel="alternate" hreflang="x-default" href="https://chartscope.net/">
     <script>
-    (function(){var u=window.location.origin+window.location.pathname;
+    (function(){var p=window.location.pathname;var u=window.location.origin+(p==='/index.html'?'/':p);
     var c=document.querySelector('link[rel="canonical"]');if(c)c.href=u;
     var o=document.querySelector('meta[property="og:url"]');if(o)o.content=u;
     var h=document.querySelectorAll('link[rel="alternate"][hreflang]');
-    for(var i=0;i<h.length;i++){var p=h[i].href.split('?')[0];h[i].href=p;}})();
+    for(var i=0;i<h.length;i++){var q=h[i].href.split('?')[0];if(q.endsWith('/index.html'))q=q.replace('/index.html','/');h[i].href=q;}})();
     </script>
     <!-- Open Graph -->
     <meta property="og:title" content="ChartScope — The AI Crypto Tutor That Explains Your Charts">

@@ -1210,6 +1210,46 @@
             </div>
 
             <div class="section">
+                <h2 id="portfolio-tracking-for-tax-reporting-2026">Portfolio Tracking for Tax Reporting in 2026: Why Accurate Records Are Non-Negotiable</h2>
+                <p>Secure portfolio tracking isn't just about knowing your current balances — it's about maintaining the transaction history you'll need for tax reporting. In 2026, this is more important than ever: the EU's <strong>DAC8 directive</strong> requires crypto exchanges to automatically report user transaction data to the tax authorities of EU member states, effective from 2026. If your records don't match what the exchange reports, you have a problem.</p>
+                <h3 id="what-dac8-means-for-eu-portfolio-trackers">What DAC8 Means for EU Users Tracking Their Portfolio</h3>
+                <p>DAC8 (Directive on Administrative Cooperation) obliges European crypto exchanges to collect and report to national tax authorities:</p>
+                <ul>
+                    <li>All crypto-to-fiat transactions (sales, deposits, withdrawals)</li>
+                    <li>Crypto-to-crypto swaps (in many jurisdictions, these are taxable disposals)</li>
+                    <li>Your acquisition cost data if the exchange has it (e.g., if you bought on that exchange)</li>
+                    <li>Annual summaries of gains and losses where the exchange can calculate them</li>
+                </ul>
+                <p>This means your home tax authority will receive data about your exchange activity regardless of whether you report it. A secure, accurate portfolio tracker gives you the matching records to file correctly — and to contest any inaccuracies in what the exchange reported.</p>
+                <h3 id="cost-basis-tracking-across-multiple-exchanges">Cost Basis Tracking Across Multiple Exchanges</h3>
+                <p>The most common portfolio tracking failure isn't security — it's cost basis fragmentation. If you've bought BTC on Binance, transferred it to a hardware wallet, then sold it on Kraken, no single exchange has your complete cost basis. You do. Key principles:</p>
+                <ul>
+                    <li><strong>Record every acquisition:</strong> Date, amount, price in your local fiat currency, exchange, and transaction fee (deductible in most jurisdictions)</li>
+                    <li><strong>Track transfer events:</strong> Moving crypto between your own wallets is not a taxable event, but you need to document it to prove the asset's cost basis didn't change</li>
+                    <li><strong>FIFO vs. LIFO vs. specific ID:</strong> Different jurisdictions require different cost basis methods. The UK uses HMRC's share identification rules; Belgium and France use FIFO; Romania allows specific identification. Your tracker needs to support your country's required method</li>
+                    <li><strong>Staking and yield rewards:</strong> These are generally treated as income (at market value when received) rather than capital gains — they need a separate tax record from trading gains</li>
+                </ul>
+                <h3 id="read-only-api-keys-the-security-tax-balance">Read-Only API Keys: Balancing Security and Tax Data Access</h3>
+                <p>ChartScope's read-only API key architecture (permissions: <code>read</code> only, no <code>trade</code> or <code>withdraw</code>) gives you portfolio visibility without withdrawal risk. From a tax record perspective, the read-only connection pulls:</p>
+                <ul>
+                    <li>Current balances and their fiat-equivalent values (for wealth tax calculations, relevant in Switzerland, Germany, and some cantons)</li>
+                    <li>Open orders and position history (useful for confirming acquisition dates)</li>
+                    <li>Price history for held assets (for mark-to-market calculations)</li>
+                </ul>
+                <p>What it does <em>not</em> pull is full transaction history — for that, you'll want to export your complete trade history directly from each exchange (most provide CSV exports). ChartScope's portfolio view is for real-time education and analysis; your tax records need the full export.</p>
+                <h3 id="country-specific-portfolio-tracking-requirements">Country-Specific Portfolio Tracking Requirements</h3>
+                <p>Depending on where you're based, your portfolio tracking needs differ:</p>
+                <ul>
+                    <li><strong>Belgium:</strong> 30% flat tax on disposals — track every sale price, acquisition cost, and date. The FSMA may request records if your activity is flagged for review</li>
+                    <li><strong>France:</strong> PFU 30% on net annual gains — the D2086 tax form requires transaction-level detail. The French tax authority pre-populates the form with DAC8 data from 2026 onward, which you must verify and correct if wrong</li>
+                    <li><strong>Switzerland:</strong> Capital gains generally exempt for private investors, but wealth tax requires the CHF fair market value of all holdings on 31 December each year — your tracker must support year-end valuation snapshots</li>
+                    <li><strong>Romania:</strong> ANAF requires disclosure of all transactions exceeding 200 RON gain per event on the D212 form — cost basis records per transaction are essential</li>
+                    <li><strong>Germany:</strong> Gains on crypto held less than 12 months are taxable as income; after 12 months, gains are generally tax-free for private investors. Your tracker must record acquisition dates precisely</li>
+                </ul>
+                <blockquote><p><strong>Disclaimer:</strong> This is educational information. Tax rules in all jurisdictions are subject to change. Consult a qualified tax advisor in your country for guidance on your specific situation and reporting obligations.</p></blockquote>
+            </div>
+
+            <div class="section">
                 <div class="disclaimer-box">
                     <h3>Important Disclaimer</h3>
                     <p>This article is for <strong>educational purposes only</strong> and does not constitute financial advice, investment recommendations, or trading signals. Cryptocurrency markets are highly volatile and carry significant risk. You could lose some or all of your invested capital.</p>

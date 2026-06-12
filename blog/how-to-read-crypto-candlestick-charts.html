@@ -1102,6 +1102,44 @@
                 </div>
             </div>
 
+            <!-- ChartScope AI Vision walkthrough -->
+            <div class="section">
+                <h2 id="chartscope-ai-vision-candlestick-walkthrough">Reading Candlestick Patterns with ChartScope's AI Vision: A Step-by-Step Walkthrough</h2>
+                <p>Understanding candlestick theory is one thing — seeing it applied to your actual chart in real time is another. This section walks through exactly what ChartScope's AI outputs when it processes a chart screenshot, so you know what to expect and how to build on its explanations.</p>
+                <h3 id="what-ai-vision-identifies-on-a-candlestick-chart">What AI Vision Identifies on a Candlestick Chart</h3>
+                <p>ChartScope's AI Vision feature uses a multimodal vision model to analyse the last 80 candles of whichever chart you screenshot. It identifies and labels:</p>
+                <ul>
+                    <li><strong>Single-candle patterns:</strong> Doji (standard, dragonfly, gravestone), hammer, inverted hammer, shooting star, spinning top, marubozu (full-body candles with no wicks, indicating strong momentum)</li>
+                    <li><strong>Two-candle patterns:</strong> Bullish engulfing, bearish engulfing, harami (inside bar), piercing line, dark cloud cover</li>
+                    <li><strong>Three-candle patterns:</strong> Morning star, evening star, three white soldiers, three black crows</li>
+                    <li><strong>Structural patterns:</strong> Support/resistance zones visible in the price history, trend lines where multiple candle bodies or wicks align</li>
+                </ul>
+                <p>For each pattern it finds, the AI provides a plain-language explanation of what the pattern historically suggests about market sentiment — always framed as educational context, never as a trading signal.</p>
+                <h3 id="ai-vision-example-output-shooting-star">Example AI Vision Output: Shooting Star at Resistance</h3>
+                <p>When AI Vision detects a shooting star near a prior resistance level, the output reads something like:</p>
+                <blockquote>
+                    <p>"A Shooting Star candlestick pattern is visible on the most recent candle. This pattern has a small real body near the low of the candle's range and a long upper wick, indicating that buyers pushed the price significantly higher during the period, but sellers regained control before the close. When this pattern appears near a prior resistance zone (visible at approximately the same price level 12 candles ago), it historically suggests that buying pressure is weakening. This is one signal among many — confirm with volume and momentum indicators before drawing conclusions."</p>
+                </blockquote>
+                <p>Notice what the output does and doesn't say: it names the pattern, explains the mechanics (who was in control when), gives structural context (near resistance), and explicitly defers to additional confirmation. This is the educational model — understanding the <em>why</em> behind a pattern, not receiving a binary signal.</p>
+                <h3 id="combining-ai-vision-with-9-insight-cards">Combining AI Vision with the 9 Insight Cards</h3>
+                <p>AI Vision output becomes most powerful when combined with ChartScope's Enriched Insights cards. For the shooting star example above:</p>
+                <ul>
+                    <li><strong>Indicator Conflicts card:</strong> If RSI is at 72 (overbought) while the shooting star appears, the card notes both signals pointing to potential exhaustion — high confluence</li>
+                    <li><strong>Market Mood card:</strong> A mood reading above 70/100 near a resistance-level shooting star tells you the market was bullish <em>going into</em> the pattern — making the reversal signal more significant than if mood was neutral</li>
+                    <li><strong>Divergence card:</strong> If MACD histogram was already shrinking before the shooting star formed, the divergence card surfaces this as corroborating weakness — teaching you to look for confirmation across time</li>
+                    <li><strong>Key Levels card:</strong> Shows the exact price of the nearest support below the shooting star — giving you the "if this fails, where does it go?" context that a candle pattern alone can't provide</li>
+                </ul>
+                <h3 id="what-to-ask-ai-chat-after-seeing-a-candlestick-pattern">What to Ask AI Chat After Seeing a Candlestick Pattern</h3>
+                <p>The AI Chat feature is context-aware — it knows what coin and timeframe you're viewing. After AI Vision identifies a pattern, these follow-up questions produce the most educational responses:</p>
+                <ul>
+                    <li><em>"Why does this hammer pattern matter more at the bottom of a downtrend than in the middle of one?"</em></li>
+                    <li><em>"I see three consecutive bearish candles — is that the same as three black crows?"</em> (Teaches you the body-size and gap requirements)</li>
+                    <li><em>"The engulfing candle has a very long wick — does that change what it means?"</em></li>
+                    <li><em>"What volume would confirm this morning star pattern?"</em></li>
+                </ul>
+                <p>Each answer builds conceptual understanding rather than giving you a directive — which is the only way to genuinely learn to read charts rather than pattern-match without understanding.</p>
+            </div>
+
             <!-- Disclaimer -->
             <div class="section">
                 <div class="disclaimer-box">

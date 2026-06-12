@@ -508,6 +508,34 @@
         </div>
 
         <div class="section">
+            <h2 id="bollinger-bands-in-chartscope-practical-walkthrough">Reading Bollinger Bands with ChartScope's AI: A Practical Walkthrough</h2>
+            <p>Most Bollinger Band guides explain the theory. This section shows you exactly what happens when you use ChartScope's AI features to interpret them on a real chart — the specific outputs, what the AI says, and how to act on the information educationally.</p>
+            <h3 id="what-chartscope-shows-when-bb-squeeze-detected">What ChartScope Shows When It Detects a Bollinger Squeeze</h3>
+            <p>When ChartScope's AI Vision analyses a chart with a Bollinger squeeze in progress (band width narrowing below 20% of recent average), the Enriched Insights panel surfaces a <strong>Volatility card</strong> that reads something like:</p>
+            <blockquote><p>"Current volatility is low relative to the past 20 periods. Band width has compressed to X%. Historical patterns suggest a significant move is building — but direction is not determinable from volatility alone."</p></blockquote>
+            <p>This is intentionally non-directional: ChartScope never tells you which way a squeeze will resolve. It explains <em>what the indicator shows</em>, not what you should do. The educational value is learning to combine this observation with the other 8 insight cards — particularly the <strong>Market Mood thermometer</strong> and <strong>Indicator Conflicts</strong> card.</p>
+            <h3 id="bollinger-bands-market-mood-combination">Combining Bollinger Bands with Market Mood: ChartScope's Multi-Signal Approach</h3>
+            <p>ChartScope's AI correlates Bollinger Band conditions with other indicators in real time. A squeeze paired with:</p>
+            <ul>
+            <li><strong>Market Mood &gt; 65/100 (bullish):</strong> The Insights panel notes bullish momentum building during the squeeze — historically more likely to resolve upward</li>
+            <li><strong>Market Mood &lt; 35/100 (bearish):</strong> The panel notes bearish pressure during consolidation — historically more likely to resolve downward</li>
+            <li><strong>Indicator Conflicts card triggered:</strong> If RSI shows oversold while the upper band has been repeatedly touched, ChartScope flags the contradiction explicitly — teaching you that conflicting signals mean lower conviction, not a clear trade setup</li>
+            </ul>
+            <h3 id="ask-chartscope-ai-chat-about-bollinger-bands">Practical Questions to Ask ChartScope's AI Chat About Bollinger Bands</h3>
+            <p>The AI Chat feature is context-aware — it knows which coin and timeframe you're viewing. These questions produce the most educational responses:</p>
+            <ul>
+            <li><em>"The price just touched the upper Bollinger Band on the 4-hour BTC chart — what does that tell me?"</em> → The AI explains mean-reversion tendency vs. trend continuation, without predicting which happens</li>
+            <li><em>"Why has the band width been shrinking for 8 candles?"</em> → Explains how 20-period standard deviation works, why extended consolidation compresses it</li>
+            <li><em>"The middle band turned downward — what does that mean for the trend?"</em> → Explains the middle band (20 SMA) as a trend direction filter, distinguishing it from the bands themselves</li>
+            <li><em>"What's the difference between a Bollinger squeeze and just low volatility?"</em> → Distinguishes between absolute low volatility and relative compression — a key conceptual distinction most beginners miss</li>
+            </ul>
+            <h3 id="bollinger-bands-default-settings-why-20-2">Why the Default 20-Period, 2 Standard Deviation Settings Still Work in Crypto</h3>
+            <p>John Bollinger designed his bands for equity markets with regular trading hours. Crypto trades 24/7, which raises the question: do the defaults still apply?</p>
+            <p>ChartScope's AI, when asked this question, explains: the 20-period SMA remains a widely respected mean because it covers approximately one month of daily candles — a natural institutional decision-making cycle. The 2 standard deviation setting keeps ~95% of price action inside the bands regardless of market hours. These defaults work not because of mathematical precision, but because <em>enough market participants watch them</em> that they create self-fulfilling reference points.</p>
+            <p>Changing to 10-period or 1.5σ on crypto doesn't make the bands "more accurate" — it just creates narrower bands that signal more frequent (and noisier) conditions. ChartScope's Enriched Insights always use default settings and explains why when asked.</p>
+        </div>
+
+        <div class="section">
             <h2>Frequently Asked Questions</h2>
             <div class="faq-item">
                 <h3>What are Bollinger Bands in crypto?</h3>

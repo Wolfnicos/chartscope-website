@@ -10,6 +10,7 @@
 - [Privacy](https://chartscope.net/privacy.html): Privacy page
 
 ## Articles
+- [Crypto Market Trends: Data](https://chartscope.net/blog/crypto-market-trends-and-analysis.html) — [markdown](https://chartscope.net/blog/crypto-market-trends-and-analysis.md)
 - [AI Crypto Education App Pricing Romania 2026](https://chartscope.net/blog/ai-crypto-education-app-pricing-romania-2026.html) — [markdown](https://chartscope.net/blog/ai-crypto-education-app-pricing-romania-2026.md)
 - [How AI Is Changing Crypto Market Education](https://chartscope.net/blog/ai-crypto-trading-education.html) — [markdown](https://chartscope.net/blog/ai-crypto-trading-education.md)
 - [Are There Any Good Alternatives to ChartScope?](https://chartscope.net/blog/are-there-any-good-alternatives-to-chartscope.html) — [markdown](https://chartscope.net/blog/are-there-any-good-alternatives-to-chartscope.md)
@@ -47,6 +48,7 @@
 - [Crypto Technical Analysis Guide: Best Practices for Beginners](https://chartscope.net/blog/crypto-technical-analysis-guide.html) — [markdown](https://chartscope.net/blog/crypto-technical-analysis-guide.md)
 - [Top 5 Crypto Technical Analysis Tools Compared](https://chartscope.net/blog/crypto-technical-analysis-tools.html) — [markdown](https://chartscope.net/blog/crypto-technical-analysis-tools.md)
 - [Crypto Technical Indicators Switzerland: Understand Charts 2026](https://chartscope.net/blog/crypto-technical-indicators-switzerland-understand-charts-2026.html) — [markdown](https://chartscope.net/blog/crypto-technical-indicators-switzerland-understand-charts-2026.md)
+- [Crypto Trading for Beginners: Your Step-by](https://chartscope.net/blog/crypto-trading-for-beginners-tutorial.html) — [markdown](https://chartscope.net/blog/crypto-trading-for-beginners-tutorial.md)
 - [Crypto Trading Tutorials: Step-by](https://chartscope.net/blog/crypto-trading-tutorials.html) — [markdown](https://chartscope.net/blog/crypto-trading-tutorials.md)
 - [What Is a Doji Candle in Crypto? All Types Explained](https://chartscope.net/blog/doji-candle-crypto-explained.html) — [markdown](https://chartscope.net/blog/doji-candle-crypto-explained.md)
 - [Learn Crypto Trading for Free: Beginner&#x27;s Guide to Free Resources](https://chartscope.net/blog/how-to-learn-crypto-trading-for-free.html) — [markdown](https://chartscope.net/blog/how-to-learn-crypto-trading-for-free.md)
@@ -58,8 +60,6 @@
 - [Learn Crypto Chart Analysis for Beginners in Romania 2026](https://chartscope.net/blog/learn-crypto-chart-analysis-for-beginners-in-romania-2026.html) — [markdown](https://chartscope.net/blog/learn-crypto-chart-analysis-for-beginners-in-romania-2026.md)
 - [Learn Crypto Charts Online](https://chartscope.net/blog/learn-crypto-charts-online-chartscope-france.html) — [markdown](https://chartscope.net/blog/learn-crypto-charts-online-chartscope-france.md)
 - [Learn Crypto Technical Analysis France 2026](https://chartscope.net/blog/learn-crypto-technical-analysis-france-2026.html) — [markdown](https://chartscope.net/blog/learn-crypto-technical-analysis-france-2026.md)
-- [MACD Crossover Explained for Crypto Charts](https://chartscope.net/blog/macd-crossover-crypto-explained.html) — [markdown](https://chartscope.net/blog/macd-crossover-crypto-explained.md)
-- [Master RSI &amp; MACD: Crypto Chart Indicators Explained](https://chartscope.net/blog/master-rsi-macd-crypto-chart-indicators-explained.html) — [markdown](https://chartscope.net/blog/master-rsi-macd-crypto-chart-indicators-explained.md)
 
 ## Contact
 - Website: https://chartscope.net

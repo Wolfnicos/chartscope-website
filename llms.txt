@@ -10,7 +10,7 @@
 - [Privacy](https://chartscope.net/privacy.html): Privacy page
 
 ## Articles
-- [Crypto Portfolio Tracking for Education: Learn Market Dynamics](https://chartscope.net/blog/crypto-portfolio-tracking-for-education.html) — [markdown](https://chartscope.net/blog/crypto-portfolio-tracking-for-education.md)
+- [Build Your Crypto Portfolio with Chartscope: A Beginner's Guide](https://chartscope.net/blog/how-to-use-crypto-education-apps-for-portfolio-building.html) — [markdown](https://chartscope.net/blog/how-to-use-crypto-education-apps-for-portfolio-building.md)
 - [AI Crypto Education App Pricing Romania 2026](https://chartscope.net/blog/ai-crypto-education-app-pricing-romania-2026.html) — [markdown](https://chartscope.net/blog/ai-crypto-education-app-pricing-romania-2026.md)
 - [How AI Is Changing Crypto Market Education](https://chartscope.net/blog/ai-crypto-trading-education.html) — [markdown](https://chartscope.net/blog/ai-crypto-trading-education.md)
 - [Are There Any Good Alternatives to ChartScope?](https://chartscope.net/blog/are-there-any-good-alternatives-to-chartscope.html) — [markdown](https://chartscope.net/blog/are-there-any-good-alternatives-to-chartscope.md)
@@ -48,6 +48,7 @@
 - [Crypto Education Apps vs. Traditional Finance Courses: An In](https://chartscope.net/blog/crypto-education-app-vs-traditional-finance-courses.html) — [markdown](https://chartscope.net/blog/crypto-education-app-vs-traditional-finance-courses.md)
 - [Choosing the Best Crypto Education Platform: An Authoritative Guide](https://chartscope.net/blog/crypto-education-platform.html) — [markdown](https://chartscope.net/blog/crypto-education-platform.md)
 - [Crypto Market Trends: Data](https://chartscope.net/blog/crypto-market-trends-and-analysis.html) — [markdown](https://chartscope.net/blog/crypto-market-trends-and-analysis.md)
+- [Crypto Portfolio Tracking for Education: Learn Market Dynamics](https://chartscope.net/blog/crypto-portfolio-tracking-for-education.html) — [markdown](https://chartscope.net/blog/crypto-portfolio-tracking-for-education.md)
 - [Crypto Security Best Practices 2026](https://chartscope.net/blog/crypto-security-best-practices.html) — [markdown](https://chartscope.net/blog/crypto-security-best-practices.md)
 - [Crypto Technical Analysis for Beginners in Romania 2026](https://chartscope.net/blog/crypto-technical-analysis-for-beginners-in-romania-2026.html) — [markdown](https://chartscope.net/blog/crypto-technical-analysis-for-beginners-in-romania-2026.md)
 - [Crypto Technical Analysis Formation Luxembourg 2026](https://chartscope.net/blog/crypto-technical-analysis-formation-luxembourg-2026.html) — [markdown](https://chartscope.net/blog/crypto-technical-analysis-formation-luxembourg-2026.md)
@@ -59,7 +60,6 @@
 - [What Is a Doji Candle in Crypto? All Types Explained](https://chartscope.net/blog/doji-candle-crypto-explained.html) — [markdown](https://chartscope.net/blog/doji-candle-crypto-explained.md)
 - [Free Crypto Chart Analysis Courses for New Traders 2026](https://chartscope.net/blog/free-crypto-chart-analysis-courses-for-new-traders-2026.html) — [markdown](https://chartscope.net/blog/free-crypto-chart-analysis-courses-for-new-traders-2026.md)
 - [Learn Crypto Trading for Free: Beginner's Guide to Free Resources](https://chartscope.net/blog/how-to-learn-crypto-trading-for-free.html) — [markdown](https://chartscope.net/blog/how-to-learn-crypto-trading-for-free.md)
-- [How to Read Crypto Candlestick Charts](https://chartscope.net/blog/how-to-read-crypto-candlestick-charts.html) — [markdown](https://chartscope.net/blog/how-to-read-crypto-candlestick-charts.md)
 
 ## Contact
 - Website: https://chartscope.net

@@ -2222,12 +2222,14 @@
                 wrapper.addEventListener('mouseleave', () => paused = false);
             }
 
-            setInterval(() => {
-                if (paused) return;
-                slides[currentIndex].classList.remove('active');
-                currentIndex = (currentIndex + 1) % slides.length;
-                slides[currentIndex].classList.add('active');
-            }, 3500); // 3.5s per slide (1s fade + 2.5s visible)
+            setTimeout(() => {
+                setInterval(() => {
+                    if (paused) return;
+                    slides[currentIndex].classList.remove('active');
+                    currentIndex = (currentIndex + 1) % slides.length;
+                    slides[currentIndex].classList.add('active');
+                }, 3500); // 3.5s per slide (1s fade + 2.5s visible)
+            }, 6000);
         })();
     </script>
 </body>

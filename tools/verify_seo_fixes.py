@@ -46,6 +46,8 @@ def check_local() -> list[str]:
         errors.append(f"duplicate .html.html files remain: {len(dupes)}")
 
     sitemap = (ROOT / "sitemap.xml").read_text(encoding="utf-8")
+    if 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"' not in sitemap:
+        errors.append("sitemap has incorrect urlset namespace")
     if "tools/position-size-calculator.html" not in sitemap:
         errors.append("sitemap missing position-size-calculator.html")
 
@@ -146,6 +148,10 @@ def check_live() -> list[str]:
         canon = re.search(r'rel="canonical" href="([^"]+)"', body)
         if not canon or canon.group(1) != f"{SITE}/blog.html":
             errors.append(f"live canonical mismatch on {url}: {canon.group(1) if canon else 'missing'}")
+
+    _, sitemap_body = fetch(f"{SITE}/sitemap.xml")
+    if 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"' not in sitemap_body:
+        errors.append("live sitemap has incorrect urlset namespace")
 
     return errors
 

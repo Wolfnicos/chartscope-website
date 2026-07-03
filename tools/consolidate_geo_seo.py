@@ -99,7 +99,7 @@ def apply_noindex(path: Path) -> bool:
 def write_sitemap(indexable_blog_slugs: list[str]) -> None:
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap-0.9">',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
     ]
     for path in STATIC_PATHS:
         loc = SITE + (path if path != "/" else "/")

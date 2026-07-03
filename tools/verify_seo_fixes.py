@@ -104,6 +104,9 @@ def check_local() -> list[str]:
             errors.append(f"FAQ section without FAQPage schema: {path.name}")
         if re.search(r'"dateModified"\s*:\s*"\d{4}-\d{2}-\d{2}"', html):
             errors.append(f"dateModified not ISO 8601: {path.name}")
+        for slug in NOINDEX_SLUGS:
+            if f"/blog/{slug}" in html or f"{SITE}/blog/{slug}" in html:
+                errors.append(f"indexable post links noindex URL: {path.name} -> {slug}")
 
     return errors
 

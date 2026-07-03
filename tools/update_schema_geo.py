@@ -177,7 +177,8 @@ def extract_faq_pairs(html: str) -> list:
     content = main_match.group(1)
     faq_headers = list(
         re.finditer(
-            r'<h2[^>]*(?:id=["\'][^"\']*faq[^"\']*["\']|>[^<]*(?:FAQ|Frequently Asked Questions)[^<]*)[^>]*>.*?</h2>',
+            r'<h2[^>]*(?:id=["\'][^"\']*(?:faq|frequently-asked)[^"\']*["\']'
+            r'|>[^<]*(?:FAQ|Frequently Asked Questions)[^<]*)[^>]*>.*?</h2>',
             content,
             re.DOTALL | re.IGNORECASE,
         )

@@ -12,6 +12,18 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SITE = "https://chartscope.net"
 
+try:
+    from consolidate_geo_seo import NOINDEX_SLUGS
+except ImportError:
+    import importlib.util
+
+    spec = importlib.util.spec_from_file_location(
+        "consolidate_geo_seo", ROOT / "tools" / "consolidate_geo_seo.py"
+    )
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    NOINDEX_SLUGS = mod.NOINDEX_SLUGS
+
 
 def check_local() -> list[str]:
     errors: list[str] = []
@@ -45,6 +57,17 @@ def check_local() -> list[str]:
     robots = (ROOT / "robots.txt").read_text(encoding="utf-8")
     if "Crawl-delay" in robots:
         errors.append("robots.txt still has Crawl-delay")
+
+    for slug in NOINDEX_SLUGS:
+        path = ROOT / "blog" / slug
+        if not path.exists():
+            errors.append(f"noindex slug missing file: {slug}")
+            continue
+        html = path.read_text(encoding="utf-8")
+        if "noindex" not in html.lower():
+            errors.append(f"missing noindex meta: blog/{slug}")
+        if f"/blog/{slug}</loc>" in sitemap:
+            errors.append(f"noindex page still in sitemap: {slug}")
 
     return errors
 

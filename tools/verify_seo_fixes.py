@@ -83,6 +83,28 @@ def check_local() -> list[str]:
     if len(blog_html) and 'name="description" content="Articles and updates' in blog_html:
         errors.append("blog.html still has short generic meta description")
 
+    import importlib.util
+
+    spec = importlib.util.spec_from_file_location(
+        "update_schema_geo", ROOT / "tools" / "update_schema_geo.py"
+    )
+    geo = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(geo)
+
+    indexable = [
+        p
+        for p in (ROOT / "blog").glob("*.html")
+        if p.name not in NOINDEX_SLUGS
+        and p.name != "index.html"
+        and not p.name.endswith(".html.html")
+    ]
+    for path in indexable:
+        html = path.read_text(encoding="utf-8")
+        if geo.extract_faq_pairs(html) and '"FAQPage"' not in html:
+            errors.append(f"FAQ section without FAQPage schema: {path.name}")
+        if re.search(r'"dateModified"\s*:\s*"\d{4}-\d{2}-\d{2}"', html):
+            errors.append(f"dateModified not ISO 8601: {path.name}")
+
     return errors
 
 

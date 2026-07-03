@@ -170,14 +170,24 @@ def inject_improved_byline(html: str) -> str:
 # ── FAQPage ─────────────────────────────────────────────────────────────────
 
 def extract_faq_pairs(html: str) -> list:
-    faq_match = re.search(
-        r'<h2[^>]*id=["\']faq["\'][^>]*>.*?</h2>(.*?)(?=<h2|</main>|<footer)',
-        html, re.DOTALL | re.IGNORECASE
-    )
-    if not faq_match:
+    main_match = re.search(r"<main[^>]*>(.*?)</main>", html, re.DOTALL)
+    if not main_match:
         return []
 
-    section = faq_match.group(1)
+    content = main_match.group(1)
+    faq_headers = list(
+        re.finditer(
+            r'<h2[^>]*(?:id=["\'][^"\']*faq[^"\']*["\']|>[^<]*(?:FAQ|Frequently Asked Questions)[^<]*)[^>]*>.*?</h2>',
+            content,
+            re.DOTALL | re.IGNORECASE,
+        )
+    )
+    if not faq_headers:
+        return []
+
+    start = faq_headers[-1].end()
+    next_h2 = re.search(r"<h2", content[start:])
+    section = content[start : start + next_h2.start()] if next_h2 else content[start:]
     pairs = []
     questions = list(re.finditer(r"<h3[^>]*>(.*?)</h3>(.*?)(?=<h3|$)", section, re.DOTALL))
     for q_match in questions[:6]:
@@ -436,17 +446,71 @@ def upgrade_article(html: str) -> str:
 
 def inject_freshness(html: str) -> str:
     """Ensure dateModified is visible in article meta."""
-    if 'article:modified_time' in html:
+    if "article:modified_time" in html:
         return html
 
-    # Inject after article:published_time or after the last article:tag
-    pub_match = re.search(r'<meta property="article:published_time"[^>]+>', html)
+    pub_match = re.search(
+        r'<meta property="article:published_time" content="([^"]+)"[^>]*>', html
+    )
+    modified = f"{TODAY}T00:00:00+00:00"
     if pub_match:
-        insert_at = pub_match.end()
-        tag = f'\n    <meta property="article:modified_time" content="{TODAY}T00:00:00+00:00">'
+        modified = normalize_iso_date(pub_match.group(1)) or modified
+
+    og_match = re.search(r'<meta property="og:type" content="article"[^>]*>', html)
+    if og_match:
+        insert_at = og_match.end()
+        tag = f'\n    <meta property="article:modified_time" content="{modified}">'
         return html[:insert_at] + tag + html[insert_at:]
 
     return html
+
+
+DATE_ONLY_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})$")
+
+
+def normalize_iso_date(value: str) -> str:
+    value = value.strip()
+    if DATE_ONLY_RE.match(value):
+        return f"{value}T00:00:00+00:00"
+    if re.match(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$", value):
+        return f"{value}+00:00"
+    return value
+
+
+def normalize_dates_in_obj(obj) -> None:
+    if isinstance(obj, dict):
+        for key, val in obj.items():
+            if key in ("datePublished", "dateModified") and isinstance(val, str):
+                obj[key] = normalize_iso_date(val)
+            else:
+                normalize_dates_in_obj(val)
+    elif isinstance(obj, list):
+        for item in obj:
+            normalize_dates_in_obj(item)
+
+
+def normalize_schema_dates(html: str) -> tuple[str, bool]:
+    changed = False
+    pattern = re.compile(
+        r'(<script type="application/ld\+json">\s*)(.*?)(\s*</script>)',
+        re.DOTALL,
+    )
+
+    def repl(match: re.Match[str]) -> str:
+        nonlocal changed
+        try:
+            obj = json.loads(match.group(2))
+        except json.JSONDecodeError:
+            return match.group(0)
+        before = json.dumps(obj, ensure_ascii=False, sort_keys=True)
+        normalize_dates_in_obj(obj)
+        after = json.dumps(obj, ensure_ascii=False, sort_keys=True)
+        if before != after:
+            changed = True
+        return match.group(1) + json.dumps(obj, ensure_ascii=False, indent=2) + match.group(3)
+
+    new_html = pattern.sub(repl, html)
+    return new_html, changed
 
 
 # ── Main Processor ──────────────────────────────────────────────────────────
@@ -502,6 +566,12 @@ def process_post(filepath: Path) -> dict:
     new_html = inject_freshness(html)
     if new_html != html:
         changes.append("freshness timestamp")
+        html = new_html
+
+    # 9. ISO 8601 dates in JSON-LD
+    new_html, dates_changed = normalize_schema_dates(html)
+    if dates_changed:
+        changes.append("ISO dates")
         html = new_html
 
     if html != original:

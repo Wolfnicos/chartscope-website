@@ -10,7 +10,6 @@
 - [Privacy](https://chartscope.net/privacy.html): Privacy page
 
 ## Articles
-- [Blockchain Learning Resources: Your Authoritative Starter Guide](https://chartscope.net/blog/blockchain-learning-resources.html) — [markdown](https://chartscope.net/blog/blockchain-learning-resources.md)
 - [Affordable Crypto Trading Courses for Beginners 2026](https://chartscope.net/blog/affordable-crypto-trading-courses-for-beginners-2026.html) — [markdown](https://chartscope.net/blog/affordable-crypto-trading-courses-for-beginners-2026.md)
 - [AI Crypto Education App Pricing Romania 2026](https://chartscope.net/blog/ai-crypto-education-app-pricing-romania-2026.html) — [markdown](https://chartscope.net/blog/ai-crypto-education-app-pricing-romania-2026.md)
 - [How AI Is Changing Crypto Market Education](https://chartscope.net/blog/ai-crypto-trading-education.html) — [markdown](https://chartscope.net/blog/ai-crypto-trading-education.md)
@@ -32,6 +31,7 @@
 - [Best Crypto Education App Switzerland 2026](https://chartscope.net/blog/best-crypto-education-app-switzerland-2026.html) — [markdown](https://chartscope.net/blog/best-crypto-education-app-switzerland-2026.md)
 - [Best Crypto Education Apps for RSI & MACD in 2026](https://chartscope.net/blog/best-crypto-education-apps-for-rsi-macd-in-2026.html) — [markdown](https://chartscope.net/blog/best-crypto-education-apps-for-rsi-macd-in-2026.md)
 - [Best Crypto Trading Simulator Apps: A Beginner's Guide](https://chartscope.net/blog/best-crypto-trading-simulator-app.html) — [markdown](https://chartscope.net/blog/best-crypto-trading-simulator-app.md)
+- [Blockchain Learning Resources: Your Authoritative Starter Guide](https://chartscope.net/blog/blockchain-learning-resources.html) — [markdown](https://chartscope.net/blog/blockchain-learning-resources.md)
 - [What Are Bollinger Bands in Crypto? Explained Simply](https://chartscope.net/blog/bollinger-bands-crypto-explained.html) — [markdown](https://chartscope.net/blog/bollinger-bands-crypto-explained.md)
 - [Chartscope: AI Crypto Education App Price Romania 2026](https://chartscope.net/blog/chartscope-ai-crypto-education-app-price-romania-2026.html) — [markdown](https://chartscope.net/blog/chartscope-ai-crypto-education-app-price-romania-2026.md)
 - [Chartscope Alternative: Better Crypto Charting App Tutorial](https://chartscope.net/blog/chartscope-alternative-better-crypto-charting-app-tutorial.html) — [markdown](https://chartscope.net/blog/chartscope-alternative-better-crypto-charting-app-tutorial.md)

@@ -69,6 +69,20 @@ def check_local() -> list[str]:
         if f"/blog/{slug}</loc>" in sitemap:
             errors.append(f"noindex page still in sitemap: {slug}")
 
+    llms = (ROOT / "llms.txt").read_text(encoding="utf-8")
+    if "SignalLens" in llms:
+        errors.append("llms.txt still mentions SignalLens")
+    for slug in NOINDEX_SLUGS:
+        if f"/blog/{slug}" in llms:
+            errors.append(f"llms.txt links noindex page: {slug}")
+
+    blog_html = (ROOT / "blog.html").read_text(encoding="utf-8")
+    for slug in NOINDEX_SLUGS:
+        if f'href="/blog/{slug}"' in blog_html:
+            errors.append(f"blog.html links noindex page: {slug}")
+    if len(blog_html) and 'name="description" content="Articles and updates' in blog_html:
+        errors.append("blog.html still has short generic meta description")
+
     return errors
 
 

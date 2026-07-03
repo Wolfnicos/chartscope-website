@@ -1,64 +1,66 @@
-# Chartscope
+# ChartScope
 
-> Chartscope — automated content site published via SignalLens AI.
+> ChartScope is an AI-powered crypto education app for beginners. On-device ML, chart explanations in 9 languages, privacy-first design. Educational content only — not financial advice.
 
 ## Key pages
-- [Home](https://chartscope.net/): Chartscope homepage
-- [Blog](https://chartscope.net/blog.html): all published articles
-- [About](https://chartscope.net/about.html): About page
-- [Support](https://chartscope.net/support.html): Support page
-- [Privacy](https://chartscope.net/privacy.html): Privacy page
+- [Home](https://chartscope.net/): ChartScope homepage
+- [Blog](https://chartscope.net/blog.html): indexable educational articles
+- [About](https://chartscope.net/about.html): mission and team
+- [Author](https://chartscope.net/author.html): Nicolas Wolf, crypto educator
+- [Support](https://chartscope.net/support.html): help and contact
+- [Privacy](https://chartscope.net/privacy.html): privacy policy
 
 ## Articles
 - [Affordable Crypto Trading Courses for Beginners 2026](https://chartscope.net/blog/affordable-crypto-trading-courses-for-beginners-2026.html)
-- [AI Crypto Education App Pricing Romania 2026](https://chartscope.net/blog/ai-crypto-education-app-pricing-romania-2026.html) — [markdown](https://chartscope.net/blog/ai-crypto-education-app-pricing-romania-2026.md)
 - [How AI Is Changing Crypto Market Education](https://chartscope.net/blog/ai-crypto-trading-education.html)
 - [Are There Any Good Alternatives to ChartScope?](https://chartscope.net/blog/are-there-any-good-alternatives-to-chartscope.html) — [markdown](https://chartscope.net/blog/are-there-any-good-alternatives-to-chartscope.md)
-- [Beginner Crypto Chart Training Switzerland 2026](https://chartscope.net/blog/beginner-crypto-chart-training-switzerland-2026.html) — [markdown](https://chartscope.net/blog/beginner-crypto-chart-training-switzerland-2026.md)
 - [Beginner's Guide: Read RSI & MACD Charts on Your Phone 2026](https://chartscope.net/blog/beginner-s-guide-read-rsi-macd-charts-on-your-phone-2026.html) — [markdown](https://chartscope.net/blog/beginner-s-guide-read-rsi-macd-charts-on-your-phone-2026.md)
-- [Beginner's Guide: RSI & MACD for Crypto Charts 2026](https://chartscope.net/blog/beginner-s-guide-rsi-macd-for-crypto-charts-2026.html) — [markdown](https://chartscope.net/blog/beginner-s-guide-rsi-macd-for-crypto-charts-2026.md)
-- [Best Crypto Chart Analysis App Belgium 2026](https://chartscope.net/blog/best-crypto-chart-analysis-app-belgium-2026.html) — [markdown](https://chartscope.net/blog/best-crypto-chart-analysis-app-belgium-2026.md)
-- [Best Crypto Chart Analysis Tools 2026: A Step-by](https://chartscope.net/blog/best-crypto-chart-analysis-tools-2026.html) — [markdown](https://chartscope.net/blog/best-crypto-chart-analysis-tools-2026.md)
+- [Best Crypto Chart Analysis Tools 2026: A Step-by-Step Guide](https://chartscope.net/blog/best-crypto-chart-analysis-tools-2026.html) — [markdown](https://chartscope.net/blog/best-crypto-chart-analysis-tools-2026.md)
 - [Best Crypto Education App 2026: No Trading Signals](https://chartscope.net/blog/best-crypto-education-app-2026-no-trading-signals.html) — [markdown](https://chartscope.net/blog/best-crypto-education-app-2026-no-trading-signals.md)
 - [Best Crypto Education App for Beginners 2026](https://chartscope.net/blog/best-crypto-education-app-for-beginners-2026.html) — [markdown](https://chartscope.net/blog/best-crypto-education-app-for-beginners-2026.md)
-- [Best Crypto Education App for Beginners France 2026](https://chartscope.net/blog/best-crypto-education-app-for-beginners-france-2026.html) — [markdown](https://chartscope.net/blog/best-crypto-education-app-for-beginners-france-2026.md)
-- [Best Crypto Education Apps for Beginners: ChartScope & More](https://chartscope.net/blog/best-crypto-education-app-for-beginners.html) — [markdown](https://chartscope.net/blog/best-crypto-education-app-for-beginners.md)
 - [Best Crypto Education App: Free RSI & MACD Tutorial 2026](https://chartscope.net/blog/best-crypto-education-app-free-rsi-macd-tutorial-2026.html) — [markdown](https://chartscope.net/blog/best-crypto-education-app-free-rsi-macd-tutorial-2026.md)
-- [Best Crypto Education App in Belgium: Understand Crypto Taxes](https://chartscope.net/blog/best-crypto-education-app-in-belgium-understand-crypto-taxes.html) — [markdown](https://chartscope.net/blog/best-crypto-education-app-in-belgium-understand-crypto-taxes.md)
-- [Best Crypto Education App Luxembourg 2026](https://chartscope.net/blog/best-crypto-education-app-luxembourg-2026-chartscope.html) — [markdown](https://chartscope.net/blog/best-crypto-education-app-luxembourg-2026-chartscope.md)
-- [Best Crypto Education App Romania 2026](https://chartscope.net/blog/best-crypto-education-app-romania-2026-chartscope.html) — [markdown](https://chartscope.net/blog/best-crypto-education-app-romania-2026-chartscope.md)
-- [Best Crypto Education App Switzerland 2026](https://chartscope.net/blog/best-crypto-education-app-switzerland-2026.html) — [markdown](https://chartscope.net/blog/best-crypto-education-app-switzerland-2026.md)
-- [Best Crypto Education Apps for RSI & MACD in 2026](https://chartscope.net/blog/best-crypto-education-apps-for-rsi-macd-in-2026.html) — [markdown](https://chartscope.net/blog/best-crypto-education-apps-for-rsi-macd-in-2026.md)
 - [Best Crypto Trading Simulator Apps: A Beginner's Guide](https://chartscope.net/blog/best-crypto-trading-simulator-app.html) — [markdown](https://chartscope.net/blog/best-crypto-trading-simulator-app.md)
 - [Blockchain Learning Resources: Your Authoritative Starter Guide](https://chartscope.net/blog/blockchain-learning-resources.html) — [markdown](https://chartscope.net/blog/blockchain-learning-resources.md)
 - [What Are Bollinger Bands in Crypto? Explained Simply](https://chartscope.net/blog/bollinger-bands-crypto-explained.html)
-- [Chartscope: AI Crypto Education App Price Romania 2026](https://chartscope.net/blog/chartscope-ai-crypto-education-app-price-romania-2026.html) — [markdown](https://chartscope.net/blog/chartscope-ai-crypto-education-app-price-romania-2026.md)
-- [Chartscope Alternative: Better Crypto Charting App Tutorial](https://chartscope.net/blog/chartscope-alternative-better-crypto-charting-app-tutorial.html) — [markdown](https://chartscope.net/blog/chartscope-alternative-better-crypto-charting-app-tutorial.md)
 - [Chartscope Alternative: Understand Crypto Charts Easily](https://chartscope.net/blog/chartscope-alternative-understand-crypto-charts-easily.html) — [markdown](https://chartscope.net/blog/chartscope-alternative-understand-crypto-charts-easily.md)
-- [Chartscope App: Crypto Technical Analysis Germany 2026](https://chartscope.net/blog/chartscope-app-crypto-technical-analysis-germany-2026.html) — [markdown](https://chartscope.net/blog/chartscope-app-crypto-technical-analysis-germany-2026.md)
 - [Chartscope Review: AI Crypto Chart Analysis App 2026](https://chartscope.net/blog/chartscope-review-ai-crypto-chart-analysis-app-2026.html) — [markdown](https://chartscope.net/blog/chartscope-review-ai-crypto-chart-analysis-app-2026.md)
-- [Chartscope Review: AI Crypto Chart Analysis App France 2026](https://chartscope.net/blog/chartscope-review-ai-crypto-chart-analysis-app-france-2026.html) — [markdown](https://chartscope.net/blog/chartscope-review-ai-crypto-chart-analysis-app-france-2026.md)
-- [ChartScope: Your Crypto Charting & Education Alternative 2026](https://chartscope.net/blog/chartscope-your-crypto-charting-education-alternative-2026.html) — [markdown](https://chartscope.net/blog/chartscope-your-crypto-charting-education-alternative-2026.md)
-- [Crypto Chart Analysis for Beginners France 2026](https://chartscope.net/blog/crypto-chart-analysis-for-beginners-france-2026.html) — [markdown](https://chartscope.net/blog/crypto-chart-analysis-for-beginners-france-2026.md)
-- [Crypto Chart Analysis for Beginners Luxembourg 2026](https://chartscope.net/blog/crypto-chart-analysis-for-beginners-luxembourg-2026.html) — [markdown](https://chartscope.net/blog/crypto-chart-analysis-for-beginners-luxembourg-2026.md)
 - [Crypto Chart Analysis Switzerland & Tax Implications](https://chartscope.net/blog/crypto-chart-analysis-switzerland-tax-implications.html) — [markdown](https://chartscope.net/blog/crypto-chart-analysis-switzerland-tax-implications.md)
 - [Crypto Chart Analysis Tools & Tutorials for Beginners 2026](https://chartscope.net/blog/crypto-chart-analysis-tools-tutorials-for-beginners-2026.html) — [markdown](https://chartscope.net/blog/crypto-chart-analysis-tools-tutorials-for-beginners-2026.md)
-- [Crypto Chart Pattern Analysis for Beginners (Belgium)](https://chartscope.net/blog/crypto-chart-pattern-analysis-for-beginners-belgium.html) — [markdown](https://chartscope.net/blog/crypto-chart-pattern-analysis-for-beginners-belgium.md)
 - [7 Crypto Chart Patterns Every Beginner Must Know in 2026](https://chartscope.net/blog/crypto-chart-patterns-beginners-2026.html)
-- [Crypto Chart Training Luxembourg: Understand Charts Easily](https://chartscope.net/blog/crypto-chart-training-luxembourg-understand-charts-easily.html) — [markdown](https://chartscope.net/blog/crypto-chart-training-luxembourg-understand-charts-easily.md)
 - [Crypto Charting Apps with Education: Price Comparison 2026](https://chartscope.net/blog/crypto-charting-apps-with-education-price-comparison-2026.html) — [markdown](https://chartscope.net/blog/crypto-charting-apps-with-education-price-comparison-2026.md)
 - [Crypto Education App: Learn Crypto Charts Easily](https://chartscope.net/blog/crypto-education-app-learn-crypto-charts-easily.html) — [markdown](https://chartscope.net/blog/crypto-education-app-learn-crypto-charts-easily.md)
-- [Crypto Education App Market Trends: A Data](https://chartscope.net/blog/crypto-education-app-market-trends.html) — [markdown](https://chartscope.net/blog/crypto-education-app-market-trends.md)
-- [Crypto Education App Review: Best for Technical Analysis 2026](https://chartscope.net/blog/crypto-education-app-review-best-for-technical-analysis-2026.html) — [markdown](https://chartscope.net/blog/crypto-education-app-review-best-for-technical-analysis-2026.md)
+- [Crypto Education App Market Trends: A Data-Backed Analysis](https://chartscope.net/blog/crypto-education-app-market-trends.html) — [markdown](https://chartscope.net/blog/crypto-education-app-market-trends.md)
 - [Crypto Education App Reviews: Best for Technical Analysis 2026](https://chartscope.net/blog/crypto-education-app-reviews-best-for-technical-analysis-2026.html) — [markdown](https://chartscope.net/blog/crypto-education-app-reviews-best-for-technical-analysis-2026.md)
-- [Crypto Education App Switzerland: Learn Charts Safely 2026](https://chartscope.net/blog/crypto-education-app-switzerland-learn-charts-safely-2026.html) — [markdown](https://chartscope.net/blog/crypto-education-app-switzerland-learn-charts-safely-2026.md)
-- [Crypto Education Apps vs. Traditional Finance Courses: An In](https://chartscope.net/blog/crypto-education-app-vs-traditional-finance-courses.html) — [markdown](https://chartscope.net/blog/crypto-education-app-vs-traditional-finance-courses.md)
+- [Crypto Education Apps vs. Traditional Finance Courses: An In-Depth Guide](https://chartscope.net/blog/crypto-education-app-vs-traditional-finance-courses.html) — [markdown](https://chartscope.net/blog/crypto-education-app-vs-traditional-finance-courses.md)
 - [Choosing the Best Crypto Education Platform: An Authoritative Guide](https://chartscope.net/blog/crypto-education-platform.html) — [markdown](https://chartscope.net/blog/crypto-education-platform.md)
-- [Crypto Market Trends: Data](https://chartscope.net/blog/crypto-market-trends-and-analysis.html) — [markdown](https://chartscope.net/blog/crypto-market-trends-and-analysis.md)
+- [Crypto Investment Strategies: Top Education Apps Compared](https://chartscope.net/blog/crypto-investment-strategies.html) — [markdown](https://chartscope.net/blog/crypto-investment-strategies.md)
+- [Crypto Market Trends: Data-Backed Analysis of Fluctuations](https://chartscope.net/blog/crypto-market-trends-and-analysis.html) — [markdown](https://chartscope.net/blog/crypto-market-trends-and-analysis.md)
 - [Crypto Portfolio Tracking for Education: Learn Market Dynamics](https://chartscope.net/blog/crypto-portfolio-tracking-for-education.html) — [markdown](https://chartscope.net/blog/crypto-portfolio-tracking-for-education.md)
 - [Crypto Security Best Practices 2026](https://chartscope.net/blog/crypto-security-best-practices.html)
-- [Crypto Technical Analysis for Beginners in Romania 2026](https://chartscope.net/blog/crypto-technical-analysis-for-beginners-in-romania-2026.html) — [markdown](https://chartscope.net/blog/crypto-technical-analysis-for-beginners-in-romania-2026.md)
-- [Crypto Technical Analysis Formation Luxembourg 2026](https://chartscope.net/blog/crypto-technical-analysis-formation-luxembourg-2026.html) — [markdown](https://chartscope.net/blog/crypto-technical-analysis-formation-luxembourg-2026.md)
+- [Crypto Technical Analysis Guide: Best Practices for Beginners](https://chartscope.net/blog/crypto-technical-analysis-guide.html) — [markdown](https://chartscope.net/blog/crypto-technical-analysis-guide.md)
+- [Top 5 Crypto Technical Analysis Tools Compared](https://chartscope.net/blog/crypto-technical-analysis-tools.html) — [markdown](https://chartscope.net/blog/crypto-technical-analysis-tools.md)
+- [Crypto Trading for Beginners: Your Step-by-Step Tutorial](https://chartscope.net/blog/crypto-trading-for-beginners-tutorial.html) — [markdown](https://chartscope.net/blog/crypto-trading-for-beginners-tutorial.md)
+- [Crypto Trading Tutorials: Step-by-Step Guide for Beginners](https://chartscope.net/blog/crypto-trading-tutorials.html) — [markdown](https://chartscope.net/blog/crypto-trading-tutorials.md)
+- [What Is a Doji Candle in Crypto? All Types Explained](https://chartscope.net/blog/doji-candle-crypto-explained.html)
+- [Learn Crypto Trading for Free: Beginner's Guide to Free Resources](https://chartscope.net/blog/how-to-learn-crypto-trading-for-free.html) — [markdown](https://chartscope.net/blog/how-to-learn-crypto-trading-for-free.md)
+- [How to Read Crypto Candlestick Charts](https://chartscope.net/blog/how-to-read-crypto-candlestick-charts.html)
+- [Track Your Crypto Portfolio Securely](https://chartscope.net/blog/how-to-track-crypto-portfolio-securely.html)
+- [Build Your Crypto Portfolio with Chartscope: A Beginner's Guide](https://chartscope.net/blog/how-to-use-crypto-education-apps-for-portfolio-building.html) — [markdown](https://chartscope.net/blog/how-to-use-crypto-education-apps-for-portfolio-building.md)
+- [How to Use RSI in Crypto Trading](https://chartscope.net/blog/how-to-use-rsi-crypto-trading.html)
+- [Interpreting Crypto Charts: Romania's Legal Context 2026](https://chartscope.net/blog/interpreting-crypto-charts-romania-s-legal-context-2026.html) — [markdown](https://chartscope.net/blog/interpreting-crypto-charts-romania-s-legal-context-2026.md)
+- [MACD Crossover Explained for Crypto Charts](https://chartscope.net/blog/macd-crossover-crypto-explained.html)
+- [Master RSI & MACD: Crypto Chart Indicators Explained](https://chartscope.net/blog/master-rsi-macd-crypto-chart-indicators-explained.html) — [markdown](https://chartscope.net/blog/master-rsi-macd-crypto-chart-indicators-explained.md)
+- [RSI Indicator Explained for Crypto Charts 2026](https://chartscope.net/blog/rsi-indicator-explained-for-crypto-charts-2026.html) — [markdown](https://chartscope.net/blog/rsi-indicator-explained-for-crypto-charts-2026.md)
+- [RSI & MACD Indicators Explained for Crypto Charts 2026](https://chartscope.net/blog/rsi-macd-indicators-explained-for-crypto-charts-2026.html) — [markdown](https://chartscope.net/blog/rsi-macd-indicators-explained-for-crypto-charts-2026.md)
+- [RSI vs MACD vs Bollinger Bands: Which Crypto Indicator Works Best in 2026?](https://chartscope.net/blog/rsi-vs-macd-vs-bollinger-bands-crypto-comparison-2026.html)
+- [Support and Resistance in Crypto Explained Simply](https://chartscope.net/blog/support-resistance-crypto-explained.html)
+- [Technical Analysis for Crypto Beginners](https://chartscope.net/blog/technical-analysis-beginners.html)
+- [Top Crypto Education Apps: Features & Pricing for Beginners](https://chartscope.net/blog/top-crypto-education-apps-for-beginners.html) — [markdown](https://chartscope.net/blog/top-crypto-education-apps-for-beginners.md)
+- [Top Crypto Education Apps with Market Data & User Reviews](https://chartscope.net/blog/top-crypto-education-apps-with-market-data.html) — [markdown](https://chartscope.net/blog/top-crypto-education-apps-with-market-data.md)
+- [Top Crypto Education Platforms: Features & Pricing for Beginners](https://chartscope.net/blog/top-crypto-education-platforms-for-beginners.html) — [markdown](https://chartscope.net/blog/top-crypto-education-platforms-for-beginners.md)
+- [Understanding Crypto Taxes in Belgium 2026](https://chartscope.net/blog/understanding-crypto-taxes-in-belgium-2026.html) — [markdown](https://chartscope.net/blog/understanding-crypto-taxes-in-belgium-2026.md)
+- [Understanding Crypto Volatility & German Regulations 2026](https://chartscope.net/blog/understanding-crypto-volatility-german-regulations-2026.html) — [markdown](https://chartscope.net/blog/understanding-crypto-volatility-german-regulations-2026.md)
+- [What Does RSI 70 Mean in Crypto? (And RSI 30)](https://chartscope.net/blog/what-does-rsi-70-mean-crypto.html)
 
 ## Contact
 - Website: https://chartscope.net

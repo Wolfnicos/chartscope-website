@@ -9,15 +9,24 @@ Usage: python3 tools/generate_llms_full.py
 Output: llms-full.txt in site root
 """
 
+import importlib.util
 import re
 from pathlib import Path
 from datetime import datetime
 from html.parser import HTMLParser
 
 
-BLOG_DIR = Path(__file__).parent.parent / 'blog'
-OUTPUT_FILE = Path(__file__).parent.parent / 'llms-full.txt'
+ROOT = Path(__file__).parent.parent
+BLOG_DIR = ROOT / 'blog'
+OUTPUT_FILE = ROOT / 'llms-full.txt'
 SITE_URL = 'https://chartscope.net'
+
+spec = importlib.util.spec_from_file_location(
+    'consolidate_geo_seo', ROOT / 'tools' / 'consolidate_geo_seo.py'
+)
+consolidate = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(consolidate)
+NOINDEX_SLUGS = consolidate.NOINDEX_SLUGS
 
 
 class MarkdownExtractor(HTMLParser):
@@ -106,7 +115,12 @@ def extract_article_body(html: str) -> str:
 
 
 def generate():
-    posts = sorted(BLOG_DIR.glob('*.html'))
+    posts = sorted(
+        p for p in BLOG_DIR.glob('*.html')
+        if p.name not in NOINDEX_SLUGS
+        and p.name != 'index.html'
+        and not p.name.endswith('.html.html')
+    )
     entries = []
 
     for post in posts:
@@ -133,9 +147,11 @@ def generate():
                       f'---\n')
 
     header = f'# ChartScope — Complete Content Index\n\n'
-    header += f'> ChartScope is an AI-powered crypto education app. On-device ML, 9 languages, '
-    header += f'privacy-first design. This file contains the full text of all educational '
-    header += f'articles for LLM consumption.\n\n'
+    header += (
+        '> ChartScope is an AI-powered crypto education app for beginners. On-device ML, '
+        '9 languages, privacy-first design. Indexable educational articles for LLM '
+        'consumption — not financial advice.\n\n'
+    )
     header += f'**Generated:** {datetime.now().strftime("%Y-%m-%d")}  \n'
     header += f'**Articles:** {len(entries)}  \n'
     header += f'**Website:** {SITE_URL}\n\n---\n\n'

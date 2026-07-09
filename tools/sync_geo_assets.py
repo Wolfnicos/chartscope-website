@@ -14,6 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 BLOG = ROOT / "blog"
 SITE = "https://chartscope.net"
+BLOG_URL = f"{SITE}/blog.html"
 
 spec = importlib.util.spec_from_file_location(
     "consolidate_geo_seo", ROOT / "tools" / "consolidate_geo_seo.py"
@@ -92,6 +93,12 @@ def write_llms_txt(posts: list[Path]) -> None:
 
 def write_blog_list(posts: list[Path]) -> None:
     blog_html = (ROOT / "blog.html").read_text(encoding="utf-8")
+    blog_html = re.sub(
+        r'<link rel="canonical" href="[^"]*">',
+        f'<link rel="canonical" href="{BLOG_URL}">',
+        blog_html,
+        count=1,
+    )
     blog_html = re.sub(
         r'<meta name="description" content="[^"]*">',
         f'<meta name="description" content="{BLOG_META_DESC}">',

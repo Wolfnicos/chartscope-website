@@ -42,6 +42,7 @@
 - [Crypto Trading for Beginners: Your Step-by-Step Tutorial](https://chartscope.net/blog/crypto-trading-for-beginners-tutorial.html) — [markdown](https://chartscope.net/blog/crypto-trading-for-beginners-tutorial.md)
 - [Crypto Trading Tutorials: Step-by-Step Guide for Beginners](https://chartscope.net/blog/crypto-trading-tutorials.html) — [markdown](https://chartscope.net/blog/crypto-trading-tutorials.md)
 - [What Is a Doji Candle in Crypto? All Types Explained](https://chartscope.net/blog/doji-candle-crypto-explained.html)
+- [Free Course: Master RSI & MACD for Crypto Trading 2026](https://chartscope.net/blog/free-course-master-rsi-macd-for-crypto-trading-2026.html) — [markdown](https://chartscope.net/blog/free-course-master-rsi-macd-for-crypto-trading-2026.md)
 - [Learn Crypto Trading for Free: Beginner's Guide to Free Resources](https://chartscope.net/blog/how-to-learn-crypto-trading-for-free.html) — [markdown](https://chartscope.net/blog/how-to-learn-crypto-trading-for-free.md)
 - [How to Read Crypto Candlestick Charts](https://chartscope.net/blog/how-to-read-crypto-candlestick-charts.html)
 - [Track Your Crypto Portfolio Securely](https://chartscope.net/blog/how-to-track-crypto-portfolio-securely.html)
@@ -64,4 +65,4 @@
 
 ## Contact
 - Website: https://chartscope.net
-- Generated: 2026-07-03
+- Generated: 2026-07-09

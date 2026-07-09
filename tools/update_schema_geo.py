@@ -35,6 +35,10 @@ AUTHOR = {
 PUBLISHER = {"@type": "Organization", "name": "ChartScope", "url": BASE_URL}
 
 BYLINE_SENTINEL = "article-author-byline"
+BYLINE_RE = re.compile(
+    r'\s*<p class="article-author-byline"[^>]*>.*?</p>\s*',
+    re.DOTALL | re.IGNORECASE,
+)
 IMPROVED_BYLINE = (
     '<p class="article-author-byline" style="font-size:0.9rem;color:rgba(255,255,255,0.55);'
     'margin-top:8px;margin-bottom:24px;">By <a href="../author.html" '
@@ -74,7 +78,7 @@ def extract_description(html: str) -> str:
 
 def extract_article_name(html: str) -> str:
     title = extract_title(html)
-    return title.split("|")[0].strip() if "|" in title else title
+    return re.sub(r"\s*[\|—-]\s*ChartScope.*$", "", title, flags=re.I).strip()
 
 
 def extract_keywords_from_title(title: str, description: str) -> list:
@@ -145,26 +149,26 @@ def inject_breadcrumb(html: str, filepath: Path) -> str:
 # ── Improved Byline ─────────────────────────────────────────────────────────
 
 def inject_improved_byline(html: str) -> str:
-    if 'iOS Developer, Crypto Educator' in html:
-        return html
+    html = BYLINE_RE.sub("", html)
 
-    # Replace old byline if present
-    if BYLINE_SENTINEL in html:
-        old = re.compile(r'<p class="article-author-byline"[^>]*>.*?</p>', re.DOTALL)
-        return old.sub(IMPROVED_BYLINE, html, count=1)
-
-    # Or insert after </h1>
-    main_match = re.search(r"<main[^>]*>(.*?)</main>", html, re.DOTALL)
+    main_match = re.search(r"<main[^>]*>.*?</main>", html, re.DOTALL)
     if not main_match:
         return html
 
-    main_content = main_match.group(1)
-    h1_end = main_content.find('</h1>')
-    if h1_end == -1:
+    h1_match = re.search(r"<h1[^>]*>.*?</h1>", main_match.group(0), re.DOTALL)
+    if not h1_match:
         return html
 
-    insert_at = main_match.start() + len('<main class="content">') + h1_end + len('</h1>')
-    return html[:insert_at] + "\n                " + IMPROVED_BYLINE + html[insert_at:]
+    article_name = extract_article_name(html)
+    if article_name:
+        h1_start = main_match.start() + h1_match.start()
+        h1_end = main_match.start() + h1_match.end()
+        html = html[:h1_start] + f"<h1>{article_name}</h1>" + html[h1_end:]
+        main_match = re.search(r"<main[^>]*>.*?</main>", html, re.DOTALL)
+        h1_match = re.search(r"<h1[^>]*>.*?</h1>", main_match.group(0), re.DOTALL)
+
+    insert_at = main_match.start() + h1_match.end()
+    return html[:insert_at] + "\n                " + IMPROVED_BYLINE + "\n" + html[insert_at:]
 
 
 # ── FAQPage ─────────────────────────────────────────────────────────────────

@@ -7,10 +7,24 @@ import re
 import sys
 import urllib.error
 import urllib.request
+from html import unescape
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = "https://chartscope.net"
+
+
+def strip_tags(text: str) -> str:
+    text = re.sub(r"<[^>]+>", " ", text)
+    return unescape(re.sub(r"\s+", " ", text)).strip()
+
+
+def article_title(html: str) -> str:
+    title = re.search(r"<title>([^<]+)</title>", html)
+    if not title:
+        return ""
+    value = unescape(title.group(1)).strip()
+    return re.sub(r"\s*[\|—-]\s*ChartScope.*$", "", value, flags=re.I).strip()
 
 try:
     from consolidate_geo_seo import NOINDEX_SLUGS
@@ -102,6 +116,13 @@ def check_local() -> list[str]:
     ]
     for path in indexable:
         html = path.read_text(encoding="utf-8")
+        h1s = re.findall(r"<h1[^>]*>.*?</h1>", html, flags=re.DOTALL | re.IGNORECASE)
+        expected_h1 = article_title(html)
+        if expected_h1 and h1s and strip_tags(h1s[0]) != expected_h1:
+            errors.append(f"primary h1 mismatch: {path.name}")
+        for h1 in h1s:
+            if "<p" in h1.lower() or "article-author-byline" in h1:
+                errors.append(f"invalid paragraph/byline inside h1: {path.name}")
         if geo.extract_faq_pairs(html) and '"FAQPage"' not in html:
             errors.append(f"FAQ section without FAQPage schema: {path.name}")
         if re.search(r'"dateModified"\s*:\s*"\d{4}-\d{2}-\d{2}"', html):

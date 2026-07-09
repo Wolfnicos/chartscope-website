@@ -157,6 +157,7 @@ def generate():
     header += f'**Website:** {SITE_URL}\n\n---\n\n'
 
     full = header + '\n'.join(entries)
+    full = '\n'.join(line.rstrip() for line in full.splitlines()) + '\n'
 
     OUTPUT_FILE.write_text(full, encoding='utf-8')
     word_count = len(full.split())

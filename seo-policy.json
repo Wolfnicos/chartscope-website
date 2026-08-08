@@ -242,13 +242,6 @@
       "group": "RSI/MACD cluster duplicates"
     },
     {
-      "path": "blog/chartscope-alternative-better-crypto-charting-app-tutorial.html",
-      "directive": "noindex, follow",
-      "reason": "ChartScope alternative duplicates",
-      "decided": "2026-07-03",
-      "group": "ChartScope alternative duplicates"
-    },
-    {
       "path": "blog/chartscope-your-crypto-charting-education-alternative-2026.html",
       "directive": "noindex, follow",
       "reason": "ChartScope alternative duplicates",

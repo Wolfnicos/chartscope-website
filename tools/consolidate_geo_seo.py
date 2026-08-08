@@ -54,7 +54,6 @@ NOINDEX_SLUGS: set[str] = {
     "understand-rsi-macd-for-crypto-in-luxembourg-2026.html",
     "best-crypto-education-apps-for-rsi-macd-in-2026.html",
     # ChartScope alternative duplicates
-    "chartscope-alternative-better-crypto-charting-app-tutorial.html",
     "chartscope-your-crypto-charting-education-alternative-2026.html",
     # Other near-duplicates
     "best-crypto-education-app-for-beginners.html",  # keep ...-for-beginners-2026.html
